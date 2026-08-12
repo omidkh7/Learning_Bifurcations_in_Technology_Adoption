@@ -1,0 +1,5 @@
+group,N,median_nobs,median_level,PC1,PC2,PC3,t_inflection,net_rise
+Historical,344,36,1.0,-0.15,-0.07,-0.07,0.68,0.9
+Renewables,111,16,0.12,0.47,0.22,0.22,0.74,0.9
+BEV,17,13,0.21,-1.37,0.47,2.19,0.8,0.89
+CDR,3,10,,2.92,-1.26,3.29,0.62,0.97

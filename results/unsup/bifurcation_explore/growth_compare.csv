@@ -1,0 +1,476 @@
+group,name,geo_growth_pct,peak_growth_pct,early_plateau,sat_speed
+Historical,Railroad,2.7,21.4,0.15,1.375
+Historical,Railroad,3.0,17.2,0.15,1.65
+Historical,Railroad,2.2,10.8,0.12,1.941
+Historical,Railroad,3.3,24.8,0.17,1.547
+Historical,Railroad,3.7,14.6,0.19,1.237
+Historical,Railroad,2.8,13.6,0.17,1.253
+Historical,Railroad,2.8,27.1,0.1,1.833
+Historical,Railroad,2.5,21.6,0.08,1.65
+Historical,Railroad,4.0,12.7,0.26,1.435
+Historical,Railroad,2.9,16.3,0.07,1.547
+Historical,Railroad,2.6,14.4,0.13,1.456
+Historical,Railroad,2.4,11.8,0.22,1.868
+Historical,Railroad,2.9,15.9,0.17,1.269
+Historical,Steamships,5.0,17.2,0.3,1.356
+Historical,Railroad,2.4,14.6,0.13,1.833
+Historical,Railroad,3.3,16.8,0.2,1.478
+Historical,Railroad,3.5,7.8,0.22,1.207
+Historical,Railroad,1.9,16.7,0.02,1.065
+Historical,Railroad,4.4,14.5,0.2,1.523
+Historical,Railroad,4.5,24.5,0.17,1.138
+Historical,Railroad,3.1,24.5,0.05,1.547
+Historical,Railroad,2.3,17.4,0.13,2.2
+Historical,Railroad,5.0,15.3,0.14,1.707
+Historical,Steamships,3.8,7.2,0.4,1.065
+Historical,Steamships,6.2,12.8,0.31,1.076
+Historical,Public Roads,2.2,26.1,0.09,1.138
+Historical,Steamships,5.1,13.5,0.32,1.042
+Historical,Telephones,6.9,16.0,0.35,1.088
+Historical,Stove,4.3,13.2,0.2,1.941
+Historical,Passenger Cars,4.4,9.0,0.37,1.053
+Historical,Telephones,7.6,10.4,0.5,1.042
+Historical,Telephones,5.2,7.2,0.45,1.1
+Historical,Passenger Cars,3.2,10.9,0.39,1.053
+Historical,Passenger Cars,5.2,12.8,0.44,1.053
+Historical,Telephones,5.3,7.9,0.52,1.031
+Historical,Telephones,4.8,7.3,0.47,1.1
+Historical,Telephones,8.4,13.2,0.65,1.031
+Historical,Passenger Cars,3.4,12.2,0.41,1.125
+Historical,Passenger Cars,4.9,12.2,0.44,1.065
+Historical,Railroad,3.4,21.6,0.04,1.768
+Historical,Telephones,5.7,7.6,0.52,1.042
+Historical,Telephones,4.8,9.0,0.46,1.269
+Historical,Telephones,13.3,19.8,0.65,1.021
+Historical,Telephones,5.0,8.1,0.53,1.0
+Historical,Washing Machines,5.0,8.3,0.33,1.042
+Historical,Refrigerators,6.3,15.8,0.31,1.112
+Historical,Telephones,4.5,7.7,0.47,1.088
+Historical,Laundry Dryers,4.7,7.4,0.35,1.042
+Historical,Passenger Cars,5.5,13.4,0.39,1.088
+Historical,Passenger Cars,6.4,16.9,0.27,1.193
+Historical,Telephones,5.6,9.2,0.53,1.01
+Historical,Passenger Cars,6.4,14.7,0.54,1.088
+Historical,Passenger Cars,5.0,17.7,0.32,1.179
+Historical,Passenger Cars,8.4,22.6,0.27,1.065
+Historical,Passenger Cars,7.6,17.0,0.45,1.031
+Historical,Passenger Cars,5.2,10.1,0.45,1.031
+Historical,Radio,5.1,14.5,0.46,1.01
+Historical,Passenger Cars,5.0,10.2,0.44,1.031
+Historical,Steamships,4.0,8.9,0.34,1.042
+Historical,Telephones,4.1,20.6,0.56,1.01
+Historical,Passenger Cars,5.0,13.4,0.4,1.021
+Historical,Fluid Catalytic Cracking Refineries,4.3,11.3,0.23,1.151
+Historical,Telephones,9.0,11.3,0.45,1.01
+Historical,Passenger Cars,5.1,12.6,0.42,1.076
+Historical,Telephones,6.6,10.5,0.45,1.042
+Historical,Telephones,4.8,9.5,0.4,1.021
+Historical,Passenger Cars,8.9,17.0,0.42,1.1
+Historical,Passenger Cars,8.3,13.4,0.57,1.021
+Historical,Telephones,6.7,9.2,0.44,1.042
+Historical,Telephones,10.9,18.3,0.68,1.031
+Historical,Passenger Cars,8.7,12.2,0.46,1.021
+Historical,Steamships,9.4,76.7,0.76,1.0
+Historical,High-Speed Rail,11.8,21.0,0.63,1.042
+Historical,Hydroelectricity,10.5,26.9,0.41,1.042
+Historical,Hydroelectricity,4.9,14.2,0.17,1.088
+Historical,Nuclear Energy,7.5,20.2,0.18,1.356
+Historical,Hydroelectricity,4.9,28.1,0.1,1.32
+Historical,Hydroelectricity,8.3,55.9,0.21,2.415
+Historical,Nuclear Energy,8.5,52.6,0.4,1.222
+Historical,Nuclear Energy,8.1,26.0,0.12,1.768
+Historical,Nuclear Energy,10.6,15.9,0.05,1.414
+Historical,Nuclear Energy,7.7,19.0,0.15,1.112
+Historical,Hydroelectricity,8.9,18.0,0.55,1.065
+Historical,Nuclear Energy,6.5,10.9,0.04,1.125
+Historical,Hydroelectricity,5.0,22.7,0.19,1.042
+Historical,Hydroelectricity,5.1,16.4,0.22,1.076
+Historical,Nuclear Energy,9.0,23.0,0.22,1.868
+Historical,Nuclear Energy,9.4,33.7,0.27,1.269
+Historical,Nuclear Energy,8.6,26.8,0.1,1.414
+Historical,Nuclear Energy,5.1,30.7,0.05,2.02
+Historical,Nuclear Energy,5.1,31.3,0.12,1.707
+Historical,Nuclear Energy,13.5,23.5,0.51,1.031
+Historical,Nuclear Energy,7.0,28.4,0.5,1.053
+Historical,Nuclear Energy,10.9,27.5,0.27,1.222
+Historical,Hydroelectricity,6.4,18.4,0.2,1.1
+Historical,Hydroelectricity,7.9,45.4,0.06,1.031
+Historical,Nuclear Energy,8.0,19.0,0.19,1.547
+Historical,Nuclear Energy,6.7,31.3,0.08,1.623
+Historical,Nuclear Energy,11.3,35.8,0.27,1.076
+Historical,Hydroelectricity,7.4,16.2,0.3,1.088
+Historical,Hydroelectricity,5.6,39.1,0.14,1.623
+Historical,Hydroelectricity,6.0,39.4,0.3,1.0
+Historical,Hydroelectricity,6.4,4.7,0.04,1.053
+Historical,Hydroelectricity,18.1,39.5,0.17,1.021
+Historical,Hydroelectricity,4.4,25.0,0.11,1.597
+Historical,Television,5.0,15.1,0.17,1.01
+Historical,Vacuums,4.6,20.7,0.12,1.151
+Historical,Home Air Conditioning,6.0,35.2,0.19,1.207
+Historical,Telephones,11.3,22.8,0.51,1.112
+Historical,Television,8.7,22.1,0.3,1.394
+Historical,Telephones,30.9,36.6,0.54,1.031
+Historical,Radio,6.9,15.6,0.55,1.053
+Historical,Passenger Cars,19.0,35.0,0.52,1.165
+Historical,Radio,7.5,21.6,0.26,1.053
+Historical,Radio,8.5,13.8,0.44,1.112
+Historical,Passenger Cars,13.9,23.1,0.43,1.151
+Historical,Radio,9.1,23.4,0.38,1.253
+Historical,Television,6.1,19.7,0.19,1.151
+Historical,Radio,8.8,25.1,0.41,1.112
+Historical,Passenger Cars,8.0,18.3,0.28,1.053
+Historical,Telephones,11.8,22.3,0.63,1.042
+Historical,Television,5.8,18.3,0.18,1.01
+Historical,Railroad,8.9,51.8,0.39,2.25
+Historical,Jet Aircraft,6.2,9.9,0.26,1.088
+Historical,Carbon Capture and Sequestration,7.1,21.1,0.05,1.021
+Historical,Telephones,13.9,21.1,0.63,1.021
+Historical,Television,6.0,12.3,0.31,1.088
+Historical,Television,7.9,14.9,0.31,1.138
+Historical,Radio,14.7,38.5,0.61,1.031
+Historical,Television,6.5,22.5,0.22,1.253
+Historical,Television,6.4,22.6,0.17,1.138
+Historical,Radio,8.2,15.2,0.18,1.138
+Historical,Radio,8.7,20.4,0.4,1.088
+Historical,Television,7.0,18.0,0.18,1.32
+Historical,Television,20.5,45.8,0.72,1.151
+Historical,Television,6.2,21.6,0.15,1.088
+Historical,Radio,9.9,37.8,0.24,1.165
+Historical,Television,6.5,29.9,0.16,1.031
+Historical,Television,7.9,21.7,0.29,1.1
+Historical,Television,6.4,16.4,0.18,1.303
+Historical,Television,7.0,13.1,0.13,1.125
+Historical,Steamships,8.2,27.0,0.34,1.076
+Historical,Television,14.8,22.7,0.4,1.065
+Historical,Television,6.7,38.8,0.15,1.193
+Historical,Television,9.8,30.9,0.26,1.138
+Historical,Crop Harvester,15.1,36.2,0.05,1.435
+Historical,Crop Harvester,18.6,28.5,0.16,1.456
+Historical,Television,16.2,39.1,0.33,1.286
+Historical,Crop Harvester,14.0,30.8,0.27,1.042
+Historical,Crop Harvester,21.1,62.3,0.1,1.394
+Historical,Crop Harvester,18.9,54.3,0.06,2.357
+Historical,Crop Harvester,9.5,51.1,0.04,1.042
+Historical,Crop Harvester,15.6,28.8,0.08,1.375
+Historical,Crop Harvester,14.1,40.2,0.04,1.868
+Historical,Crop Harvester,22.8,65.0,0.09,1.678
+Historical,Crop Harvester,7.2,20.3,0.14,1.193
+Historical,Television,6.2,25.7,0.07,1.042
+Historical,Crop Harvester,6.5,30.6,0.08,1.597
+Historical,Crop Harvester,9.4,16.1,0.25,1.237
+Historical,Crop Harvester,6.5,15.8,0.08,1.414
+Historical,Crop Harvester,23.5,41.5,0.36,1.0
+Historical,Crop Harvester,16.1,49.2,0.78,1.031
+Historical,Crop Harvester,14.6,29.9,0.3,1.138
+Historical,Crop Harvester,9.6,33.7,0.1,1.253
+Historical,Crop Harvester,31.0,56.1,0.08,1.904
+Historical,Crop Harvester,14.0,41.3,0.22,1.571
+Historical,Crop Harvester,8.7,29.6,0.11,1.571
+Historical,Crop Harvester,6.7,20.3,0.13,1.151
+Historical,Crop Harvester,11.9,36.6,0.61,1.112
+Historical,Crop Harvester,11.4,35.5,0.1,1.5
+Historical,Crop Harvester,15.2,44.9,0.22,1.065
+Historical,Radio,9.1,24.1,0.31,1.088
+Historical,Television,6.7,22.2,0.14,1.088
+Historical,Colour TV,6.5,37.5,0.07,2.25
+Historical,Television,6.8,20.9,0.15,1.125
+Historical,Television,8.5,19.6,0.38,1.088
+Historical,Television,8.0,20.3,0.25,1.1
+Historical,Television,15.2,23.3,0.44,1.021
+Historical,Television,8.2,24.8,0.16,1.125
+Historical,Television,15.4,29.0,0.48,1.065
+Historical,Television,7.0,29.3,0.17,1.088
+Historical,Television,7.3,19.4,0.24,1.151
+Historical,Television,11.2,19.5,0.29,1.165
+Historical,Television,7.2,19.4,0.21,1.088
+Historical,Radio,31.4,84.9,0.74,1.138
+Historical,Steamships,7.5,19.7,0.27,1.165
+Historical,Concentrated Solar Power,21.8,57.8,0.69,1.031
+Historical,Electricity,7.3,20.9,0.15,1.138
+Historical,Electricity,7.7,21.4,0.19,1.193
+Historical,Electricity,7.5,12.8,0.23,1.088
+Historical,Electricity,11.6,42.3,0.13,1.179
+Historical,Electricity,8.3,13.3,0.27,1.088
+Historical,Electricity,12.7,21.6,0.23,1.237
+Historical,Electricity,8.9,16.9,0.3,1.088
+Historical,Electricity,7.8,17.9,0.21,1.222
+Historical,Electricity,8.4,12.2,0.29,1.042
+Historical,Electricity,10.9,18.6,0.45,1.031
+Historical,Television,11.8,28.7,0.25,1.193
+Historical,Electricity,8.1,16.4,0.26,1.1
+Historical,Electricity,14.4,32.3,0.17,1.338
+Historical,Electricity,11.4,26.4,0.15,1.125
+Historical,Electricity,7.8,48.9,0.08,1.269
+Historical,Electricity,8.4,16.1,0.21,1.151
+Historical,Electricity,7.8,32.6,0.09,1.833
+Historical,Electricity,8.2,19.7,0.26,1.076
+Historical,Electricity,13.1,32.5,0.09,1.394
+Historical,Electricity,8.0,33.4,0.21,1.571
+Historical,Telephones,18.4,21.8,0.56,1.021
+Historical,Real-Time Gross Settlement Adoption,18.0,30.0,0.6,1.042
+Historical,Power Steering,9.5,39.5,0.11,1.768
+Historical,Telephones,16.8,24.4,0.45,1.042
+Historical,Microcomputers,8.9,19.2,0.21,1.356
+Historical,Television,11.6,27.4,0.31,1.042
+Historical,Cable TV,10.1,34.2,0.23,1.338
+Historical,Radio,11.6,31.3,0.27,1.138
+Historical,Television,12.2,57.3,0.27,1.138
+Historical,Cellphones,29.3,32.5,0.52,1.065
+Historical,Cellphones,36.4,69.3,0.61,1.088
+Historical,Cellphones,50.9,70.1,0.51,1.138
+Historical,Cellphones,67.3,86.8,0.62,1.065
+Historical,Cellphones,33.6,31.3,0.44,1.065
+Historical,Cellphones,29.3,42.2,0.56,1.1
+Historical,Cellphones,51.8,65.6,0.52,1.042
+Historical,Cellphones,60.3,55.3,0.46,1.207
+Historical,Cellphones,48.5,79.3,0.57,1.138
+Historical,Cellphones,31.6,42.5,0.54,1.053
+Historical,Cellphones,47.2,64.8,0.52,1.179
+Historical,Cellphones,57.1,69.1,0.6,1.042
+Historical,Cellphones,42.5,89.2,0.75,1.01
+Historical,Cellphones,43.2,67.0,0.62,1.088
+Historical,Cellphones,51.3,70.1,0.48,1.065
+Historical,Cellphones,53.9,78.6,0.49,1.165
+Historical,Cellphones,60.0,73.2,0.57,1.222
+Historical,Cellphones,66.5,92.1,0.63,1.065
+Historical,Cellphones,66.1,76.8,0.57,1.053
+Historical,Cellphones,27.0,37.4,0.46,1.076
+Historical,Cellphones,27.9,47.9,0.54,1.076
+Historical,Television,10.1,20.7,0.17,1.021
+Historical,Cellphones,60.7,71.6,0.53,1.179
+Historical,Wet Flue Gas Desulfurization Systems,10.8,32.0,0.33,1.138
+Historical,Wet Flue Gas Desulfurization Systems,10.9,38.4,0.21,1.151
+Historical,Telephones,11.3,21.7,0.3,1.088
+Historical,Wet Flue Gas Desulfurization Systems,18.3,68.0,0.52,1.088
+Historical,Television,9.8,26.0,0.13,1.021
+Historical,Cellphones,33.5,42.4,0.5,1.088
+Historical,Cellphones,43.3,68.8,0.5,1.138
+Historical,Cellphones,35.9,58.3,0.42,1.112
+Historical,Telephones,10.3,21.6,0.2,1.065
+Historical,Cellphones,35.9,57.8,0.53,1.076
+Historical,Cellphones,56.8,84.2,0.5,1.112
+Historical,Cellphones,47.9,43.6,0.47,1.021
+Historical,Telephones,10.5,22.9,0.22,1.138
+Historical,Cellphones,48.7,63.4,0.48,1.151
+Historical,Cellphones,44.7,55.8,0.37,1.031
+Historical,Insect-Resistant Cotton,11.6,22.2,0.27,1.065
+Historical,Herbicide-Tolerant Soybeans,11.5,26.6,0.25,1.076
+Historical,Herbicide-Tolerant Cotton,11.3,23.8,0.23,1.076
+Historical,Herbicide-Tolerant Corn,15.8,27.7,0.39,1.065
+Historical,Insect-Resistant Corn,13.3,20.6,0.36,1.065
+Historical,Cellphones,63.3,83.4,0.52,1.222
+Historical,Cellphones,37.3,49.5,0.49,1.042
+Historical,Cellphones,46.8,56.7,0.46,1.125
+Historical,Cellphones,27.8,39.8,0.45,1.076
+Historical,Cellphones,49.4,76.9,0.5,1.112
+Historical,Telephones,18.9,28.0,0.42,1.237
+Historical,Radio,11.6,44.4,0.13,1.179
+Historical,Cellphones,40.2,56.6,0.56,1.088
+Historical,Household Internet Access,12.6,52.5,0.2,1.222
+Historical,Cellphones,48.5,62.2,0.6,1.042
+Historical,Air-Source Heat Pumps,13.7,32.2,0.43,1.031
+Historical,Disk Brakes,22.1,59.4,0.17,1.868
+Historical,Television,18.2,48.4,0.34,1.207
+Historical,Television,11.3,27.2,0.21,1.053
+Historical,Latent Heat Storage,27.2,69.2,0.64,1.179
+Historical,Microwaves,8.2,56.2,0.15,1.98
+Historical,Latent Heat Storage,27.3,65.9,0.6,1.125
+Historical,Nox Pollution Controls (Boilers),20.0,45.7,0.21,1.112
+Historical,Lead-Acid Battery Storage,8.4,12.7,0.02,1.031
+Historical,Lead-Acid Battery Storage,9.0,17.5,0.16,1.042
+Historical,Ethanol,26.4,40.9,0.14,1.01
+Historical,Passenger Cars,21.4,26.7,0.47,1.031
+Historical,Steamships,22.6,51.3,0.28,1.138
+Historical,Social Media Usage,24.2,62.8,0.17,1.222
+Historical,Electric Bicycles,47.0,47.8,0.47,1.042
+Historical,Compact Fluorescent Light Bulbs,28.4,32.6,0.39,1.031
+Historical,Radial Tires,24.6,73.4,0.17,1.523
+Historical,Desalination Capacity,9.0,16.0,0.41,1.065
+Historical,Cellphones,41.2,40.8,0.33,1.151
+Historical,Television,29.5,27.0,0.23,1.053
+Historical,Lithium-Ion Battery Storage,40.2,63.4,0.44,1.269
+Historical,Lithium-Ion Battery Storage,40.0,38.4,0.35,1.151
+Historical,Passenger Cars,27.9,49.1,0.1,1.32
+Historical,Sodium-Based Battery Storage,27.7,57.1,0.38,1.303
+Historical,Sodium-Based Battery Storage,27.6,50.6,0.37,1.253
+Historical,Home Computers,11.0,35.3,0.13,1.151
+Historical,Sodium-Based Battery Storage,18.7,41.2,0.23,1.01
+Historical,Flywheel Battery Storage,44.6,101.1,0.75,1.031
+Historical,Sodium-Based Battery Storage,18.8,40.1,0.27,1.0
+Historical,Flywheel Battery Storage,26.5,36.3,0.27,1.1
+Historical,Podcasting,33.6,25.9,0.15,1.088
+Historical,Ebook Reader,32.7,95.0,0.14,1.833
+Historical,Passenger Cars,34.2,50.3,0.19,1.207
+Historical,Hydro Power,3.9,7.6,0.37,1.042
+Historical,Jet Aircrafts,6.3,10.4,0.28,1.053
+Historical,Passenger Cars,5.3,9.3,0.43,1.042
+Historical,Compact Flourescent Lightbulbs,28.4,32.6,0.39,1.031
+Historical,Bicycles,4.6,6.4,0.56,1.031
+Historical,Electric Bicycles,47.0,47.8,0.47,1.042
+Historical,Motorcycles,5.6,8.5,0.37,1.031
+Historical,Washing Machines,5.6,9.0,0.36,1.053
+Historical,Refrigerators,5.6,15.0,0.29,1.088
+Historical,Laundry Dryers,4.3,7.9,0.33,1.053
+Historical,Wind,18.5,28.8,0.59,1.031
+Historical,Nuclear,5.2,23.8,0.18,1.435
+Historical,Concentrated Solar Power,23.5,59.2,0.7,1.031
+Historical,Offshore Wind,27.9,30.8,0.51,1.021
+Historical,High Speed Rail,17.6,29.9,0.47,1.065
+Historical,Public Roads,2.3,25.3,0.1,1.138
+Historical,Railroad Tracks,2.5,13.0,0.22,1.65
+Historical,Flow Battery Storage,52.3,47.3,0.52,1.01
+Historical,Flywheel Battery Storage,19.8,13.9,0.11,1.053
+Historical,Heat Thermal Battery Storage,30.9,32.0,0.17,1.138
+Historical,Latent Heat Storage,28.4,58.6,0.58,1.125
+Historical,Lead-Acid Battery Storage,15.0,31.9,0.42,1.021
+Historical,Lithium-Ion Battery Storage,39.1,61.8,0.42,1.303
+Historical,Pumped Hydro Storage,11.5,24.7,0.42,1.065
+Historical,Sensible Heat Storage,31.7,69.9,0.32,1.207
+Historical,Sodium-Based Battery Storage,16.5,47.4,0.38,1.222
+Historical,Wet Flue Gas Desulfurization Systems,11.8,22.0,0.28,1.125
+Historical,Desalination,9.0,16.0,0.41,1.065
+Historical,Canals,10.8,46.9,0.17,1.021
+Historical,Herbicide-Tolerant Corn,18.1,28.6,0.4,1.065
+Historical,Insect-Resistant Corn,14.6,21.6,0.36,1.065
+Historical,Insect-Resistant Cotton,12.4,23.7,0.23,1.065
+Historical,Herbicide-Resistant Cotton,12.6,22.1,0.27,1.065
+Historical,Herbicide-Resistant Soybeans,12.6,26.6,0.25,1.088
+Historical,Color TVs,8.3,15.4,0.29,1.065
+Historical,Microwaves,8.6,16.1,0.38,1.031
+Historical,Vacuums,9.5,17.4,0.26,1.1
+Historical,Telephone Landlines,4.1,8.8,0.26,1.1
+Historical,Household Air Conditioning Units,6.5,10.5,0.33,1.053
+Historical,Household Radios,4.9,9.3,0.25,1.065
+Historical,Air Source Heat Pump Shipments,15.2,37.7,0.14,1.076
+Historical,On-Grid Marine Energy,33.7,1.6,0.28,3.0
+Renewables,Solar:Afghanistan,19.9,31.6,0.11,1.031
+Renewables,Solar:Antigua and Barbuda,26.7,27.2,0.23,1.01
+Renewables,Solar:Armenia,49.7,69.4,0.43,1.1
+Renewables,Solar:Australia,23.1,37.7,0.46,1.065
+Renewables,Solar:Austria,24.6,48.6,0.52,1.01
+Renewables,Solar:Barbados,25.7,44.2,0.3,1.088
+Renewables,Solar:Belgium,18.0,25.8,0.22,1.021
+Renewables,Solar:Brazil,48.7,61.1,0.46,1.053
+Renewables,Solar:Bulgaria,19.5,66.4,0.21,1.031
+Renewables,Solar:Burkina Faso,17.1,69.4,0.1,1.021
+Renewables,Solar:Cambodia,46.9,16.1,0.37,1.021
+Renewables,Solar:Cape Verde,18.7,87.7,0.29,1.151
+Renewables,Solar:Chile,27.5,32.0,0.33,1.088
+Renewables,Solar:China,29.3,32.0,0.38,1.021
+Renewables,Solar:Cook Islands,61.6,26.0,0.16,1.571
+Renewables,Solar:Croatia,67.1,102.1,0.79,1.01
+Renewables,Solar:Cyprus,24.4,38.7,0.46,1.031
+Renewables,Solar:Czechia,16.3,48.1,0.13,1.031
+Renewables,Solar:Denmark,20.9,39.4,0.32,1.021
+Renewables,Solar:Dominican Republic,36.5,50.1,0.44,1.01
+Renewables,Solar:France,18.4,24.8,0.24,1.021
+Renewables,Solar:French Guiana,26.3,6.9,0.1,1.338
+Renewables,Solar:French Polynesia,18.8,48.3,0.13,1.253
+Renewables,Solar:Germany,16.4,36.4,0.32,1.021
+Renewables,Solar:Greece,18.8,39.4,0.2,1.053
+Renewables,Solar:Guadeloupe,19.6,70.7,0.17,1.286
+Renewables,Solar:Guam,27.4,32.1,0.17,1.222
+Renewables,Solar:Hungary,41.1,44.6,0.45,1.088
+Renewables,Solar:India,29.5,31.5,0.46,1.021
+Renewables,Solar:Israel,24.7,48.5,0.55,1.031
+Renewables,Solar:Italy,17.0,30.6,0.16,1.021
+Renewables,Solar:Japan,20.4,50.8,0.39,1.179
+Renewables,Solar:Jordan,32.1,66.2,0.22,1.478
+Renewables,Solar:Lithuania,25.9,67.6,0.59,1.112
+Renewables,Solar:Luxembourg,20.6,49.3,0.46,1.01
+Renewables,Solar:Maldives,30.6,35.4,0.13,1.286
+Renewables,Solar:Malta,21.4,46.1,0.25,2.605
+Renewables,Solar:Martinique,18.1,59.7,0.23,1.021
+Renewables,Solar:Mauritius,42.6,59.9,0.14,1.597
+Renewables,Solar:Mexico,36.9,88.4,0.32,1.237
+Renewables,Solar:Morocco,27.3,45.1,0.15,1.179
+Renewables,Solar:Namibia,45.2,86.0,0.55,1.193
+Renewables,Solar:Netherlands,34.1,45.6,0.46,1.042
+Renewables,Solar:New Caledonia,38.0,70.8,0.43,1.076
+Renewables,Solar:Pakistan,46.3,62.3,0.57,1.01
+Renewables,Solar:Palestine,35.2,33.1,0.25,1.179
+Renewables,Solar:Panama,33.9,33.4,0.33,1.1
+Renewables,Solar:Portugal,39.0,49.5,0.65,1.042
+Renewables,Solar:Reunion,18.0,38.1,0.15,1.868
+Renewables,Solar:Romania,21.4,39.2,0.18,1.01
+Renewables,Solar:Samoa,26.6,20.1,0.14,1.021
+Renewables,Solar:Senegal,35.4,48.7,0.28,1.435
+Renewables,Solar:Sierra Leone,40.4,24.0,0.16,1.165
+Renewables,Solar:Slovenia,19.4,42.2,0.33,1.01
+Renewables,Solar:Somalia,31.8,83.4,0.51,1.088
+Renewables,Solar:South Africa,25.1,32.3,0.32,1.1
+Renewables,Solar:South Korea,24.2,35.6,0.49,1.021
+Renewables,Solar:Spain,15.8,30.6,0.27,1.076
+Renewables,Solar:Sri Lanka,41.8,48.6,0.53,1.01
+Renewables,Solar:Switzerland,23.4,26.5,0.4,1.01
+Renewables,Solar:Taiwan,31.6,52.0,0.48,1.112
+Renewables,Solar:Thailand,20.3,38.2,0.22,1.0
+Renewables,Solar:Tonga,216.2,0.0,0.14,4.95
+Renewables,Solar:Turkey,33.6,30.6,0.31,1.021
+Renewables,Solar:United Arab Emirates,57.5,68.1,0.53,1.125
+Renewables,Solar:United Kingdom,21.5,41.4,0.25,1.021
+Renewables,Solar:United States,24.8,32.5,0.36,1.031
+Renewables,Solar:Uruguay,26.5,34.2,0.22,1.031
+Renewables,Solar:Yemen,45.1,87.6,0.26,1.394
+Renewables,Wind:Argentina,39.6,39.5,0.56,1.042
+Renewables,Wind:Australia,14.4,23.1,0.39,1.01
+Renewables,Wind:Austria,12.0,29.8,0.16,1.338
+Renewables,Wind:Belgium,17.1,35.7,0.36,1.125
+Renewables,Wind:Brazil,22.1,51.5,0.37,1.088
+Renewables,Wind:Canada,14.9,39.7,0.3,1.053
+Renewables,Wind:Chile,22.0,29.5,0.35,1.053
+Renewables,Wind:China,16.3,20.6,0.28,1.076
+Renewables,Wind:Croatia,18.3,31.6,0.27,1.021
+Renewables,Wind:Denmark,9.1,21.9,0.33,1.193
+Renewables,Wind:Dominican Republic,19.5,39.3,0.16,1.414
+Renewables,Wind:Estonia,15.1,36.2,0.37,1.042
+Renewables,Wind:Faroe Islands,13.2,75.8,0.08,1.65
+Renewables,Wind:Finland,24.9,34.8,0.44,1.065
+Renewables,Wind:France,16.5,21.4,0.27,1.031
+Renewables,Wind:Germany,11.2,20.2,0.32,1.088
+Renewables,Wind:Greece,13.8,24.7,0.37,1.138
+Renewables,Wind:Honduras,36.5,44.2,0.22,1.021
+Renewables,Wind:Ireland,12.0,26.0,0.34,1.237
+Renewables,Wind:Italy,14.2,32.7,0.37,1.053
+Renewables,Wind:Jamaica,22.3,35.6,0.37,1.021
+Renewables,Wind:Jordan,39.7,45.5,0.22,1.5
+Renewables,Wind:Kenya,64.8,68.5,0.4,1.547
+Renewables,Wind:Lithuania,19.5,30.1,0.23,1.5
+Renewables,Wind:Luxembourg,9.8,82.7,0.65,1.0
+Renewables,Wind:Mexico,26.2,32.1,0.26,1.414
+Renewables,Wind:Mongolia,32.3,46.0,0.22,1.207
+Renewables,Wind:Morocco,16.0,45.2,0.43,1.076
+Renewables,Wind:Netherlands,13.6,25.3,0.53,1.065
+Renewables,Wind:New Zealand,12.3,33.1,0.31,1.065
+Renewables,Wind:Norway,23.2,49.5,0.65,1.01
+Renewables,Wind:Panama,24.7,51.0,0.16,1.112
+Renewables,Wind:Poland,18.6,35.1,0.32,1.125
+Renewables,Wind:Portugal,12.6,48.9,0.23,1.125
+Renewables,Wind:Romania,20.2,61.9,0.17,1.5
+Renewables,Wind:Spain,10.6,25.1,0.21,1.207
+Renewables,Wind:Sri Lanka,16.9,40.7,0.18,1.151
+Renewables,Wind:Sweden,17.9,32.7,0.41,1.076
+Renewables,Wind:Turkey,16.1,31.6,0.24,1.237
+Renewables,Wind:United Kingdom,16.8,29.7,0.38,1.125
+Renewables,Wind:United States,14.9,29.7,0.35,1.179
+Renewables,Wind:Uruguay,22.5,67.2,0.32,1.5
+BEV,Brazil,42.8,94.1,0.57,1.053
+BEV,China,40.3,76.7,0.56,1.053
+BEV,Czechia,49.3,53.4,0.54,1.053
+BEV,Denmark,57.5,71.6,0.63,1.031
+BEV,France,47.0,37.1,0.6,1.031
+BEV,Germany,47.1,40.4,0.53,1.356
+BEV,Iceland,63.0,61.9,0.6,1.021
+BEV,Ireland,42.8,72.1,0.42,1.286
+BEV,Italy,47.1,20.7,0.37,1.021
+BEV,Luxembourg,62.5,60.2,0.59,1.138
+BEV,Norway,22.5,39.2,0.3,1.076
+BEV,Spain,47.8,41.8,0.51,1.01
+BEV,Sweden,72.3,95.0,0.53,1.286
+BEV,Switzerland,40.3,61.0,0.52,1.021
+BEV,Taiwan,59.7,72.1,0.47,1.151
+BEV,USA,41.0,65.8,0.51,1.193
+BEV,United Kingdom,48.1,35.4,0.45,1.053
+CDR,CDR realized (IEA),22.1,41.8,0.52,1.151
+CDR,CDR promised (IEA),30.5,71.9,0.15,3.808
+CDR,CDR realized (SoCDR),19.1,42.0,0.52,1.112

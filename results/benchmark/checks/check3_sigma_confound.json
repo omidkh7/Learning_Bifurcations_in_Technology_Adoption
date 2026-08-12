@@ -1,0 +1,17 @@
+{
+  "arm1_our_model": {
+    "standard (both classes, same pool)": 0.9827586206896551,
+    "sigma-matched control (both low)": 1.0,
+    "SN low / TC high": 1.0,
+    "SN high / TC low (swapped)": 0.9812206572769953
+  },
+  "arm2_confounded_control": {
+    "standard (both classes, same pool)": 0.7536945812807881,
+    "sigma-matched control (both low)": 0.9901960784313726,
+    "SN low / TC high": 1.0,
+    "SN high / TC low (swapped)": 0.744131455399061
+  },
+  "arm1_swap_gap_pts": 1.8779342723004744,
+  "arm2_swap_gap_pts": 25.5868544600939,
+  "verdict": "PASS: our model is sigma-invariant (swap gap +1.9 pts) while the deliberately confounded control swings +25.6 pts, proving the test can detect sigma-exploitation when it exists."
+}

@@ -1,0 +1,133 @@
+method,track,year,cum_capacity_Mt
+BECCS,realized,2017,0.5
+BECCS,realized,2018,0.5
+BECCS,realized,2019,0.5
+BECCS,realized,2020,0.68
+BECCS,realized,2021,0.68
+BECCS,realized,2022,0.86
+BECCS,realized,2023,1.06
+BECCS,realized,2024,1.06
+BECCS,realized,2025,2.405
+BECCS,realized,2026,2.405
+BECCS,promised,2017,0.5
+BECCS,promised,2018,0.5
+BECCS,promised,2019,0.5
+BECCS,promised,2020,0.68
+BECCS,promised,2021,0.68
+BECCS,promised,2022,0.86
+BECCS,promised,2023,1.06
+BECCS,promised,2024,1.06
+BECCS,promised,2025,2.405
+BECCS,promised,2026,3.756
+BECCS,promised,2027,8.771
+BECCS,promised,2028,24.165
+BECCS,promised,2029,31.7
+BECCS,promised,2030,56.123
+BECCS,promised,2031,56.123
+BECCS,promised,2032,59.123
+BECCS,promised,2033,59.123
+BECCS,promised,2034,59.123
+BECCS,promised,2035,59.123
+BECCS,promised,2036,59.123
+BECCS,promised,2037,59.123
+BECCS,promised,2038,59.123
+BECCS,promised,2039,59.123
+BECCS,promised,2040,59.123
+BECCS,promised,2041,59.123
+BECCS,promised,2042,59.123
+BECCS,promised,2043,59.123
+BECCS,promised,2044,59.123
+BECCS,promised,2045,59.123
+BECCS,promised,2046,59.123
+BECCS,promised,2047,59.123
+BECCS,promised,2048,59.123
+BECCS,promised,2049,59.123
+BECCS,promised,2050,59.123
+DACCS,realized,2021,0.004
+DACCS,realized,2022,0.004
+DACCS,realized,2023,0.004
+DACCS,realized,2024,0.01
+DACCS,realized,2025,0.014
+DACCS,realized,2026,0.014
+DACCS,promised,2021,0.004
+DACCS,promised,2022,0.004
+DACCS,promised,2023,0.004
+DACCS,promised,2024,0.01
+DACCS,promised,2025,0.014
+DACCS,promised,2026,0.549
+DACCS,promised,2027,3.445
+DACCS,promised,2028,4.044
+DACCS,promised,2029,4.228
+DACCS,promised,2030,6.848
+DACCS,promised,2031,6.848
+DACCS,promised,2032,7.098
+DACCS,promised,2033,7.098
+DACCS,promised,2034,7.098
+DACCS,promised,2035,7.598
+DACCS,promised,2036,7.598
+DACCS,promised,2037,7.598
+DACCS,promised,2038,7.598
+DACCS,promised,2039,7.598
+DACCS,promised,2040,7.598
+DACCS,promised,2041,7.598
+DACCS,promised,2042,7.598
+DACCS,promised,2043,7.598
+DACCS,promised,2044,7.598
+DACCS,promised,2045,7.598
+DACCS,promised,2046,7.598
+DACCS,promised,2047,7.598
+DACCS,promised,2048,7.598
+DACCS,promised,2049,7.598
+DACCS,promised,2050,7.598
+Industrial-bio/other,realized,2025,0.044
+Industrial-bio/other,realized,2026,0.044
+Industrial-bio/other,promised,2025,0.044
+Industrial-bio/other,promised,2026,0.044
+Industrial-bio/other,promised,2027,1.404
+Industrial-bio/other,promised,2028,2.148
+Industrial-bio/other,promised,2029,2.476
+Industrial-bio/other,promised,2030,3.276
+Industrial-bio/other,promised,2031,3.466
+Industrial-bio/other,promised,2032,3.993
+Industrial-bio/other,promised,2033,3.993
+Industrial-bio/other,promised,2034,3.993
+Industrial-bio/other,promised,2035,4.142
+Industrial-bio/other,promised,2036,4.142
+Industrial-bio/other,promised,2037,4.142
+Industrial-bio/other,promised,2038,4.142
+Industrial-bio/other,promised,2039,4.142
+Industrial-bio/other,promised,2040,4.142
+Industrial-bio/other,promised,2041,4.142
+Industrial-bio/other,promised,2042,4.142
+Industrial-bio/other,promised,2043,4.142
+Industrial-bio/other,promised,2044,4.142
+Industrial-bio/other,promised,2045,4.142
+Industrial-bio/other,promised,2046,4.142
+Industrial-bio/other,promised,2047,4.142
+Industrial-bio/other,promised,2048,4.142
+Industrial-bio/other,promised,2049,4.142
+Industrial-bio/other,promised,2050,4.142
+Waste-to-energy CCS,promised,2027,0.042
+Waste-to-energy CCS,promised,2028,1.07
+Waste-to-energy CCS,promised,2029,2.185
+Waste-to-energy CCS,promised,2030,5.135
+Waste-to-energy CCS,promised,2031,5.135
+Waste-to-energy CCS,promised,2032,5.385
+Waste-to-energy CCS,promised,2033,5.385
+Waste-to-energy CCS,promised,2034,5.385
+Waste-to-energy CCS,promised,2035,5.529
+Waste-to-energy CCS,promised,2036,5.529
+Waste-to-energy CCS,promised,2037,5.529
+Waste-to-energy CCS,promised,2038,5.529
+Waste-to-energy CCS,promised,2039,5.529
+Waste-to-energy CCS,promised,2040,5.529
+Waste-to-energy CCS,promised,2041,5.529
+Waste-to-energy CCS,promised,2042,5.529
+Waste-to-energy CCS,promised,2043,5.529
+Waste-to-energy CCS,promised,2044,5.529
+Waste-to-energy CCS,promised,2045,5.529
+Waste-to-energy CCS,promised,2046,5.529
+Waste-to-energy CCS,promised,2047,5.529
+Waste-to-energy CCS,promised,2048,5.529
+Waste-to-energy CCS,promised,2049,5.529
+Waste-to-energy CCS,promised,2050,5.529

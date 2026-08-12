@@ -1,0 +1,19 @@
+regime,featset,algo,acc
+low-noise,x only,Student-t,93.34
+low-noise,x only,skew-t,93.31
+low-noise,x only,oracle,95.14
+low-noise,x + mu,Student-t,94.97
+low-noise,x + mu,skew-t,94.81
+low-noise,x + mu,oracle,98.52
+canonical,x only,Student-t,88.67
+canonical,x only,skew-t,88.74
+canonical,x only,oracle,93.34
+canonical,x + mu,Student-t,92.49000000000001
+canonical,x + mu,skew-t,92.71000000000001
+canonical,x + mu,oracle,98.61999999999999
+marginalised,x only,Student-t,59.38
+marginalised,x only,skew-t,86.45
+marginalised,x only,oracle,88.12
+marginalised,x + mu,Student-t,91.23
+marginalised,x + mu,skew-t,91.25
+marginalised,x + mu,oracle,98.0

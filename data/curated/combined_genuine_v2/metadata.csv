@@ -1,0 +1,1373 @@
+tech_name,region,country,unit,year_start,year_peak,year_sat,series_type,scale,source
+Railroad,NOR,Norway,kilometers,1825,1957,1971,saturating,national,regional_csv
+Railroad,FRA,France,kilometers,1825,1933,1940,saturating,national,regional_csv
+Railroad,FIN,Finland,kilometers,1825,1979,2000,saturating,national,regional_csv
+Railroad,SWE,Sweden,kilometers,1825,1938,1958,saturating,national,regional_csv
+Railroad,DNK,Denmark,kilometers,1825,1930,1937,saturating,national,regional_csv
+Railroad,ITA,Italy,kilometers,1825,1942,2000,pre_saturation,national,regional_csv
+Railroad,PRT,Portugal,kilometers,1825,1994,2000,pre_saturation,national,regional_csv
+Railroad,GBR,United Kingdom,kilometers,1825,1926,1950,saturating,national,regional_csv
+Railroad,ESP,Spain,kilometers,1825,1952,1968,saturating,national,regional_csv
+Railroad,USA,United States,kilometers,1830,1916,1935,saturating,national,regional_csv
+Railroad,PAN,Panama,kilometers,1830,1986,1999,saturating,national,regional_csv
+Railroad,CHE,Switzerland,kilometers,1825,1937,1946,saturating,national,regional_csv
+Railroad,BEL,Belgium,kilometers,1825,1933,1941,saturating,national,regional_csv
+Railroad,NLD,Netherlands,kilometers,1825,1929,1934,saturating,national,regional_csv
+Railroad,CAN,Canada,kilometers,1836,1974,1979,saturating,national,regional_csv
+Railroad,ECU,Ecuador,kilometers,1845,1963,1968,saturating,national,regional_csv
+Railroad,BRA,Brazil,kilometers,1845,1960,1962,saturating,national,regional_csv
+Railroad,URY,Uruguay,kilometers,1845,1982,1999,saturating,national,regional_csv
+Railroad,PRY,Paraguay,kilometers,1845,1937,1953,saturating,national,regional_csv
+Railroad,COL,Colombia,kilometers,1845,1961,1981,saturating,national,regional_csv
+Railroad,GUY,Guyana,kilometers,1845,1914,1928,saturating,national,regional_csv
+Steamships,DNK,Denmark,-,1844,1914,1926,saturating,national,regional_csv
+Railroad,JPN,Japan,kilometers,1853,1987,1990,saturating,national,regional_csv
+Railroad,ARG,Argentina,kilometers,1845,1955,1961,saturating,national,regional_csv
+Railroad,TWN,Taiwan,kilometers,1853,1998,1998,pre_saturation,national,regional_csv
+Railroad,IND,India,kilometers,1853,1936,1940,saturating,national,regional_csv
+Railroad,GHA,Ghana,kilometers,1862,1969,1998,saturating,national,regional_csv
+Railroad,KEN,Kenya,kilometers,1862,1997,1998,pre_saturation,national,regional_csv
+Railroad,MOZ,Mozambique,kilometers,1862,1971,1975,saturating,national,regional_csv
+Railroad,EGY,Egypt,kilometers,1862,1991,1998,saturating,national,regional_csv
+Railroad,MUS,Mauritius,kilometers,1862,1918,1930,saturating,national,regional_csv
+Railroad,ETH,Ethiopia,kilometers,1862,1917,1988,saturating,national,regional_csv
+Railroad,GIN,Guinea,kilometers,1862,1984,1993,saturating,national,regional_csv
+Railroad,BEN,Benin,kilometers,1862,1936,1940,saturating,national,regional_csv
+Railroad,AGO,Angola,kilometers,1862,1971,1974,saturating,national,regional_csv
+Railroad,CHL,Chile,kilometers,1860,1927,1942,saturating,national,regional_csv
+Railroad,DZA,Algeria,kilometers,1862,1930,1936,saturating,national,regional_csv
+Railroad,THA,Thailand,kilometers,1853,1940,1987,pre_saturation,national,regional_csv
+Railroad,NZL,New Zealand,kilometers,1865,1951,1958,saturating,national,regional_csv
+Railroad,VEN,Venezuela,kilometers,1870,1940,1954,saturating,national,regional_csv
+Railroad,LKA,Sri Lanka,kilometers,1871,1969,1976,saturating,national,regional_csv
+Railroad,NGA,Nigeria,kilometers,1873,1975,1998,saturating,national,regional_csv
+Railroad,ZAF,South Africa,kilometers,1873,1986,1998,pre_saturation,national,regional_csv
+Railroad,AUS,Australia,kilometers,1869,1927,1954,saturating,national,regional_csv
+Railroad,SLV,El Salvador,kilometers,1875,1984,1986,saturating,national,regional_csv
+Railroad,NIC,Nicaragua,kilometers,1875,1949,1956,saturating,national,regional_csv
+Steamships,GBR,United Kingdom,-,1814,1914,1914,declining_structural,national,regional_csv
+Steamships,NOR,Norway,-,1866,1915,1988,pre_saturation,national,regional_csv
+Railroad,SLE,Sierra Leone,kilometers,1873,1915,1930,saturating,national,regional_csv
+Public Roads,USA,United States,miles,1900,2018,2020,saturating,national,regional_csv
+Railroad,SEN,Senegal,kilometers,1873,1936,1958,saturating,national,regional_csv
+Railroad,GTM,Guatemala,kilometers,1875,1929,1968,saturating,national,regional_csv
+Railroad,BLZ,Belize,kilometers,1875,1916,1921,saturating,national,regional_csv
+Steamships,FIN,Finland,-,1839,1920,1920,declining_structural,national,regional_csv
+Railroad,HTI,Haiti,kilometers,1875,1931,1965,saturating,national,regional_csv
+Railroad,PER,Peru,kilometers,1883,1949,1952,saturating,national,regional_csv
+Railroad,HND,Honduras,kilometers,1875,1926,1937,saturating,national,regional_csv
+Telephones,JPN,Japan,-,1892,2000,2002,saturating,national,regional_csv
+Stove,USA,United States,%,1900,1972,2011,saturating,national,regional_csv
+Passenger Cars,USA,US,MW,1900,2005,2005,pre_saturation,national,regional_csv
+Railroad,DOM,Dominican Republic,kilometers,1885,1940,1973,saturating,national,regional_csv
+Telephones,ITA,Italy,-,1883,1990,1990,pre_saturation,national,regional_csv
+Telephones,CHE,Switzerland,-,1900,1991,1993,saturating,national,regional_csv
+Passenger Cars,USA,United States,-,1900,2001,2002,pre_saturation,national,regional_csv
+Railroad,MYS,Malaysia,kilometers,1886,1973,1991,saturating,national,regional_csv
+Railroad,BOL,Bolivia,kilometers,1890,1987,1993,saturating,national,regional_csv
+Passenger Cars,FRA,France,-,1895,2000,2000,pre_saturation,national,regional_csv
+Telephones,NZL,New Zealand,-,1890,1987,1987,pre_saturation,national,regional_csv
+Telephones,BEL,Belgium,-,1896,1998,1998,pre_saturation,national,regional_csv
+Telephones,FRA,France,-,1889,1985,1985,pre_saturation,national,regional_csv
+Passenger Cars,CAN,Canada,-,1904,1998,1998,pre_saturation,national,regional_csv
+Passenger Cars,GBR,United Kingdom,-,1904,1998,1998,pre_saturation,national,regional_csv
+Railroad,UGA,Uganda,kilometers,1905,1986,1998,saturating,national,regional_csv
+Railroad,MDG,Madagascar,kilometers,1905,1984,1998,saturating,national,regional_csv
+Railroad,MAR,Morocco,kilometers,1905,1928,1998,pre_saturation,national,regional_csv
+Railroad,SDN,Sudan,kilometers,1906,1977,1998,saturating,national,regional_csv
+Railroad,CIV,Ivory Coast,kilometers,1905,1955,1998,saturating,national,regional_csv
+Railroad,COG,Republic of the Congo,kilometers,1905,1995,1998,saturating,national,regional_csv
+Telephones,AUS,Australia,-,1901,1993,1993,pre_saturation,national,regional_csv
+Telephones,NLD,Netherlands,-,1900,2002,2003,pre_saturation,national,regional_csv
+Telephones,EGY,Egypt,-,1911,2002,2002,pre_saturation,national,regional_csv
+Railroad,MWI,Malawi,kilometers,1905,1989,1995,saturating,national,regional_csv
+Railroad,SOM,Somalia,kilometers,1905,1927,1953,saturating,national,regional_csv
+Telephones,DNK,Denmark,-,1900,1990,1990,pre_saturation,national,regional_csv
+Washing Machines,USA,US,MW,1920,2008,2008,pre_saturation,national,regional_csv
+Telephones,URY,Uruguay,-,1889,1988,1988,pre_saturation,national,regional_csv
+Railroad,TUN,Tunisia,kilometers,1909,1996,1998,saturating,national,regional_csv
+Passenger Cars,NOR,Norway,-,1914,2000,2000,pre_saturation,national,regional_csv
+Refrigerators,USA,US,MW,1918,2003,2003,pre_saturation,national,regional_csv
+Telephones,SWE,Sweden,-,1885,1992,1993,pre_saturation,national,regional_csv
+Laundry Dryers,USA,US,MW,1920,2003,2003,pre_saturation,national,regional_csv
+Passenger Cars,CHE,Switzerland,-,1910,2000,2000,pre_saturation,national,regional_csv
+Passenger Cars,ITA,Italy,-,1914,1998,1999,pre_saturation,national,regional_csv
+Passenger Cars,CHL,Chile,-,1915,1997,1997,pre_saturation,national,regional_csv
+Passenger Cars,DNK,Denmark,-,1914,2000,2000,pre_saturation,national,regional_csv
+Telephones,NOR,Norway,-,1900,1984,1984,pre_saturation,national,regional_csv
+Passenger Cars,ARG,Argentina,-,1920,1998,1998,pre_saturation,national,regional_csv
+Passenger Cars,SWE,Sweden,-,1923,2000,2000,pre_saturation,national,regional_csv
+Passenger Cars,JPN,Japan,-,1914,1997,1997,pre_saturation,national,regional_csv
+Passenger Cars,IRL,Ireland,-,1923,2000,2000,pre_saturation,national,regional_csv
+Passenger Cars,MEX,Mexico,-,1924,2000,2000,pre_saturation,national,regional_csv
+Railroad,PHL,Philippines,kilometers,1900,1917,1936,saturating,national,regional_csv
+Passenger Cars,AUS,Australia,-,1923,1997,1997,pre_saturation,national,regional_csv
+Radio,FIN,Finland,-,1926,1999,1999,pre_saturation,national,regional_csv
+Passenger Cars,ZAF,South Africa,-,1920,1996,1996,pre_saturation,national,regional_csv
+Railroad,BWA,Botswana,kilometers,1920,1974,1993,saturating,national,regional_csv
+Steamships,AUT,Austria,-,1837,1912,1912,pre_saturation,national,regional_csv
+Telephones,HUN,Hungary,-,1922,1998,1998,pre_saturation,national,regional_csv
+Passenger Cars,VEN,Venezuela,-,1928,1983,2001,pre_saturation,national,regional_csv
+Passenger Cars,NZL,New Zealand,-,1927,2000,2000,pre_saturation,national,regional_csv
+Railroad,HUN,Hungary,kilometers,1921,1962,1967,saturating,national,regional_csv
+Passenger Cars,PER,Peru,-,1927,1997,1997,pre_saturation,national,regional_csv
+Telephones,IRL,Ireland,-,1924,1993,1993,pre_saturation,national,regional_csv
+Fluid Catalytic Cracking Refineries,World,World,MW,1940,2007,2007,pre_saturation,global,regional_csv
+Telephones,IND,India,-,1915,1988,1988,pre_saturation,national,regional_csv
+Passenger Cars,IRQ,Iraq,-,1927,1989,1993,saturating,national,regional_csv
+Passenger Cars,BEL,Belgium,-,1928,2001,2001,pre_saturation,national,regional_csv
+Telephones,PRT,Portugal,-,1929,1998,1998,pre_saturation,national,regional_csv
+Passenger Cars,PAN,Panama,-,1928,1997,1997,pre_saturation,national,regional_csv
+Telephones,ARG,Argentina,-,1913,1988,1988,pre_saturation,national,regional_csv
+Railroad,IRQ,Iraq,kilometers,1921,1972,1975,saturating,national,regional_csv
+Passenger Cars,TUR,Turkey,-,1930,2003,2003,pre_saturation,national,regional_csv
+Telephones,LKA,Sri Lanka,-,1922,1988,1988,pre_saturation,national,regional_csv
+Passenger Cars,EGY,Egypt,-,1928,1997,1997,pre_saturation,national,regional_csv
+Railroad,SYR,Syria,kilometers,1922,1988,1988,pre_saturation,national,regional_csv
+Passenger Cars,IND,India,-,1935,2000,2000,pre_saturation,national,regional_csv
+Passenger Cars,MWI,Malawi,-,1926,1990,1992,pre_saturation,national,regional_csv
+Telephones,ZAF,South Africa,-,1925,1988,1988,pre_saturation,national,regional_csv
+Telephones,BRA,Brazil,-,1907,1988,1988,pre_saturation,national,regional_csv
+Passenger Cars,THA,Thailand,-,1930,1997,1997,pre_saturation,national,regional_csv
+Passenger Cars,PRT,Portugal,-,1931,1993,1998,pre_saturation,national,regional_csv
+Steamships,ITA,Italy,-,1862,1924,1925,pre_saturation,national,regional_csv
+Passenger Cars,DOM,Dominican Republic,-,1928,1996,1996,pre_saturation,national,regional_csv
+Passenger Cars,KEN,Kenya,-,1932,1997,1997,pre_saturation,national,regional_csv
+High-Speed Rail,World,World,kilometers,1964,2021,2021,pre_saturation,global,regional_csv
+Passenger Cars,MYS,Malaysia,-,1924,1989,1989,pre_saturation,national,regional_csv
+Renewable Power,PER,Peru,TWh,1965,2021,2021,pre_saturation,national,regional_csv
+Renewable Power,VEN,Venezuela,TWh,1965,2019,2021,pre_saturation,national,regional_csv
+Renewable Power,AUT,Austria,TWh,1965,2019,2021,saturating,national,regional_csv
+Renewable Power,BEL,Belgium,TWh,1965,2020,2021,pre_saturation,national,regional_csv
+Renewable Power,BGR,Bulgaria,TWh,1965,2020,2021,pre_saturation,national,regional_csv
+Renewable Power,HRV,Croatia,TWh,1965,2021,2021,pre_saturation,national,regional_csv
+Renewable Power,CYP,Cyprus,TWh,1965,2021,2021,pre_saturation,national,regional_csv
+Renewable Power,CZE,Czech Republic,TWh,1965,2020,2021,pre_saturation,national,regional_csv
+Renewable Power,DNK,Denmark,TWh,1965,2021,2021,pre_saturation,national,regional_csv
+Renewable Power,COL,Colombia,TWh,1965,2021,2021,pre_saturation,national,regional_csv
+Renewable Power,EST,Estonia,TWh,1965,2021,2021,pre_saturation,national,regional_csv
+Hydroelectricity,DNK,Denmark,TWh,1965,1981,2021,pre_saturation,national,regional_csv
+Renewable Power,FIN,Finland,TWh,1965,2021,2021,pre_saturation,national,regional_csv
+Renewable Power,FRA,France,TWh,1965,2020,2021,pre_saturation,national,regional_csv
+Renewable Power,DEU,Germany,TWh,1965,2020,2021,pre_saturation,national,regional_csv
+Renewable Power,GRC,Greece,TWh,1965,2021,2021,pre_saturation,national,regional_csv
+Renewable Power,ECU,Ecuador,TWh,1965,2019,2021,pre_saturation,national,regional_csv
+Renewable Power,CHL,Chile,TWh,1965,2021,2021,pre_saturation,national,regional_csv
+Renewable Power,BRA,Brazil,TWh,1965,2021,2021,pre_saturation,national,regional_csv
+Hydroelectricity,LKA,Sri Lanka,TWh,1965,2021,2021,pre_saturation,national,regional_csv
+Hydroelectricity,HRV,Croatia,TWh,1965,2010,2021,pre_saturation,national,regional_csv
+Hydroelectricity,TWN,Taiwan,TWh,1965,2016,2021,pre_saturation,national,regional_csv
+Hydroelectricity,THA,Thailand,TWh,1965,2012,2021,pre_saturation,national,regional_csv
+Hydroelectricity,VNM,Vietnam,TWh,1965,2017,2021,pre_saturation,national,regional_csv
+Hydroelectricity,World,World,TWh,1965,2020,2021,pre_saturation,global,regional_csv
+Renewable Power,CAN,Canada,TWh,1965,2021,2021,pre_saturation,national,regional_csv
+Hydroelectricity,CZE,Czech Republic,TWh,1965,2013,2021,pre_saturation,national,regional_csv
+Renewable Power,MEX,Mexico,TWh,1965,2021,2021,pre_saturation,national,regional_csv
+Renewable Power,USA,US,TWh,1965,2021,2021,pre_saturation,national,regional_csv
+Renewable Power,ARG,Argentina,TWh,1965,2021,2021,pre_saturation,national,regional_csv
+Nuclear Energy,World,World,TWh,1965,2006,2010,saturating,global,regional_csv
+Hydroelectricity,GRC,Greece,TWh,1965,2010,2021,pre_saturation,national,regional_csv
+Hydroelectricity,CAN,Canada,TWh,1965,2017,2021,saturating,national,regional_csv
+Hydroelectricity,HUN,Hungary,TWh,1965,2014,2021,pre_saturation,national,regional_csv
+Hydroelectricity,EST,Estonia,TWh,1965,2012,2021,pre_saturation,national,regional_csv
+Hydroelectricity,FIN,Finland,TWh,1965,2008,2021,pre_saturation,national,regional_csv
+Hydroelectricity,FRA,France,TWh,1965,1994,2021,pre_saturation,national,regional_csv
+Hydroelectricity,DEU,Germany,TWh,1965,2000,2021,pre_saturation,national,regional_csv
+Nuclear Energy,SVN,Slovenia,TWh,1965,2014,2021,pre_saturation,national,regional_csv
+Nuclear Energy,ESP,Spain,TWh,1965,2001,2004,saturating,national,regional_csv
+Nuclear Energy,SWE,Sweden,TWh,1965,2004,2021,pre_saturation,national,regional_csv
+Nuclear Energy,CHE,Switzerland,TWh,1965,2014,2021,pre_saturation,national,regional_csv
+Hydroelectricity,ZAF,South Africa,TWh,1965,1988,2021,pre_saturation,national,regional_csv
+Nuclear Energy,UKR,Ukraine,TWh,1965,2007,2012,saturating,national,regional_csv
+Hydroelectricity,AUS,Australia,TWh,1965,2011,2021,pre_saturation,national,regional_csv
+Nuclear Energy,GBR,United Kingdom,TWh,1965,1998,2021,pre_saturation,national,regional_csv
+Hydroelectricity,BGD,Bangladesh,TWh,1965,2017,2021,pre_saturation,national,regional_csv
+Hydroelectricity,CHN,China,TWh,1965,2020,2021,pre_saturation,national,regional_csv
+Nuclear Energy,BLR,Belarus,TWh,1965,2021,2021,pre_saturation,national,regional_csv
+Nuclear Energy,KAZ,Kazakhstan,TWh,1965,1991,2021,pre_saturation,national,regional_csv
+Nuclear Energy,RUS,Russian Federation,TWh,1965,2021,2021,pre_saturation,national,regional_csv
+Hydroelectricity,IND,India,TWh,1965,2020,2021,pre_saturation,national,regional_csv
+Hydroelectricity,IDN,Indonesia,TWh,1965,2021,2021,pre_saturation,national,regional_csv
+Nuclear Energy,BRA,Brazil,TWh,1965,2019,2021,pre_saturation,national,regional_csv
+Nuclear Energy,ARG,Argentina,TWh,1965,2021,2021,pre_saturation,national,regional_csv
+Hydroelectricity,MAR,Morocco,TWh,1965,2010,2021,pre_saturation,national,regional_csv
+Nuclear Energy,SVK,Slovakia,TWh,1965,2006,2021,pre_saturation,national,regional_csv
+Hydroelectricity,CHL,Chile,TWh,1965,2006,2021,pre_saturation,national,regional_csv
+Nuclear Energy,ITA,Italy,TWh,1965,1986,2021,pre_saturation,national,regional_csv
+Hydroelectricity,EGY,Egypt,TWh,1965,2008,2021,pre_saturation,national,regional_csv
+Nuclear Energy,HUN,Hungary,TWh,1965,2019,2021,saturating,national,regional_csv
+Hydroelectricity,COL,Colombia,TWh,1965,2021,2021,pre_saturation,national,regional_csv
+Nuclear Energy,DEU,Germany,TWh,1965,2001,2006,saturating,national,regional_csv
+Nuclear Energy,LTU,Lithuania,TWh,1965,1990,2021,pre_saturation,national,regional_csv
+Nuclear Energy,FRA,France,TWh,1965,2005,2008,saturating,national,regional_csv
+Nuclear Energy,NLD,Netherlands,TWh,1965,2009,2021,pre_saturation,national,regional_csv
+Nuclear Energy,FIN,Finland,TWh,1965,2019,2021,saturating,national,regional_csv
+Nuclear Energy,CZE,Czech Republic,TWh,1965,2013,2021,saturating,national,regional_csv
+Nuclear Energy,BGR,Bulgaria,TWh,1965,2002,2021,pre_saturation,national,regional_csv
+Nuclear Energy,ROU,Romania,TWh,1965,2009,2021,saturating,national,regional_csv
+Nuclear Energy,BEL,Belgium,TWh,1965,2021,2021,pre_saturation,national,regional_csv
+Nuclear Energy,USA,US,TWh,1965,2019,2021,saturating,national,regional_csv
+Nuclear Energy,IRN,Iran,TWh,1965,2017,2021,pre_saturation,national,regional_csv
+Nuclear Energy,MEX,Mexico,TWh,1965,2018,2021,pre_saturation,national,regional_csv
+Nuclear Energy,CHN,China,TWh,1965,2021,2021,pre_saturation,national,regional_csv
+Nuclear Energy,IND,India,TWh,1965,2019,2021,saturating,national,regional_csv
+Nuclear Energy,JPN,Japan,TWh,1965,1998,2002,saturating,national,regional_csv
+Hydroelectricity,BRA,Brazil,TWh,1965,2011,2021,pre_saturation,national,regional_csv
+Nuclear Energy,PAK,Pakistan,TWh,1965,2021,2021,pre_saturation,national,regional_csv
+Hydroelectricity,ARG,Argentina,TWh,1965,2006,2021,pre_saturation,national,regional_csv
+Hydroelectricity,USA,US,TWh,1965,1997,2021,pre_saturation,national,regional_csv
+Nuclear Energy,KOR,South Korea,TWh,1965,2015,2021,pre_saturation,national,regional_csv
+Hydroelectricity,BGR,Bulgaria,TWh,1965,2015,2021,pre_saturation,national,regional_csv
+Nuclear Energy,TWN,Taiwan,TWh,1965,2014,2021,pre_saturation,national,regional_csv
+Nuclear Energy,ZAF,South Africa,TWh,1965,2016,2021,pre_saturation,national,regional_csv
+Nuclear Energy,CAN,Canada,TWh,1965,1994,2021,pre_saturation,national,regional_csv
+Hydroelectricity,ECU,Ecuador,TWh,1965,2021,2021,pre_saturation,national,regional_csv
+Hydroelectricity,PER,Peru,TWh,1965,2021,2021,pre_saturation,national,regional_csv
+Hydroelectricity,VEN,Venezuela,TWh,1965,2008,2021,pre_saturation,national,regional_csv
+Hydroelectricity,AUT,Austria,TWh,1965,2012,2021,pre_saturation,national,regional_csv
+Hydroelectricity,JPN,Japan,TWh,1965,1991,2021,pre_saturation,national,regional_csv
+Hydroelectricity,MYS,Malaysia,TWh,1965,2021,2021,pre_saturation,national,regional_csv
+Hydroelectricity,NZL,New Zealand,TWh,1965,1995,2021,pre_saturation,national,regional_csv
+Hydroelectricity,PAK,Pakistan,TWh,1965,2020,2021,pre_saturation,national,regional_csv
+Hydroelectricity,PHL,Philippines,TWh,1965,2012,2021,pre_saturation,national,regional_csv
+Hydroelectricity,KOR,South Korea,TWh,1965,2003,2021,pre_saturation,national,regional_csv
+Hydroelectricity,BEL,Belgium,TWh,1965,2000,2021,pre_saturation,national,regional_csv
+Nuclear Energy,ARE,United Arab Emirates,TWh,1965,2021,2021,pre_saturation,national,regional_csv
+Renewable Power,IDN,Indonesia,TWh,1965,2021,2021,pre_saturation,national,regional_csv
+Renewable Power,EGY,Egypt,TWh,1965,2021,2021,pre_saturation,national,regional_csv
+Renewable Power,MAR,Morocco,TWh,1965,2021,2021,pre_saturation,national,regional_csv
+Renewable Power,ZAF,South Africa,TWh,1965,2021,2021,pre_saturation,national,regional_csv
+Renewable Power,AUS,Australia,TWh,1965,2021,2021,pre_saturation,national,regional_csv
+Renewable Power,BGD,Bangladesh,TWh,1965,2021,2021,pre_saturation,national,regional_csv
+Renewable Power,CHN,China,TWh,1965,2021,2021,pre_saturation,national,regional_csv
+Renewable Power,HKG,China Hong Kong SAR,TWh,1965,2021,2021,pre_saturation,national,regional_csv
+Renewable Power,IND,India,TWh,1965,2021,2021,pre_saturation,national,regional_csv
+Renewable Power,JPN,Japan,TWh,1965,2021,2021,pre_saturation,national,regional_csv
+Renewable Power,ARE,United Arab Emirates,TWh,1965,2021,2021,pre_saturation,national,regional_csv
+Renewable Power,MYS,Malaysia,TWh,1965,2021,2021,pre_saturation,national,regional_csv
+Renewable Power,NZL,New Zealand,TWh,1965,2021,2021,pre_saturation,national,regional_csv
+Renewable Power,PAK,Pakistan,TWh,1965,2021,2021,pre_saturation,national,regional_csv
+Renewable Power,PHL,Philippines,TWh,1965,2020,2021,pre_saturation,national,regional_csv
+Renewable Power,SGP,Singapore,TWh,1965,2021,2021,pre_saturation,national,regional_csv
+Renewable Power,KOR,South Korea,TWh,1965,2021,2021,pre_saturation,national,regional_csv
+Renewable Power,LKA,Sri Lanka,TWh,1965,2021,2021,pre_saturation,national,regional_csv
+Renewable Power,DZA,Algeria,TWh,1965,2020,2021,pre_saturation,national,regional_csv
+Renewable Power,SAU,Saudi Arabia,TWh,1965,2021,2021,pre_saturation,national,regional_csv
+Renewable Power,ESP,Spain,TWh,1965,2021,2021,pre_saturation,national,regional_csv
+Renewable Power,KAZ,Kazakhstan,TWh,1965,2021,2021,pre_saturation,national,regional_csv
+Renewable Power,CHE,Switzerland,TWh,1965,2021,2021,pre_saturation,national,regional_csv
+Hydroelectricity,ISL,Iceland,TWh,1965,2017,2019,saturating,national,regional_csv
+Renewable Power,TUR,Turkey,TWh,1965,2021,2021,pre_saturation,national,regional_csv
+Renewable Power,UKR,Ukraine,TWh,1965,2021,2021,pre_saturation,national,regional_csv
+Renewable Power,GBR,United Kingdom,TWh,1965,2020,2021,pre_saturation,national,regional_csv
+Renewable Power,AZE,Azerbaijan,TWh,1965,2019,2021,saturating,national,regional_csv
+Renewable Power,BLR,Belarus,TWh,1965,2021,2021,pre_saturation,national,regional_csv
+Renewable Power,RUS,Russian Federation,TWh,1965,2021,2021,pre_saturation,national,regional_csv
+Renewable Power,QAT,Qatar,TWh,1965,2020,2021,pre_saturation,national,regional_csv
+Renewable Power,TKM,Turkmenistan,TWh,1965,2016,2021,saturating,national,regional_csv
+Renewable Power,UZB,Uzbekistan,TWh,1965,2021,2021,pre_saturation,national,regional_csv
+Renewable Power,IRN,Iran,TWh,1965,2021,2021,pre_saturation,national,regional_csv
+Renewable Power,IRQ,Iraq,TWh,1965,2020,2021,pre_saturation,national,regional_csv
+Renewable Power,ISR,Israel,TWh,1965,2021,2021,pre_saturation,national,regional_csv
+Renewable Power,KWT,Kuwait,TWh,1965,2017,2021,pre_saturation,national,regional_csv
+Renewable Power,OMN,Oman,TWh,1965,2021,2021,pre_saturation,national,regional_csv
+Renewable Power,TWN,Taiwan,TWh,1965,2021,2021,pre_saturation,national,regional_csv
+Renewable Power,THA,Thailand,TWh,1965,2021,2021,pre_saturation,national,regional_csv
+Renewable Power,VNM,Vietnam,TWh,1965,2021,2021,pre_saturation,national,regional_csv
+Hydroelectricity,SWE,Sweden,TWh,1965,2001,2021,pre_saturation,national,regional_csv
+Hydroelectricity,CHE,Switzerland,TWh,1965,2001,2021,pre_saturation,national,regional_csv
+Hydroelectricity,TUR,Turkey,TWh,1965,2019,2021,pre_saturation,national,regional_csv
+Hydroelectricity,UKR,Ukraine,TWh,1965,1998,2021,pre_saturation,national,regional_csv
+Hydroelectricity,GBR,United Kingdom,TWh,1965,2020,2021,pre_saturation,national,regional_csv
+Hydroelectricity,AZE,Azerbaijan,TWh,1965,2010,2021,pre_saturation,national,regional_csv
+Hydroelectricity,BLR,Belarus,TWh,1965,2017,2021,pre_saturation,national,regional_csv
+Hydroelectricity,KAZ,Kazakhstan,TWh,1965,2016,2021,pre_saturation,national,regional_csv
+Hydroelectricity,RUS,Russian Federation,TWh,1965,2021,2021,pre_saturation,national,regional_csv
+Renewable Power,World,World,TWh,1965,2021,2021,pre_saturation,global,regional_csv
+Hydroelectricity,TKM,Turkmenistan,TWh,1965,1998,2021,pre_saturation,national,regional_csv
+Hydroelectricity,UZB,Uzbekistan,TWh,1965,2010,2021,pre_saturation,national,regional_csv
+Hydroelectricity,IRN,Iran,TWh,1965,2019,2021,pre_saturation,national,regional_csv
+Hydroelectricity,IRQ,Iraq,TWh,1965,1995,2021,pre_saturation,national,regional_csv
+Hydroelectricity,ISR,Israel,TWh,1965,1999,2021,pre_saturation,national,regional_csv
+Hydroelectricity,ESP,Spain,TWh,1965,1979,2021,pre_saturation,national,regional_csv
+Hydroelectricity,IRL,Ireland,TWh,1965,2008,2021,pre_saturation,national,regional_csv
+Hydroelectricity,ITA,Italy,TWh,1965,2014,2021,pre_saturation,national,regional_csv
+Hydroelectricity,LVA,Latvia,TWh,1965,1990,2021,pre_saturation,national,regional_csv
+Hydroelectricity,LTU,Lithuania,TWh,1965,2017,2021,pre_saturation,national,regional_csv
+Hydroelectricity,LUX,Luxembourg,TWh,1965,2008,2021,pre_saturation,national,regional_csv
+Hydroelectricity,NLD,Netherlands,TWh,1965,2000,2021,pre_saturation,national,regional_csv
+Hydroelectricity,MKD,North Macedonia,TWh,1965,2010,2021,pre_saturation,national,regional_csv
+Hydroelectricity,NOR,Norway,TWh,1965,2021,2021,pre_saturation,national,regional_csv
+Hydroelectricity,POL,Poland,TWh,1965,2010,2021,pre_saturation,national,regional_csv
+Hydroelectricity,PRT,Portugal,TWh,1965,2010,2021,pre_saturation,national,regional_csv
+Hydroelectricity,ROU,Romania,TWh,1965,2005,2021,pre_saturation,national,regional_csv
+Hydroelectricity,SVK,Slovakia,TWh,1965,2002,2021,pre_saturation,national,regional_csv
+Hydroelectricity,SVN,Slovenia,TWh,1965,2014,2021,pre_saturation,national,regional_csv
+Renewable Power,SWE,Sweden,TWh,1965,2021,2021,pre_saturation,national,regional_csv
+Hydroelectricity,MEX,Mexico,TWh,1965,2008,2021,pre_saturation,national,regional_csv
+Renewable Power,SVN,Slovenia,TWh,1965,2020,2021,pre_saturation,national,regional_csv
+Renewable Power,HUN,Hungary,TWh,1965,2021,2021,pre_saturation,national,regional_csv
+Renewable Power,POL,Poland,TWh,1965,2021,2021,pre_saturation,national,regional_csv
+Renewable Power,LUX,Luxembourg,TWh,1965,2021,2021,pre_saturation,national,regional_csv
+Renewable Power,LTU,Lithuania,TWh,1965,2020,2021,pre_saturation,national,regional_csv
+Renewable Power,LVA,Latvia,TWh,1965,2019,2021,pre_saturation,national,regional_csv
+Renewable Power,MKD,North Macedonia,TWh,1965,2020,2021,pre_saturation,national,regional_csv
+Renewable Power,ITA,Italy,TWh,1965,2021,2021,pre_saturation,national,regional_csv
+Renewable Power,NOR,Norway,TWh,1965,2021,2021,pre_saturation,national,regional_csv
+Renewable Power,ROU,Romania,TWh,1965,2017,2021,pre_saturation,national,regional_csv
+Renewable Power,IRL,Ireland,TWh,1965,2020,2021,pre_saturation,national,regional_csv
+Renewable Power,NLD,Netherlands,TWh,1965,2021,2021,pre_saturation,national,regional_csv
+Renewable Power,ISL,Iceland,TWh,1965,2019,2021,saturating,national,regional_csv
+Renewable Power,PRT,Portugal,TWh,1965,2021,2021,pre_saturation,national,regional_csv
+Renewable Power,SVK,Slovakia,TWh,1965,2021,2021,pre_saturation,national,regional_csv
+Television,USA,United States,-,1946,2001,2001,pre_saturation,national,regional_csv
+Vacuums,USA,United States,%,1922,1978,1978,pre_saturation,national,regional_csv
+Telephones,COD,Democratic Republic of the Congo,-,1947,1975,2002,pre_saturation,national,regional_csv
+Home Air Conditioning,USA,United States,%,1957,2004,2011,saturating,national,regional_csv
+Telephones,TUR,Turkey,-,1947,2002,2002,pre_saturation,national,regional_csv
+Telephones,DZA,Algeria,-,1931,1988,1988,pre_saturation,national,regional_csv
+Passenger Cars,UGA,Uganda,-,1938,1967,1997,pre_saturation,national,regional_csv
+Television,RUS,Russia,-,1946,1990,1999,pre_saturation,national,regional_csv
+Radio,JOR,Jordan,-,1946,1999,1999,pre_saturation,national,regional_csv
+Telephones,AGO,Angola,-,1947,2002,2002,pre_saturation,national,regional_csv
+Railroad,KOR,South Korea,kilometers,1945,1998,1998,pre_saturation,national,regional_csv
+Telephones,CHN,China,-,1949,2002,2002,pre_saturation,national,regional_csv
+Radio,PHL,Philippines,-,1946,1999,1999,pre_saturation,national,regional_csv
+Radio,IRL,Ireland,-,1946,1999,1999,pre_saturation,national,regional_csv
+Passenger Cars,ISR,Israel,-,1945,2000,2000,pre_saturation,national,regional_csv
+Passenger Cars,KOR,South Korea,-,1946,2000,2000,pre_saturation,national,regional_csv
+Passenger Cars,MOZ,Mozambique,-,1929,1972,1974,saturating,national,regional_csv
+Radio,LBN,Lebanon,-,1946,1999,1999,pre_saturation,national,regional_csv
+Radio,NPL,Nepal,-,1946,1999,1999,pre_saturation,national,regional_csv
+Radio,ISL,Iceland,-,1946,1999,1999,pre_saturation,national,regional_csv
+Telephones,TGO,Togo,-,1949,2002,2002,pre_saturation,national,regional_csv
+Radio,PAK,Pakistan,-,1947,1999,1999,pre_saturation,national,regional_csv
+Passenger Cars,LKA,Sri Lanka,-,1945,1997,1997,pre_saturation,national,regional_csv
+Radio,IND,India,-,1947,1999,1999,pre_saturation,national,regional_csv
+Radio,MMR,Burma,-,1948,1999,1999,pre_saturation,national,regional_csv
+Radio,LKA,Sri Lanka,-,1948,1999,1999,pre_saturation,national,regional_csv
+Passenger Cars,TWN,Taiwan,-,1946,1997,1997,pre_saturation,national,regional_csv
+Radio,ISR,Israel,-,1948,1999,1999,pre_saturation,national,regional_csv
+Telephones,GAB,Gabon,-,1949,2000,2002,pre_saturation,national,regional_csv
+Radio,KOR,South Korea,-,1948,1999,1999,pre_saturation,national,regional_csv
+Television,FRA,France,-,1950,2001,2001,pre_saturation,national,regional_csv
+Telephones,MUS,Mauritius,-,1951,2002,2002,pre_saturation,national,regional_csv
+Radio,IDN,Indonesia,-,1949,1999,1999,pre_saturation,national,regional_csv
+Passenger Cars,YEM,Yemen,-,1947,1997,1997,pre_saturation,national,regional_csv
+Passenger Cars,GTM,Guatemala,-,1928,1980,1980,pre_saturation,national,regional_csv
+Railroad,SAU,Saudi Arabia,kilometers,1945,1984,1998,saturating,national,regional_csv
+Passenger Cars,ESP,Spain,-,1948,1998,1998,pre_saturation,national,regional_csv
+Telephones,CUB,Cuba,-,1932,1987,1988,pre_saturation,national,regional_csv
+Telephones,PAK,Pakistan,-,1948,1998,1998,pre_saturation,national,regional_csv
+Radio,SYR,Syria,-,1946,1999,1999,pre_saturation,national,regional_csv
+Television,NLD,Netherlands,-,1952,2002,2002,pre_saturation,national,regional_csv
+Railroad,PAK,Pakistan,kilometers,1948,1980,1998,saturating,national,regional_csv
+Jet Aircraft,USA,Boeing,MW,1958,2007,2007,pre_saturation,national,regional_csv
+Passenger Cars,BGD,Bangladesh,-,1947,1996,1996,pre_saturation,national,regional_csv
+Television,CHE,Switzerland,-,1953,2001,2001,pre_saturation,national,regional_csv
+Carbon Capture and Sequestration,World,World,GW,1971,2019,2019,pre_saturation,global,regional_csv
+Telephones,IRN,Iran,-,1951,2002,2002,pre_saturation,national,regional_csv
+Passenger Cars,SLV,El Salvador,-,1928,1983,1985,saturating,national,regional_csv
+Television,VEN,Venezuela,-,1953,2001,2001,pre_saturation,national,regional_csv
+Radio,LBY,Libya,-,1952,1999,1999,pre_saturation,national,regional_csv
+Television,CUB,Cuba,-,1953,2001,2001,pre_saturation,national,regional_csv
+Telephones,CIV,Ivory Coast,-,1949,1998,1998,pre_saturation,national,regional_csv
+Telephones,SDN,Sudan,-,1951,1998,1998,pre_saturation,national,regional_csv
+Passenger Cars,JOR,Jordan,-,1950,1996,1997,pre_saturation,national,regional_csv
+Television,BRA,Brazil,-,1953,1999,1999,pre_saturation,national,regional_csv
+Passenger Cars,LBY,Libya,-,1947,1981,1993,pre_saturation,national,regional_csv
+Telephones,CMR,Cameroon,-,1949,2002,2002,pre_saturation,national,regional_csv
+Radio,TWN,Taiwan,-,1953,1999,1999,pre_saturation,national,regional_csv
+Passenger Cars,PAK,Pakistan,-,1947,1993,1993,pre_saturation,national,regional_csv
+Radio,KHM,Cambodia,-,1953,1999,1999,pre_saturation,national,regional_csv
+Passenger Cars,TUN,Tunisia,-,1948,1993,1993,pre_saturation,national,regional_csv
+Passenger Cars,IRN,Iran,-,1950,1989,1997,pre_saturation,national,regional_csv
+Television,DOM,Dominican Republic,-,1953,1999,1999,pre_saturation,national,regional_csv
+Radio,LAO,Laos,-,1954,1999,1999,pre_saturation,national,regional_csv
+Railroad,BGD,Bangladesh,kilometers,1947,1983,1988,saturating,national,regional_csv
+Railroad,ISR,Israel,kilometers,1948,1990,1993,saturating,national,regional_csv
+Television,DEU,Germany,-,1955,2000,2000,pre_saturation,national,regional_csv
+Passenger Cars,ETH,Ethiopia,-,1949,1987,1993,pre_saturation,national,regional_csv
+Television,ARG,Argentina,-,1953,1999,1999,pre_saturation,national,regional_csv
+Passenger Cars,HKG,Hong Kong,-,1953,1997,1997,pre_saturation,national,regional_csv
+Telephones,MAR,Morocco,-,1938,1988,1988,pre_saturation,national,regional_csv
+Passenger Cars,AGO,Angola,-,1937,1988,1992,pre_saturation,national,regional_csv
+Radio,TUN,Tunisia,-,1956,1999,1999,pre_saturation,national,regional_csv
+Telephones,BEN,Benin,-,1959,2002,2002,pre_saturation,national,regional_csv
+Radio,SDN,Sudan,-,1956,1999,1999,pre_saturation,national,regional_csv
+Telephones,SEN,Senegal,-,1959,2001,2002,pre_saturation,national,regional_csv
+Passenger Cars,GAB,Gabon,-,1949,1992,1993,pre_saturation,national,regional_csv
+Passenger Cars,ZMB,Zambia,-,1948,1975,1991,pre_saturation,national,regional_csv
+Railroad,MRT,Mauritania,kilometers,1950,1963,1993,saturating,national,regional_csv
+Radio,MAR,Morocco,-,1956,1999,1999,pre_saturation,national,regional_csv
+Television,ESP,Spain,-,1956,1999,1999,pre_saturation,national,regional_csv
+Passenger Cars,MRT,Mauritania,-,1956,1987,2001,pre_saturation,national,regional_csv
+Television,FIN,Finland,-,1960,2000,2002,saturating,national,regional_csv
+Television,URY,Uruguay,-,1956,1999,1999,pre_saturation,national,regional_csv
+Television,SLV,El Salvador,-,1956,1999,1999,pre_saturation,national,regional_csv
+Television,PAN,Panama,-,1960,2002,2002,pre_saturation,national,regional_csv
+Television,JPN,Japan,-,1960,2002,2002,pre_saturation,national,regional_csv
+Radio,MYS,Malaysia,-,1957,1999,1999,pre_saturation,national,regional_csv
+Television,PRT,Portugal,-,1957,1999,1999,pre_saturation,national,regional_csv
+Radio,GHA,Ghana,-,1957,1999,1999,pre_saturation,national,regional_csv
+Television,IRL,Ireland,-,1960,2002,2002,pre_saturation,national,regional_csv
+Passenger Cars,TCD,Chad,-,1949,1985,1988,saturating,national,regional_csv
+Television,AUT,Austria,-,1960,2002,2002,pre_saturation,national,regional_csv
+Television,SAU,Saudi Arabia,-,1960,2002,2002,pre_saturation,national,regional_csv
+Television,BEL,Belgium,-,1957,1999,1999,pre_saturation,national,regional_csv
+Television,ROU,Romania,-,1957,1999,1999,pre_saturation,national,regional_csv
+Passenger Cars,BWA,Botswana,-,1953,1995,1998,pre_saturation,national,regional_csv
+Steamships,FRA,France,-,1838,1879,1879,pre_saturation,national,regional_csv
+Passenger Cars,COG,Republic of the Congo,-,1949,1984,1997,pre_saturation,national,regional_csv
+Telephones,ETH,Ethiopia,-,1951,1988,1993,pre_saturation,national,regional_csv
+Telephones,MOZ,Mozambique,-,1947,1987,1988,pre_saturation,national,regional_csv
+Radio,SUR,Suriname,-,1950,1998,1999,pre_saturation,national,regional_csv
+Television,IND,India,-,1960,2001,2001,pre_saturation,national,regional_csv
+Television,HUN,Hungary,-,1960,2001,2001,pre_saturation,national,regional_csv
+Radio,GIN,Guinea,-,1958,1999,1999,pre_saturation,national,regional_csv
+Television,NZL,New Zealand,-,1960,2001,2001,pre_saturation,national,regional_csv
+Television,KOR,South Korea,-,1960,2000,2001,pre_saturation,national,regional_csv
+Television,HTI,Haiti,-,1960,2001,2001,pre_saturation,national,regional_csv
+Crop Harvester,ZWE,Zimbabwe,-,1961,1991,2001,saturating,national,regional_csv
+Crop Harvester,CUB,Cuba,-,1961,1992,2001,saturating,national,regional_csv
+Crop Harvester,JOR,Jordan,-,1961,2001,2001,pre_saturation,national,regional_csv
+Crop Harvester,SWE,Sweden,-,1961,1977,1982,saturating,national,regional_csv
+Crop Harvester,IDN,Indonesia,-,1961,1997,2001,saturating,national,regional_csv
+Crop Harvester,BGR,Bulgaria,-,1961,1977,1979,saturating,national,regional_csv
+Television,CHN,China,-,1959,1999,1999,pre_saturation,national,regional_csv
+Crop Harvester,ETH,Ethiopia,-,1961,1980,1991,saturating,national,regional_csv
+Crop Harvester,THA,Thailand,-,1961,1997,2001,pre_saturation,national,regional_csv
+Crop Harvester,PHL,Philippines,-,1961,1992,2001,saturating,national,regional_csv
+Crop Harvester,GTM,Guatemala,-,1961,1992,2001,saturating,national,regional_csv
+Television,NOR,Norway,-,1959,1999,1999,pre_saturation,national,regional_csv
+Crop Harvester,FRA,France,-,1961,1974,1976,saturating,national,regional_csv
+Crop Harvester,RUS,Russia,-,1961,1986,2001,pre_saturation,national,regional_csv
+Crop Harvester,IND,India,-,1961,1999,2001,saturating,national,regional_csv
+Crop Harvester,MLI,Mali,-,1961,1998,2001,saturating,national,regional_csv
+Crop Harvester,PNG,Papua New Guinea,-,1961,1990,2001,saturating,national,regional_csv
+Crop Harvester,DEU,Germany,-,1961,1975,1979,saturating,national,regional_csv
+Crop Harvester,ROU,Romania,-,1961,1987,2001,pre_saturation,national,regional_csv
+Crop Harvester,ALB,Albania,-,1961,1989,2001,pre_saturation,national,regional_csv
+Crop Harvester,PAK,Pakistan,-,1961,1992,2001,saturating,national,regional_csv
+Crop Harvester,SEN,Senegal,-,1961,1992,2001,saturating,national,regional_csv
+Crop Harvester,SAU,Saudi Arabia,-,1961,2001,2001,pre_saturation,national,regional_csv
+Crop Harvester,TCD,Chad,-,1961,1989,1991,saturating,national,regional_csv
+Crop Harvester,SUR,Suriname,-,1961,1992,2001,saturating,national,regional_csv
+Crop Harvester,HUN,Hungary,-,1961,1978,2001,pre_saturation,national,regional_csv
+Crop Harvester,CHL,Chile,-,1961,1997,2001,saturating,national,regional_csv
+Crop Harvester,MRT,Mauritania,-,1961,1998,2001,saturating,national,regional_csv
+Crop Harvester,AUT,Austria,-,1961,1979,1981,saturating,national,regional_csv
+Crop Harvester,IRQ,Iraq,-,1961,1975,2001,pre_saturation,national,regional_csv
+Crop Harvester,COG,Republic of the Congo,-,1961,1994,2001,saturating,national,regional_csv
+Crop Harvester,DNK,Denmark,-,1961,1973,1975,saturating,national,regional_csv
+Crop Harvester,BRA,Brazil,-,1961,1998,2001,saturating,national,regional_csv
+Television,LBN,Lebanon,-,1959,1999,1999,pre_saturation,national,regional_csv
+Crop Harvester,CAF,Central African Republic,-,1961,1995,2001,saturating,national,regional_csv
+Television,CRI,Costa Rica,-,1959,1999,1999,pre_saturation,national,regional_csv
+Crop Harvester,BEL,Belgium,-,1961,1976,1978,saturating,national,regional_csv
+Television,SWE,Sweden,-,1960,2000,2000,pre_saturation,national,regional_csv
+Crop Harvester,OMN,Oman,-,1961,1992,2001,saturating,national,regional_csv
+Crop Harvester,COL,Colombia,-,1961,1994,2001,saturating,national,regional_csv
+Crop Harvester,ECU,Ecuador,-,1961,2001,2001,pre_saturation,national,regional_csv
+Crop Harvester,ESP,Spain,-,1961,2000,2001,pre_saturation,national,regional_csv
+Crop Harvester,POL,Poland,-,1961,1995,2001,saturating,national,regional_csv
+Crop Harvester,GRC,Greece,-,1961,1989,2001,pre_saturation,national,regional_csv
+Crop Harvester,PRT,Portugal,-,1961,1989,2001,pre_saturation,national,regional_csv
+Crop Harvester,DZA,Algeria,-,1961,1994,2001,pre_saturation,national,regional_csv
+Crop Harvester,LBN,Lebanon,-,1961,2000,2001,pre_saturation,national,regional_csv
+Crop Harvester,ITA,Italy,-,1961,2000,2001,pre_saturation,national,regional_csv
+Crop Harvester,CRI,Costa Rica,-,1961,1992,2001,saturating,national,regional_csv
+Crop Harvester,BLZ,Belize,-,1961,1995,2001,saturating,national,regional_csv
+Crop Harvester,TUR,Turkey,-,1961,1977,2001,pre_saturation,national,regional_csv
+Crop Harvester,UGA,Uganda,-,1961,1990,2001,saturating,national,regional_csv
+Crop Harvester,MMR,Burma,-,1961,2001,2001,pre_saturation,national,regional_csv
+Television,BGR,Bulgaria,-,1959,1999,1999,pre_saturation,national,regional_csv
+Television,KWT,Kuwait,-,1961,2001,2001,pre_saturation,national,regional_csv
+Television,IRQ,Iraq,-,1960,2000,2000,pre_saturation,national,regional_csv
+Crop Harvester,KOR,South Korea,-,1961,2001,2001,pre_saturation,national,regional_csv
+Crop Harvester,ZMB,Zambia,-,1961,1994,2001,saturating,national,regional_csv
+Crop Harvester,MNG,Mongolia,-,1961,1986,1988,saturating,national,regional_csv
+Crop Harvester,VEN,Venezuela,-,1961,1992,2001,saturating,national,regional_csv
+Crop Harvester,MDG,Madagascar,-,1961,1991,2001,saturating,national,regional_csv
+Crop Harvester,BWA,Botswana,-,1961,1992,2001,saturating,national,regional_csv
+Crop Harvester,GUY,Guyana,-,1961,1992,2001,saturating,national,regional_csv
+Crop Harvester,SYR,Syria,-,1961,1996,2001,pre_saturation,national,regional_csv
+Crop Harvester,NOR,Norway,-,1961,1988,2001,pre_saturation,national,regional_csv
+Crop Harvester,EGY,Egypt,-,1961,1992,2001,saturating,national,regional_csv
+Crop Harvester,ISL,Iceland,-,1961,2001,2001,pre_saturation,national,regional_csv
+Crop Harvester,GHA,Ghana,-,1961,1985,1990,saturating,national,regional_csv
+Crop Harvester,LBY,Libya,-,1961,1988,2001,saturating,national,regional_csv
+Crop Harvester,YEM,Yemen,-,1961,1992,2001,pre_saturation,national,regional_csv
+Crop Harvester,SLE,Sierra Leone,-,1961,1996,2001,saturating,national,regional_csv
+Crop Harvester,GBR,United Kingdom,-,1961,1970,1972,saturating,national,regional_csv
+Crop Harvester,CHE,Switzerland,-,1961,1979,2001,pre_saturation,national,regional_csv
+Crop Harvester,GMB,Gambia,-,1961,1987,2001,saturating,national,regional_csv
+Crop Harvester,JPN,Japan,-,1961,1989,2001,pre_saturation,national,regional_csv
+Crop Harvester,ISR,Israel,-,1961,1983,2001,pre_saturation,national,regional_csv
+Crop Harvester,SDN,Sudan,-,1961,1999,2001,saturating,national,regional_csv
+Crop Harvester,BOL,Bolivia,-,1961,1986,2001,saturating,national,regional_csv
+Crop Harvester,NLD,Netherlands,-,1961,1970,1973,saturating,national,regional_csv
+Crop Harvester,FIN,Finland,-,1961,1991,2001,pre_saturation,national,regional_csv
+Crop Harvester,TUN,Tunisia,-,1961,1989,1994,saturating,national,regional_csv
+Crop Harvester,CIV,Ivory Coast,-,1961,1995,2001,saturating,national,regional_csv
+Crop Harvester,SLV,El Salvador,-,1961,1992,2001,saturating,national,regional_csv
+Crop Harvester,MEX,Mexico,-,1961,2000,2001,pre_saturation,national,regional_csv
+Crop Harvester,PAN,Panama,-,1961,1980,2001,pre_saturation,national,regional_csv
+Crop Harvester,CHN,China,-,1961,2000,2001,pre_saturation,national,regional_csv
+Crop Harvester,MAR,Morocco,-,1961,1988,1990,saturating,national,regional_csv
+Crop Harvester,ARG,Argentina,-,1961,1992,2001,saturating,national,regional_csv
+Passenger Cars,GHA,Ghana,-,1951,1979,1993,pre_saturation,national,regional_csv
+Telephones,TUN,Tunisia,-,1947,1988,1988,pre_saturation,national,regional_csv
+Telephones,MDG,Madagascar,-,1947,1987,1988,pre_saturation,national,regional_csv
+Crop Harvester,IRN,Iran,-,1961,1993,2001,saturating,national,regional_csv
+Telephones,IDN,Indonesia,-,1947,1988,1988,pre_saturation,national,regional_csv
+Crop Harvester,ZAF,South Africa,-,1961,1981,2001,pre_saturation,national,regional_csv
+Radio,COG,Republic of the Congo,-,1960,1999,1999,pre_saturation,national,regional_csv
+Radio,MDG,Madagascar,-,1960,1999,1999,pre_saturation,national,regional_csv
+Radio,COD,Democratic Republic of the Congo,-,1960,1999,1999,pre_saturation,national,regional_csv
+Radio,NER,Niger,-,1960,1999,1999,pre_saturation,national,regional_csv
+Radio,MNG,Mongolia,-,1960,1999,1999,pre_saturation,national,regional_csv
+Radio,TCD,Chad,-,1960,1999,1999,pre_saturation,national,regional_csv
+Radio,SEN,Senegal,-,1960,1999,1999,pre_saturation,national,regional_csv
+Radio,BEN,Benin,-,1960,1999,1999,pre_saturation,national,regional_csv
+Radio,NGA,Nigeria,-,1960,1999,1999,pre_saturation,national,regional_csv
+Television,GBR,United Kingdom,-,1960,1999,1999,pre_saturation,national,regional_csv
+Radio,CAF,Central African Republic,-,1960,1999,1999,pre_saturation,national,regional_csv
+Radio,SOM,Somalia,-,1960,1999,1999,pre_saturation,national,regional_csv
+Radio,CIV,Ivory Coast,-,1960,1999,1999,pre_saturation,national,regional_csv
+Colour TV,USA,United States,%,1966,2004,2005,pre_saturation,national,regional_csv
+Telephones,BWA,Botswana,-,1963,2002,2002,pre_saturation,national,regional_csv
+Television,POL,Poland,-,1960,1999,1999,pre_saturation,national,regional_csv
+Television,LUX,Luxembourg,-,1960,1999,1999,pre_saturation,national,regional_csv
+Radio,GAB,Gabon,-,1960,1999,1999,pre_saturation,national,regional_csv
+Radio,BFA,Burkina Faso,-,1960,1999,1999,pre_saturation,national,regional_csv
+Television,GTM,Guatemala,-,1960,1999,1999,pre_saturation,national,regional_csv
+Radio,MRT,Mauritania,-,1960,1999,1999,pre_saturation,national,regional_csv
+Television,MEX,Mexico,-,1960,1999,1999,pre_saturation,national,regional_csv
+Television,NIC,Nicaragua,-,1960,1999,1999,pre_saturation,national,regional_csv
+Television,COL,Colombia,-,1960,1999,1999,pre_saturation,national,regional_csv
+Television,THA,Thailand,-,1960,1999,1999,pre_saturation,national,regional_csv
+Television,MAR,Morocco,-,1960,1999,1999,pre_saturation,national,regional_csv
+Television,IRN,Iran,-,1960,1999,1999,pre_saturation,national,regional_csv
+Television,NGA,Nigeria,-,1960,1999,1999,pre_saturation,national,regional_csv
+Television,ITA,Italy,-,1960,1999,1999,pre_saturation,national,regional_csv
+Telephones,SLE,Sierra Leone,-,1963,1987,2002,pre_saturation,national,regional_csv
+Television,HND,Honduras,-,1960,1999,1999,pre_saturation,national,regional_csv
+Television,TUN,Tunisia,-,1960,1999,1999,pre_saturation,national,regional_csv
+Television,CAN,Canada,-,1960,1999,1999,pre_saturation,national,regional_csv
+Television,DNK,Denmark,-,1960,1999,1999,pre_saturation,national,regional_csv
+Radio,MLI,Mali,-,1960,1999,1999,pre_saturation,national,regional_csv
+Television,PHL,Philippines,-,1960,1999,1999,pre_saturation,national,regional_csv
+Television,TUR,Turkey,-,1960,1999,1999,pre_saturation,national,regional_csv
+Television,AUS,Australia,-,1960,1999,1999,pre_saturation,national,regional_csv
+Telephones,BDI,Burundi,-,1963,2002,2002,pre_saturation,national,regional_csv
+Radio,TGO,Togo,-,1960,1999,1999,pre_saturation,national,regional_csv
+Television,KHM,Cambodia,-,1960,1999,1999,pre_saturation,national,regional_csv
+Radio,CMR,Cameroon,-,1960,1999,1999,pre_saturation,national,regional_csv
+Television,PER,Peru,-,1960,1999,1999,pre_saturation,national,regional_csv
+Television,SYR,Syria,-,1961,1999,1999,pre_saturation,national,regional_csv
+Television,GAB,Gabon,-,1961,1999,1999,pre_saturation,national,regional_csv
+Television,SLE,Sierra Leone,-,1961,1999,1999,pre_saturation,national,regional_csv
+Television,ECU,Ecuador,-,1961,1999,1999,pre_saturation,national,regional_csv
+Television,ISL,Iceland,-,1961,1999,1999,pre_saturation,national,regional_csv
+Television,CHL,Chile,-,1960,1999,1999,pre_saturation,national,regional_csv
+Radio,SLE,Sierra Leone,-,1961,1999,1999,pre_saturation,national,regional_csv
+Telephones,SYR,Syria,-,1950,1988,1988,pre_saturation,national,regional_csv
+Telephones,ISR,Israel,-,1950,1988,1988,pre_saturation,national,regional_csv
+Telephones,BFA,Burkina Faso,-,1959,2002,2002,pre_saturation,national,regional_csv
+Telephones,SWZ,Swaziland,-,1963,2002,2002,pre_saturation,national,regional_csv
+Radio,TZA,Tanzania,-,1961,1999,1999,pre_saturation,national,regional_csv
+Passenger Cars,SWZ,Swaziland,-,1965,2003,2003,pre_saturation,national,regional_csv
+Radio,KWT,Kuwait,-,1961,1999,1999,pre_saturation,national,regional_csv
+Steamships,HUN,Hungary,-,1871,1914,1917,pre_saturation,national,regional_csv
+Passenger Cars,CAF,Central African Republic,-,1949,1993,1993,pre_saturation,national,regional_csv
+Radio,DZA,Algeria,-,1962,1999,1999,pre_saturation,national,regional_csv
+Telephones,SGP,Singapore,-,1951,1988,1988,pre_saturation,national,regional_csv
+Telephones,IRQ,Iraq,-,1949,1988,1988,pre_saturation,national,regional_csv
+Television,CIV,Ivory Coast,-,1962,1999,1999,pre_saturation,national,regional_csv
+Television,SDN,Sudan,-,1962,1999,1999,pre_saturation,national,regional_csv
+Television,ISR,Israel,-,1962,1999,1999,pre_saturation,national,regional_csv
+Television,DZA,Algeria,-,1962,1999,1999,pre_saturation,national,regional_csv
+Radio,UGA,Uganda,-,1962,1999,1999,pre_saturation,national,regional_csv
+Concentrated Solar Power,World,World,MW,1985,2022,2022,pre_saturation,global,regional_csv
+Electricity,RUS,Russian Federation,TWh,1985,2021,2021,pre_saturation,national,regional_csv
+Electricity,SGP,Singapore,TWh,1985,2021,2021,pre_saturation,national,regional_csv
+Electricity,THA,Thailand,TWh,1985,2019,2021,pre_saturation,national,regional_csv
+Electricity,TWN,Taiwan,TWh,1985,2021,2021,pre_saturation,national,regional_csv
+Electricity,SWE,Sweden,TWh,1985,2021,2021,pre_saturation,national,regional_csv
+Electricity,LKA,Sri Lanka,TWh,1985,2021,2021,pre_saturation,national,regional_csv
+Electricity,KOR,South Korea,TWh,1985,2021,2021,pre_saturation,national,regional_csv
+Electricity,POL,Poland,TWh,1985,2021,2021,pre_saturation,national,regional_csv
+Electricity,PHL,Philippines,TWh,1985,2021,2021,pre_saturation,national,regional_csv
+Electricity,World,World,TWh,1985,2021,2021,pre_saturation,global,regional_csv
+Electricity,PAK,Pakistan,TWh,1985,2021,2021,pre_saturation,national,regional_csv
+Electricity,NZL,New Zealand,TWh,1985,2019,2021,saturating,national,regional_csv
+Electricity,MYS,Malaysia,TWh,1985,2019,2021,pre_saturation,national,regional_csv
+Television,KEN,Kenya,-,1963,1999,1999,pre_saturation,national,regional_csv
+Electricity,JPN,Japan,TWh,1985,2008,2021,pre_saturation,national,regional_csv
+Electricity,VNM,Vietnam,TWh,1985,2021,2021,pre_saturation,national,regional_csv
+Television,LBR,Liberia,-,1963,1999,1999,pre_saturation,national,regional_csv
+Electricity,IND,India,TWh,1985,2021,2021,pre_saturation,national,regional_csv
+Electricity,SVN,Slovenia,TWh,1985,2014,2021,pre_saturation,national,regional_csv
+Electricity,PRT,Portugal,TWh,1985,2016,2018,saturating,national,regional_csv
+Electricity,SVK,Slovakia,TWh,1985,2002,2021,pre_saturation,national,regional_csv
+Electricity,LUX,Luxembourg,TWh,1985,2010,2021,pre_saturation,national,regional_csv
+Television,MYS,Malaysia,-,1963,1999,1999,pre_saturation,national,regional_csv
+Electricity,NLD,Netherlands,TWh,1985,2020,2021,pre_saturation,national,regional_csv
+Electricity,MKD,North Macedonia,TWh,1985,2010,2021,pre_saturation,national,regional_csv
+Electricity,NOR,Norway,TWh,1985,2021,2021,pre_saturation,national,regional_csv
+Electricity,ESP,Spain,TWh,1985,2008,2021,pre_saturation,national,regional_csv
+Electricity,IDN,Indonesia,TWh,1985,2021,2021,pre_saturation,national,regional_csv
+Telephones,MLI,Mali,-,1960,2002,2002,pre_saturation,national,regional_csv
+Electricity,KAZ,Kazakhstan,TWh,1985,2021,2021,pre_saturation,national,regional_csv
+Television,ETH,Ethiopia,-,1965,2001,2001,pre_saturation,national,regional_csv
+Electricity,SAU,Saudi Arabia,TWh,1985,2021,2021,pre_saturation,national,regional_csv
+Television,COG,Republic of the Congo,-,1963,1999,1999,pre_saturation,national,regional_csv
+Electricity,QAT,Qatar,TWh,1985,2021,2021,pre_saturation,national,regional_csv
+Electricity,OMN,Oman,TWh,1985,2021,2021,pre_saturation,national,regional_csv
+Electricity,KWT,Kuwait,TWh,1985,2021,2021,pre_saturation,national,regional_csv
+Electricity,ISR,Israel,TWh,1985,2021,2021,pre_saturation,national,regional_csv
+Electricity,AZE,Azerbaijan,TWh,1985,2021,2021,pre_saturation,national,regional_csv
+Electricity,HKG,China Hong Kong SAR,TWh,1985,2014,2016,saturating,national,regional_csv
+Electricity,IRQ,Iraq,TWh,1985,2021,2021,pre_saturation,national,regional_csv
+Electricity,IRN,Iran,TWh,1985,2021,2021,pre_saturation,national,regional_csv
+Electricity,UZB,Uzbekistan,TWh,1985,2021,2021,pre_saturation,national,regional_csv
+Electricity,TKM,Turkmenistan,TWh,1985,2021,2021,pre_saturation,national,regional_csv
+Electricity,BLR,Belarus,TWh,1985,2021,2021,pre_saturation,national,regional_csv
+Electricity,ARE,United Arab Emirates,TWh,1985,2021,2021,pre_saturation,national,regional_csv
+Electricity,DZA,Algeria,TWh,1985,2021,2021,pre_saturation,national,regional_csv
+Electricity,EGY,Egypt,TWh,1985,2021,2021,pre_saturation,national,regional_csv
+Electricity,MAR,Morocco,TWh,1985,2021,2021,pre_saturation,national,regional_csv
+Electricity,CHN,China,TWh,1985,2021,2021,pre_saturation,national,regional_csv
+Electricity,BGD,Bangladesh,TWh,1985,2021,2021,pre_saturation,national,regional_csv
+Electricity,CHE,Switzerland,TWh,1985,2001,2014,saturating,national,regional_csv
+Television,IDN,Indonesia,-,1963,1999,1999,pre_saturation,national,regional_csv
+Television,BFA,Burkina Faso,-,1963,1999,1999,pre_saturation,national,regional_csv
+Electricity,AUS,Australia,TWh,1985,2021,2021,pre_saturation,national,regional_csv
+Electricity,TUR,Turkey,TWh,1985,2021,2021,pre_saturation,national,regional_csv
+Television,UGA,Uganda,-,1963,1999,1999,pre_saturation,national,regional_csv
+Telephones,CAF,Central African Republic,-,1959,1987,2002,pre_saturation,national,regional_csv
+Electricity,LVA,Latvia,TWh,1985,2017,2021,pre_saturation,national,regional_csv
+Electricity,GBR,United Kingdom,TWh,1985,2005,2008,saturating,national,regional_csv
+Telephones,SAU,Saudi Arabia,-,1951,1984,1992,pre_saturation,national,regional_csv
+Electricity,ZAF,South Africa,TWh,1985,2007,2019,saturating,national,regional_csv
+Telephones,TZA,Tanzania,-,1952,1988,1988,pre_saturation,national,regional_csv
+Electricity,ITA,Italy,TWh,1985,2008,2021,pre_saturation,national,regional_csv
+Electricity,CAN,Canada,TWh,1985,2017,2021,saturating,national,regional_csv
+Electricity,MEX,Mexico,TWh,1985,2019,2021,pre_saturation,national,regional_csv
+Electricity,USA,US,TWh,1985,2018,2021,saturating,national,regional_csv
+Electricity,ARG,Argentina,TWh,1985,2021,2021,pre_saturation,national,regional_csv
+Electricity,BRA,Brazil,TWh,1985,2021,2021,pre_saturation,national,regional_csv
+Electricity,CHL,Chile,TWh,1985,2021,2021,pre_saturation,national,regional_csv
+Electricity,COL,Colombia,TWh,1985,2021,2021,pre_saturation,national,regional_csv
+Steamships,MEX,Mexico,-,1888,1923,1924,pre_saturation,national,regional_csv
+Electricity,PER,Peru,TWh,1985,2021,2021,pre_saturation,national,regional_csv
+Passenger Cars,KWT,Kuwait,-,1961,1997,1997,pre_saturation,national,regional_csv
+Electricity,ECU,Ecuador,TWh,1985,2019,2021,saturating,national,regional_csv
+Electricity,CZE,Czech Republic,TWh,1985,2007,2015,saturating,national,regional_csv
+Electricity,IRL,Ireland,TWh,1985,2020,2021,pre_saturation,national,regional_csv
+Electricity,DNK,Denmark,TWh,1985,1996,2021,pre_saturation,national,regional_csv
+Electricity,FRA,France,TWh,1985,2005,2008,saturating,national,regional_csv
+Electricity,DEU,Germany,TWh,1985,2017,2021,pre_saturation,national,regional_csv
+Radio,KEN,Kenya,-,1963,1999,1999,pre_saturation,national,regional_csv
+Electricity,GRC,Greece,TWh,1985,2008,2021,pre_saturation,national,regional_csv
+Electricity,HUN,Hungary,TWh,1985,2008,2021,pre_saturation,national,regional_csv
+Electricity,CYP,Cyprus,TWh,1985,2010,2021,pre_saturation,national,regional_csv
+Electricity,FIN,Finland,TWh,1985,2004,2021,pre_saturation,national,regional_csv
+Electricity,ISL,Iceland,TWh,1985,2018,2021,saturating,national,regional_csv
+Electricity,TTO,Trinidad & Tobago,TWh,1985,2015,2017,saturating,national,regional_csv
+Electricity,VEN,Venezuela,TWh,1985,2013,2021,pre_saturation,national,regional_csv
+Electricity,HRV,Croatia,TWh,1985,2021,2021,pre_saturation,national,regional_csv
+Electricity,BGR,Bulgaria,TWh,1985,2011,2021,pre_saturation,national,regional_csv
+Electricity,AUT,Austria,TWh,1985,2019,2021,saturating,national,regional_csv
+Electricity,BEL,Belgium,TWh,1985,2021,2021,pre_saturation,national,regional_csv
+Television,ALB,Albania,-,1964,1999,1999,pre_saturation,national,regional_csv
+Telephones,KOR,South Korea,-,1952,1988,1988,pre_saturation,national,regional_csv
+Radio,MWI,Malawi,-,1964,1999,1999,pre_saturation,national,regional_csv
+Passenger Cars,LBR,Liberia,-,1962,1993,1997,pre_saturation,national,regional_csv
+Television,COD,Democratic Republic of the Congo,-,1964,1999,1999,pre_saturation,national,regional_csv
+Real-Time Gross Settlement Adoption,USA,United States,%,1970,2005,2005,pre_saturation,national,regional_csv
+Television,GHA,Ghana,-,1964,1999,1999,pre_saturation,national,regional_csv
+Radio,ZMB,Zambia,-,1964,1999,1999,pre_saturation,national,regional_csv
+Television,ZMB,Zambia,-,1964,1999,1999,pre_saturation,national,regional_csv
+Telephones,PHL,Philippines,-,1950,1988,1988,pre_saturation,national,regional_csv
+Telephones,UGA,Uganda,-,1952,1988,1988,pre_saturation,national,regional_csv
+Television,PAK,Pakistan,-,1964,1999,1999,pre_saturation,national,regional_csv
+Television,MDG,Madagascar,-,1968,2002,2002,pre_saturation,national,regional_csv
+Television,SUR,Suriname,-,1965,2001,2001,pre_saturation,national,regional_csv
+Radio,GMB,Gambia,-,1965,1999,1999,pre_saturation,national,regional_csv
+Passenger Cars,AFG,Afghanistan,-,1957,1971,1992,pre_saturation,national,regional_csv
+Radio,ZWE,Zimbabwe,-,1965,1999,1999,pre_saturation,national,regional_csv
+Passenger Cars,LBN,Lebanon,-,1946,1982,1982,pre_saturation,national,regional_csv
+Television,ZWE,Zimbabwe,-,1965,1999,1999,pre_saturation,national,regional_csv
+Radio,SGP,Singapore,-,1965,1999,1999,pre_saturation,national,regional_csv
+Telephones,TCD,Chad,-,1959,1988,1993,pre_saturation,national,regional_csv
+Television,SGP,Singapore,-,1965,1999,1999,pre_saturation,national,regional_csv
+Television,PRY,Paraguay,-,1965,1999,1999,pre_saturation,national,regional_csv
+Telephones,GIN,Guinea,-,1958,1987,1993,pre_saturation,national,regional_csv
+Power Steering,USA,United States,%,1951,1978,1984,saturating,national,regional_csv
+Radio,BWA,Botswana,-,1966,1999,1999,pre_saturation,national,regional_csv
+Telephones,RWA,Rwanda,-,1963,1994,1996,saturating,national,regional_csv
+Telephones,OMN,Oman,-,1968,2001,2002,pre_saturation,national,regional_csv
+Radio,LSO,Lesotho,-,1966,1999,1999,pre_saturation,national,regional_csv
+Crop Harvester,LSO,Lesotho,-,1968,1992,1994,saturating,national,regional_csv
+Radio,GUY,Guyana,-,1966,1999,1999,pre_saturation,national,regional_csv
+Steamships,NLD,Netherlands,-,1846,1875,1879,pre_saturation,national,regional_csv
+Television,MNG,Mongolia,-,1966,1999,1999,pre_saturation,national,regional_csv
+Cellphones,World,World,MW,1978,2010,2010,pre_saturation,global,regional_csv
+Telephones,KWT,Kuwait,-,1956,1988,1988,pre_saturation,national,regional_csv
+Passenger Cars,BFA,Burkina Faso,-,1954,1987,1987,pre_saturation,national,regional_csv
+Passenger Cars,PNG,Papua New Guinea,-,1956,1972,1992,pre_saturation,national,regional_csv
+Telephones,TWN,Taiwan,-,1956,1988,1988,pre_saturation,national,regional_csv
+Television,GRC,Greece,-,1967,1999,1999,pre_saturation,national,regional_csv
+Radio,YEM,Yemen,-,1967,1999,1999,pre_saturation,national,regional_csv
+Railroad,SRB,Serbia,kilometers,1880,1912,1912,pre_saturation,national,regional_csv
+Television,JOR,Jordan,-,1967,1999,1999,pre_saturation,national,regional_csv
+Microcomputers,USA,United States,%,1984,2016,2016,pre_saturation,national,regional_csv
+Crop Harvester,LKA,Sri Lanka,-,1969,1999,2001,saturating,national,regional_csv
+Crop Harvester,ARE,United Arab Emirates,-,1970,1996,2001,saturating,national,regional_csv
+Television,MUS,Mauritius,-,1968,1999,1999,pre_saturation,national,regional_csv
+Radio,SWZ,Swaziland,-,1968,1999,1999,pre_saturation,national,regional_csv
+Telephones,NER,Niger,-,1960,1987,1993,pre_saturation,national,regional_csv
+Radio,MUS,Mauritius,-,1968,1999,1999,pre_saturation,national,regional_csv
+Radio,GNQ,Equatorial Guinea,-,1968,1999,1999,pre_saturation,national,regional_csv
+Passenger Cars,RWA,Rwanda,-,1955,1989,1992,pre_saturation,national,regional_csv
+Radio,RWA,Rwanda,-,1968,1999,1999,pre_saturation,national,regional_csv
+Television,SEN,Senegal,-,1968,1999,1999,pre_saturation,national,regional_csv
+Passenger Cars,BDI,Burundi,-,1962,1993,1994,pre_saturation,national,regional_csv
+Television,TWN,Taiwan,-,1968,1998,1999,pre_saturation,national,regional_csv
+Television,BOL,Bolivia,-,1970,2000,2000,pre_saturation,national,regional_csv
+Radio,BDI,Burundi,-,1969,1999,1999,pre_saturation,national,regional_csv
+Television,TZA,Tanzania,-,1969,1999,1999,pre_saturation,national,regional_csv
+Radio,OMN,Oman,-,1970,1999,1999,pre_saturation,national,regional_csv
+Cable TV,USA,United States,%,1968,1996,1997,pre_saturation,national,regional_csv
+Television,LBY,Libya,-,1970,1999,1999,pre_saturation,national,regional_csv
+Telephones,COG,Republic of the Congo,-,1959,1986,1988,saturating,national,regional_csv
+Radio,BGD,Bangladesh,-,1971,1999,1999,pre_saturation,national,regional_csv
+Television,BGD,Bangladesh,-,1971,1999,1999,pre_saturation,national,regional_csv
+Television,EGY,Egypt,-,1971,1999,1999,pre_saturation,national,regional_csv
+Television,GNQ,Equatorial Guinea,-,1971,1999,1999,pre_saturation,national,regional_csv
+Cellphones,SWE,Sweden,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,KGZ,Kyrgyzstan,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,GAB,Gabon,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,AZE,Azerbaijan,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,HRV,Croatia,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,URY,Uruguay,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,CIV,Ivory Coast,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,MKD,Macedonia,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,LBY,Libya,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,IDN,Indonesia,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,GBR,United Kingdom,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,SLE,Sierra Leone,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,CMR,Cameroon,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,MLI,Mali,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,FRA,France,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,TKM,Turkmenistan,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,TGO,Togo,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,RWA,Rwanda,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,YEM,Yemen,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,NPL,Nepal,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,GMB,Gambia,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,IRN,Iran,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,ISL,Iceland,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,MAR,Morocco,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,BGD,Bangladesh,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,KAZ,Kazakhstan,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,PRY,Paraguay,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,PAN,Panama,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,MEX,Mexico,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,AUS,Australia,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,SLV,El Salvador,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,CHN,China,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,BGR,Bulgaria,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,NOR,Norway,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,AGO,Angola,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,AFG,Afghanistan,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,EGY,Egypt,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,UZB,Uzbekistan,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,NGA,Nigeria,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,BEN,Benin,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,ZAF,South Africa,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,ARG,Argentina,-,1975,2001,2002,pre_saturation,national,regional_csv
+Cellphones,KEN,Kenya,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,LKA,Sri Lanka,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,CZE,Czech Republic,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,KWT,Kuwait,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,ZWE,Zimbabwe,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,LTU,Lithuania,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,NER,Niger,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,PNG,Papua New Guinea,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,DEU,Germany,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,PAK,Pakistan,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,SEN,Senegal,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,GEO,Georgia,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,UKR,Ukraine,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,TCD,Chad,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,SVN,Slovenia,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,DNK,Denmark,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,TZA,Tanzania,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,IRL,Ireland,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,MRT,Mauritania,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,LUX,Luxembourg,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,HUN,Hungary,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,CUB,Cuba,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,THA,Thailand,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,GNQ,Equatorial Guinea,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,BFA,Burkina Faso,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,CHE,Switzerland,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,MUS,Mauritius,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,SWZ,Swaziland,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,MDA,Moldova,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,BRA,Brazil,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,BEL,Belgium,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,AUT,Austria,-,1975,2001,2002,pre_saturation,national,regional_csv
+Cellphones,SUR,Suriname,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,UGA,Uganda,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,ALB,Albania,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,OMN,Oman,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,PHL,Philippines,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,MOZ,Mozambique,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,ROU,Romania,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,CHL,Chile,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,VNM,Vietnam,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,NIC,Nicaragua,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,JOR,Jordan,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,IND,India,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,RUS,Russia,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,IRQ,Iraq,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,ARM,Armenia,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,GTM,Guatemala,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,ETH,Ethiopia,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,CAF,Central African Republic,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,CAN,Canada,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,ECU,Ecuador,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,FIN,Finland,-,1975,2002,2002,pre_saturation,national,regional_csv
+Television,MOZ,Mozambique,-,1975,2002,2002,pre_saturation,national,regional_csv
+Telephones,HRV,Croatia,-,1975,2002,2002,pre_saturation,national,regional_csv
+Television,YEM,Yemen,-,1975,2002,2002,pre_saturation,national,regional_csv
+Passenger Cars,MMR,Burma,-,1948,1975,1975,pre_saturation,national,regional_csv
+Telephones,MDA,Moldova,-,1975,2002,2002,pre_saturation,national,regional_csv
+Telephones,ISL,Iceland,-,1975,2000,2002,saturating,national,regional_csv
+Telephones,ALB,Albania,-,1975,2002,2002,pre_saturation,national,regional_csv
+Telephones,LAO,Laos,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,MMR,Burma,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,ZMB,Zambia,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,MNG,Mongolia,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,LAO,Laos,-,1975,2002,2002,pre_saturation,national,regional_csv
+Telephones,AZE,Azerbaijan,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,VEN,Venezuela,-,1975,2001,2002,pre_saturation,national,regional_csv
+Television,OMN,Oman,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,MDG,Madagascar,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,BWA,Botswana,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,GUY,Guyana,-,1975,2002,2002,pre_saturation,national,regional_csv
+Television,TGO,Togo,-,1975,2002,2002,pre_saturation,national,regional_csv
+Telephones,GMB,Gambia,-,1975,2002,2002,pre_saturation,national,regional_csv
+Telephones,BGD,Bangladesh,-,1975,2002,2002,pre_saturation,national,regional_csv
+Telephones,EST,Estonia,-,1975,2000,2002,saturating,national,regional_csv
+Wet Flue Gas Desulfurization Systems,JPN,Japan,GWe,1972,1999,1999,pre_saturation,national,regional_csv
+Wet Flue Gas Desulfurization Systems,USA,United States,GWe,1972,1999,1999,pre_saturation,national,regional_csv
+Telephones,LSO,Lesotho,-,1975,2002,2002,pre_saturation,national,regional_csv
+Telephones,LVA,Latvia,-,1975,1996,2002,saturating,national,regional_csv
+Telephones,BLR,Belarus,-,1975,2002,2002,pre_saturation,national,regional_csv
+Telephones,KAZ,Kazakhstan,-,1975,2002,2002,pre_saturation,national,regional_csv
+Wet Flue Gas Desulfurization Systems,DEU,Germany,GWe,1972,1999,1999,pre_saturation,national,regional_csv
+Telephones,BLZ,Belize,-,1975,1999,2001,saturating,national,regional_csv
+Television,ZAF,South Africa,-,1975,2002,2002,pre_saturation,national,regional_csv
+Telephones,TJK,Tajikistan,-,1975,1994,2002,pre_saturation,national,regional_csv
+Telephones,UZB,Uzbekistan,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,NZL,New Zealand,-,1975,2002,2002,pre_saturation,national,regional_csv
+Telephones,KGZ,Kyrgyzstan,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,TUR,Turkey,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,DZA,Algeria,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,BIH,Bosnia-Herzegovina,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,EST,Estonia,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,SVK,Slovak Republic,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,ITA,Italy,-,1975,2002,2002,pre_saturation,national,regional_csv
+Telephones,GEO,Georgia,-,1975,1999,2002,pre_saturation,national,regional_csv
+Cellphones,BDI,Burundi,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,CRI,Costa Rica,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,LSO,Lesotho,-,1975,2002,2002,pre_saturation,national,regional_csv
+Telephones,LTU,Lithuania,-,1975,2000,2002,pre_saturation,national,regional_csv
+Cellphones,SYR,Syria,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,BLR,Belarus,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,GHA,Ghana,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,HND,Honduras,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,JPN,Japan,-,1975,2002,2002,pre_saturation,national,regional_csv
+Telephones,ARM,Armenia,-,1975,1989,1992,saturating,national,regional_csv
+Cellphones,TJK,Tajikistan,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,HTI,Haiti,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,SDN,Sudan,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,BOL,Bolivia,-,1975,2002,2002,pre_saturation,national,regional_csv
+Telephones,RUS,Russia,-,1975,2002,2002,pre_saturation,national,regional_csv
+Telephones,NPL,Nepal,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,LBN,Lebanon,-,1975,2002,2002,pre_saturation,national,regional_csv
+Telephones,PNG,Papua New Guinea,-,1975,2000,2002,pre_saturation,national,regional_csv
+Telephones,SVK,Slovak Republic,-,1975,2000,2002,pre_saturation,national,regional_csv
+Cellphones,KHM,Cambodia,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,HKG,Hong Kong,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,GRC,Greece,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,PER,Peru,-,1975,2002,2002,pre_saturation,national,regional_csv
+Telephones,ARE,United Arab Emirates,-,1975,1999,2002,pre_saturation,national,regional_csv
+Cellphones,GIN,Guinea,-,1975,2002,2002,pre_saturation,national,regional_csv
+Telephones,LUX,Luxembourg,-,1975,2002,2002,pre_saturation,national,regional_csv
+Telephones,UKR,Ukraine,-,1975,2002,2002,pre_saturation,national,regional_csv
+Telephones,TKM,Turkmenistan,-,1975,2000,2002,saturating,national,regional_csv
+Telephones,MRT,Mauritania,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,MWI,Malawi,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,PRT,Portugal,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,COL,Colombia,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,LVA,Latvia,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,POL,Poland,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,BLZ,Belize,-,1975,2002,2002,pre_saturation,national,regional_csv
+Insect-Resistant Cotton,USA,United States,Acres,1996,2022,2022,pre_saturation,national,regional_csv
+Herbicide-Tolerant Soybeans,USA,United States,Acres,1996,2022,2022,pre_saturation,national,regional_csv
+Herbicide-Tolerant Cotton,USA,United States,Acres,1996,2022,2022,pre_saturation,national,regional_csv
+Television,CAF,Central African Republic,-,1976,2002,2002,pre_saturation,national,regional_csv
+Herbicide-Tolerant Corn,USA,United States,Acres,1996,2022,2022,pre_saturation,national,regional_csv
+Cellphones,LBR,Liberia,-,1975,2001,2001,pre_saturation,national,regional_csv
+Television,NER,Niger,-,1975,2001,2001,pre_saturation,national,regional_csv
+Television,BLR,Belarus,-,1975,2001,2001,pre_saturation,national,regional_csv
+Television,HKG,Hong Kong,-,1975,2001,2001,pre_saturation,national,regional_csv
+Television,ARE,United Arab Emirates,-,1975,1999,2001,pre_saturation,national,regional_csv
+Cellphones,COG,Republic of the Congo,-,1975,2002,2002,pre_saturation,national,regional_csv
+Insect-Resistant Corn,USA,United States,Acres,1996,2022,2022,pre_saturation,national,regional_csv
+Cellphones,NLD,Netherlands,-,1975,2001,2002,pre_saturation,national,regional_csv
+Cellphones,MYS,Malaysia,-,1975,2002,2002,pre_saturation,national,regional_csv
+Crop Harvester,GIN,Guinea,-,1975,1996,2001,saturating,national,regional_csv
+Television,TCD,Chad,-,1974,1999,1999,pre_saturation,national,regional_csv
+Passenger Cars,LAO,Laos,-,1948,1973,1974,pre_saturation,national,regional_csv
+Radio,GNB,Guinea-Bissau,-,1974,1999,1999,pre_saturation,national,regional_csv
+Television,SOM,Somalia,-,1974,1999,1999,pre_saturation,national,regional_csv
+Steamships,CHL,Chile,-,1853,1884,1884,pre_saturation,national,regional_csv
+Cellphones,TUN,Tunisia,-,1975,2002,2002,pre_saturation,national,regional_csv
+Telephones,JOR,Jordan,-,1977,2002,2002,pre_saturation,national,regional_csv
+Cellphones,SOM,Somalia,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,KOR,South Korea,-,1975,2002,2002,pre_saturation,national,regional_csv
+Television,SWZ,Swaziland,-,1977,2002,2002,pre_saturation,national,regional_csv
+Cellphones,COD,Democratic Republic of the Congo,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,USA,United States,-,1975,2002,2002,pre_saturation,national,regional_csv
+Radio,PNG,Papua New Guinea,-,1975,1999,1999,pre_saturation,national,regional_csv
+Cellphones,ESP,Spain,-,1975,2002,2002,pre_saturation,national,regional_csv
+Cellphones,DOM,Dominican Republic,-,1975,2002,2002,pre_saturation,national,regional_csv
+Steamships,CUB,Cuba,-,1900,1924,1924,pre_saturation,national,regional_csv
+Radio,AGO,Angola,-,1975,1999,1999,pre_saturation,national,regional_csv
+Television,AGO,Angola,-,1975,1999,1999,pre_saturation,national,regional_csv
+Television,BEN,Benin,-,1977,2001,2001,pre_saturation,national,regional_csv
+Radio,MOZ,Mozambique,-,1975,1999,1999,pre_saturation,national,regional_csv
+Television,AFG,Afghanistan,-,1978,2001,2001,pre_saturation,national,regional_csv
+Telephones,CZE,Czech Republic,-,1979,2000,2002,saturating,national,regional_csv
+Television,RWA,Rwanda,-,1975,1992,1998,pre_saturation,national,regional_csv
+Radio,VNM,Vietnam,-,1976,1999,1999,pre_saturation,national,regional_csv
+Cellphones,SGP,Singapore,-,1975,2002,2002,pre_saturation,national,regional_csv
+Television,VNM,Vietnam,-,1976,1999,1999,pre_saturation,national,regional_csv
+Household Internet Access,USA,United States,%,1993,2016,2016,pre_saturation,national,regional_csv
+Television,MMR,Burma,-,1980,2002,2002,pre_saturation,national,regional_csv
+Onshore Wind Energy,NPL,Nepal,MW,2000,2019,2022,saturating,national,regional_csv
+Onshore Wind Energy,ISL,Iceland,MW,2000,2014,2016,saturating,national,regional_csv
+Onshore Wind Energy,HUN,Hungary,MW,2000,2011,2022,saturating,national,regional_csv
+Onshore Wind Energy,HND,Honduras,MW,2000,2019,2022,saturating,national,regional_csv
+Onshore Wind Energy,HTI,Haiti,MW,2000,2018,2022,saturating,national,regional_csv
+Onshore Wind Energy,GUY,Guyana,MW,2000,2015,2022,saturating,national,regional_csv
+Onshore Wind Energy,WSM,Samoa,MW,2000,2014,2022,saturating,national,regional_csv
+Onshore Wind Energy,SAU,Saudi Arabia,MW,2000,2019,2022,saturating,national,regional_csv
+Onshore Wind Energy,SEN,Senegal,MW,2000,2020,2022,saturating,national,regional_csv
+Onshore Wind Energy,GTM,Guatemala,MW,2000,2018,2022,saturating,national,regional_csv
+Onshore Wind Energy,GUM,Guam,MW,2000,2016,2022,saturating,national,regional_csv
+Onshore Wind Energy,PER,Peru,MW,2000,2020,2022,saturating,national,regional_csv
+Onshore Wind Energy,IND,India,MW,2000,2022,2022,pre_saturation,national,regional_csv
+Onshore Wind Energy,PHL,Philippines,MW,2000,2019,2022,saturating,national,regional_csv
+Onshore Wind Energy,POL,Poland,MW,2000,2022,2022,pre_saturation,national,regional_csv
+Onshore Wind Energy,PRT,Portugal,MW,2000,2022,2022,pre_saturation,national,regional_csv
+Onshore Wind Energy,PRI,Puerto Rico,MW,2000,2015,2022,saturating,national,regional_csv
+Onshore Wind Energy,KOR,Republic of Korea,MW,2000,2022,2022,pre_saturation,national,regional_csv
+Onshore Wind Energy,MDA,Republic of Moldova,MW,2000,2022,2022,pre_saturation,national,regional_csv
+Onshore Wind Energy,REU,Réunion,MW,2000,2016,2022,saturating,national,regional_csv
+Onshore Wind Energy,ROU,Romania,MW,2000,2014,2022,pre_saturation,national,regional_csv
+Onshore Wind Energy,RUS,Russian Federation,MW,2000,2022,2022,pre_saturation,national,regional_csv
+Onshore Wind Energy,IRN,Iran (Islamic Republic of),MW,2000,2022,2022,pre_saturation,national,regional_csv
+Onshore Wind Energy,KNA,Saint Kitts and Nevis,MW,2000,2010,2022,saturating,national,regional_csv
+Onshore Wind Energy,IDN,Indonesia,MW,2000,2019,2022,saturating,national,regional_csv
+Onshore Wind Energy,GLP,Guadeloupe,MW,2000,2021,2022,pre_saturation,national,regional_csv
+Onshore Wind Energy,SRB,Serbia,MW,2000,2019,2022,saturating,national,regional_csv
+Onshore Wind Energy,SYC,Seychelles,MW,2000,2013,2022,saturating,national,regional_csv
+Onshore Wind Energy,LKA,Sri Lanka,MW,2000,2021,2022,pre_saturation,national,regional_csv
+Onshore Wind Energy,SWE,Sweden,MW,2000,2022,2022,pre_saturation,national,regional_csv
+Onshore Wind Energy,CHE,Switzerland,MW,2000,2020,2022,saturating,national,regional_csv
+Onshore Wind Energy,THA,Thailand,MW,2000,2021,2022,pre_saturation,national,regional_csv
+Onshore Wind Energy,FRA,France,MW,2000,2022,2022,pre_saturation,national,regional_csv
+Onshore Wind Energy,FIN,Finland,MW,2000,2022,2022,pre_saturation,national,regional_csv
+Onshore Wind Energy,ESP,Spain,MW,2000,2022,2022,pre_saturation,national,regional_csv
+Onshore Wind Energy,GRL,Greenland,MW,2000,2018,2022,saturating,national,regional_csv
+Onshore Wind Energy,SGP,Singapore,MW,2000,2017,2022,saturating,national,regional_csv
+Onshore Wind Energy,GRC,Greece,MW,2000,2022,2022,pre_saturation,national,regional_csv
+Onshore Wind Energy,GHA,Ghana,MW,2000,2015,2022,saturating,national,regional_csv
+Onshore Wind Energy,DEU,Germany,MW,2000,2022,2022,pre_saturation,national,regional_csv
+Onshore Wind Energy,ZAF,South Africa,MW,2000,2022,2022,pre_saturation,national,regional_csv
+Onshore Wind Energy,GEO,Georgia,MW,2000,2022,2022,pre_saturation,national,regional_csv
+Onshore Wind Energy,SVN,Slovenia,MW,2000,2021,2022,pre_saturation,national,regional_csv
+Onshore Wind Energy,GMB,Gambia,MW,2000,2014,2022,saturating,national,regional_csv
+Onshore Wind Energy,MRT,Mauritania,MW,2000,2015,2022,saturating,national,regional_csv
+Onshore Wind Energy,MLT,Malta,MW,2000,2012,2014,saturating,national,regional_csv
+Onshore Wind Energy,MDG,Madagascar,MW,2000,2011,2022,saturating,national,regional_csv
+Onshore Wind Energy,LUX,Luxembourg,MW,2000,2022,2022,pre_saturation,national,regional_csv
+Onshore Wind Energy,NLD,Netherlands (Kingdom of the),MW,2000,2022,2022,pre_saturation,national,regional_csv
+Onshore Wind Energy,LTU,Lithuania,MW,2000,2022,2022,pre_saturation,national,regional_csv
+Onshore Wind Energy,MTQ,Martinique,MW,2000,2020,2022,pre_saturation,national,regional_csv
+Onshore Wind Energy,MUS,Mauritius,MW,2000,2016,2022,saturating,national,regional_csv
+Onshore Wind Energy,MMR,Myanmar,MW,2000,2017,2022,saturating,national,regional_csv
+Onshore Wind Energy,MAR,Morocco,MW,2000,2022,2022,pre_saturation,national,regional_csv
+Onshore Wind Energy,MNE,Montenegro,MW,2000,2019,2022,saturating,national,regional_csv
+Onshore Wind Energy,MNG,Mongolia,MW,2000,2018,2022,saturating,national,regional_csv
+Onshore Wind Energy,FSM,Micronesia (Federated States of),MW,2000,2018,2022,saturating,national,regional_csv
+Onshore Wind Energy,MEX,Mexico,MW,2000,2022,2022,pre_saturation,national,regional_csv
+Onshore Wind Energy,NIC,Nicaragua,MW,2000,2014,2022,saturating,national,regional_csv
+Onshore Wind Energy,JPN,Japan,MW,2000,2022,2022,pre_saturation,national,regional_csv
+Onshore Wind Energy,JAM,Jamaica,MW,2000,2016,2022,saturating,national,regional_csv
+Onshore Wind Energy,MKD,North Macedonia,MW,2000,2014,2022,saturating,national,regional_csv
+Onshore Wind Energy,NOR,Norway,MW,2000,2022,2022,pre_saturation,national,regional_csv
+Onshore Wind Energy,OMN,Oman,MW,2000,2019,2022,saturating,national,regional_csv
+Onshore Wind Energy,PAK,Pakistan,MW,2000,2022,2022,pre_saturation,national,regional_csv
+Onshore Wind Energy,ITA,Italy,MW,2000,2022,2022,pre_saturation,national,regional_csv
+Onshore Wind Energy,ISR,Israel,MW,2000,2016,2022,saturating,national,regional_csv
+Onshore Wind Energy,IRL,Ireland,MW,2000,2022,2022,pre_saturation,national,regional_csv
+Onshore Wind Energy,PAN,Panama,MW,2000,2016,2022,saturating,national,regional_csv
+Onshore Wind Energy,JOR,Jordan,MW,2000,2021,2022,pre_saturation,national,regional_csv
+Onshore Wind Energy,KAZ,Kazakhstan,MW,2000,2022,2022,pre_saturation,national,regional_csv
+Onshore Wind Energy,LVA,Latvia,MW,2000,2022,2022,pre_saturation,national,regional_csv
+Onshore Wind Energy,NCL,New Caledonia,MW,2000,2011,2022,saturating,national,regional_csv
+Onshore Wind Energy,LBN,Lebanon,MW,2000,2014,2022,saturating,national,regional_csv
+Onshore Wind Energy,KEN,Kenya,MW,2000,2021,2022,pre_saturation,national,regional_csv
+Onshore Wind Energy,KWT,Kuwait,MW,2000,2017,2022,saturating,national,regional_csv
+Onshore Wind Energy,NZL,New Zealand,MW,2000,2021,2022,pre_saturation,national,regional_csv
+Onshore Wind Energy,SOM,Somalia,MW,2000,2017,2022,saturating,national,regional_csv
+Onshore Wind Energy,TKL,Tokelau,MW,2000,2019,2022,saturating,national,regional_csv
+Telephones,YEM,Yemen,-,1980,2002,2002,pre_saturation,national,regional_csv
+Onshore Wind Energy,BRB,Barbados,MW,2000,2022,2022,pre_saturation,national,regional_csv
+Onshore Wind Energy,BLR,Belarus,MW,2000,2019,2022,saturating,national,regional_csv
+Onshore Wind Energy,BEL,Belgium,MW,2000,2022,2022,pre_saturation,national,regional_csv
+Onshore Wind Energy,BTN,Bhutan,MW,2000,2015,2022,saturating,national,regional_csv
+Onshore Wind Energy,BOL,Bolivia (Plurinational State of),MW,2000,2022,2022,pre_saturation,national,regional_csv
+Onshore Wind Energy,BES,"Bonaire, Sint Eustatius and Saba",MW,2000,2013,2022,saturating,national,regional_csv
+Onshore Wind Energy,BIH,Bosnia and Herzegovina,MW,2000,2021,2022,pre_saturation,national,regional_csv
+Onshore Wind Energy,BRA,Brazil,MW,2000,2022,2022,pre_saturation,national,regional_csv
+Onshore Wind Energy,VGB,British Virgin Islands,MW,2000,2019,2022,saturating,national,regional_csv
+Onshore Wind Energy,BGR,Bulgaria,MW,2000,2021,2022,pre_saturation,national,regional_csv
+Onshore Wind Energy,CPV,Cabo Verde,MW,2000,2018,2022,saturating,national,regional_csv
+Onshore Wind Energy,KHM,Cambodia,MW,2000,2009,2022,saturating,national,regional_csv
+Onshore Wind Energy,CAN,Canada,MW,2000,2022,2022,pre_saturation,national,regional_csv
+Onshore Wind Energy,AFG,Afghanistan,MW,2000,2017,2022,saturating,national,regional_csv
+Onshore Wind Energy,DZA,Algeria,MW,2000,2014,2022,saturating,national,regional_csv
+Onshore Wind Energy,ATG,Antigua and Barbuda,MW,2000,2020,2022,saturating,national,regional_csv
+Onshore Wind Energy,ARG,Argentina,MW,2000,2022,2022,pre_saturation,national,regional_csv
+Onshore Wind Energy,ARM,Armenia,MW,2000,2016,2022,saturating,national,regional_csv
+Onshore Wind Energy,ABW,Aruba,MW,2000,2009,2022,saturating,national,regional_csv
+Onshore Wind Energy,AUS,Australia,MW,2000,2022,2022,pre_saturation,national,regional_csv
+Onshore Wind Energy,AUT,Austria,MW,2000,2022,2022,pre_saturation,national,regional_csv
+Onshore Wind Energy,AZE,Azerbaijan,MW,2000,2018,2022,saturating,national,regional_csv
+Onshore Wind Energy,BHR,Bahrain,MW,2000,2022,2022,pre_saturation,national,regional_csv
+Onshore Wind Energy,BGD,Bangladesh,MW,2000,2015,2022,saturating,national,regional_csv
+Onshore Wind Energy,TON,Tonga,MW,2000,2019,2022,saturating,national,regional_csv
+Onshore Wind Energy,GBR,United Kingdom of Great Britain and Northern Ireland,MW,2000,2022,2022,pre_saturation,national,regional_csv
+Onshore Wind Energy,EST,Estonia,MW,2000,2020,2022,saturating,national,regional_csv
+Onshore Wind Energy,VNM,Viet Nam,MW,2000,2022,2022,pre_saturation,national,regional_csv
+Onshore Wind Energy,VEN,Venezuela (Bolivarian Republic of),MW,2000,2013,2022,saturating,national,regional_csv
+Onshore Wind Energy,VUT,Vanuatu,MW,2000,2014,2016,saturating,national,regional_csv
+Onshore Wind Energy,UZB,Uzbekistan,MW,2000,2017,2022,saturating,national,regional_csv
+Onshore Wind Energy,URY,Uruguay,MW,2000,2019,2022,saturating,national,regional_csv
+Onshore Wind Energy,VIR,United States Virgin Islands,MW,2000,2013,2022,saturating,national,regional_csv
+Onshore Wind Energy,USA,United States of America,MW,2000,2022,2022,pre_saturation,national,regional_csv
+Onshore Wind Energy,TZA,United Republic of Tanzania,MW,2000,2020,2022,saturating,national,regional_csv
+Onshore Wind Energy,ETH,Ethiopia,MW,2000,2022,2022,pre_saturation,national,regional_csv
+Onshore Wind Energy,ARE,United Arab Emirates,MW,2000,2014,2022,pre_saturation,national,regional_csv
+Onshore Wind Energy,UKR,Ukraine,MW,2000,2021,2022,pre_saturation,national,regional_csv
+Onshore Wind Energy,FLK,Falkland Islands (Malvinas),MW,2000,2019,2022,saturating,national,regional_csv
+Onshore Wind Energy,TUR,Türkiye,MW,2000,2022,2022,pre_saturation,national,regional_csv
+Onshore Wind Energy,TUN,Tunisia,MW,2000,2018,2022,saturating,national,regional_csv
+Onshore Wind Energy,FRO,Faroe Islands,MW,2000,2021,2022,pre_saturation,national,regional_csv
+Onshore Wind Energy,TTO,Trinidad and Tobago,MW,2000,2015,2022,saturating,national,regional_csv
+Onshore Wind Energy,SLV,El Salvador,MW,2000,2021,2022,pre_saturation,national,regional_csv
+Onshore Wind Energy,CUW,Curaçao,MW,2000,2017,2022,saturating,national,regional_csv
+Onshore Wind Energy,CUB,Cuba,MW,2000,2011,2022,saturating,national,regional_csv
+Onshore Wind Energy,HRV,Croatia,MW,2000,2022,2022,pre_saturation,national,regional_csv
+Onshore Wind Energy,CRI,Costa Rica,MW,2000,2019,2021,saturating,national,regional_csv
+Onshore Wind Energy,CZE,Czechia,MW,2000,2020,2022,saturating,national,regional_csv
+Onshore Wind Energy,TWN,Chinese Taipei,MW,2000,2022,2022,pre_saturation,national,regional_csv
+Onshore Wind Energy,HKG,"China, Hong Kong Special Administrative Region",MW,2000,2017,2022,saturating,national,regional_csv
+Onshore Wind Energy,CHN,China,MW,2000,2022,2022,pre_saturation,national,regional_csv
+Onshore Wind Energy,CHL,Chile,MW,2000,2022,2022,pre_saturation,national,regional_csv
+Onshore Wind Energy,CYP,Cyprus,MW,2000,2015,2022,saturating,national,regional_csv
+Onshore Wind Energy,TCD,Chad,MW,2000,2016,2022,saturating,national,regional_csv
+Onshore Wind Energy,DMA,Dominica,MW,2000,2010,2022,saturating,national,regional_csv
+Onshore Wind Energy,DJI,Djibouti,MW,2000,2021,2022,pre_saturation,national,regional_csv
+Onshore Wind Energy,PRK,Democratic People's Republic of Korea,MW,2000,2017,2022,saturating,national,regional_csv
+Onshore Wind Energy,DNK,Denmark,MW,2000,2022,2022,pre_saturation,national,regional_csv
+Onshore Wind Energy,ECU,Ecuador,MW,2000,2014,2022,saturating,national,regional_csv
+Onshore Wind Energy,EGY,Egypt,MW,2000,2022,2022,pre_saturation,national,regional_csv
+Onshore Wind Energy,DOM,Dominican Republic,MW,2000,2022,2022,pre_saturation,national,regional_csv
+Solar Photovoltaic,GBR,United Kingdom of Great Britain and Northern Ireland,MW,2000,2021,2021,pre_saturation,national,regional_csv
+Solar Photovoltaic,USA,United States of America,MW,2000,2021,2021,pre_saturation,national,regional_csv
+Passenger Cars,LSO,Lesotho,-,1970,1986,1991,pre_saturation,national,regional_csv
+Geothermal Energy,JPN,Japan,MW,2000,2010,2013,saturating,national,regional_csv
+Geothermal Energy,ITA,Italy,MW,2000,2021,2021,pre_saturation,national,regional_csv
+Geothermal Energy,IDN,Indonesia,MW,2000,2021,2021,pre_saturation,national,regional_csv
+Geothermal Energy,ISL,Iceland,MW,2000,2020,2021,pre_saturation,national,regional_csv
+Telephones,SOM,Somalia,-,1981,2002,2002,pre_saturation,national,regional_csv
+Geothermal Energy,CRI,Costa Rica,MW,2000,2019,2021,saturating,national,regional_csv
+Television,LKA,Sri Lanka,-,1979,2001,2001,pre_saturation,national,regional_csv
+Geothermal Energy,KEN,Kenya,MW,2000,2020,2021,pre_saturation,national,regional_csv
+Geothermal Energy,USA,United States of America,MW,2000,2021,2021,pre_saturation,national,regional_csv
+Geothermal Energy,TUR,Türkiye,MW,2000,2021,2021,pre_saturation,national,regional_csv
+Geothermal Energy,PRT,Portugal,MW,2000,2017,2021,saturating,national,regional_csv
+Geothermal Energy,PHL,Philippines,MW,2000,2018,2021,saturating,national,regional_csv
+Geothermal Energy,NIC,Nicaragua,MW,2000,2012,2021,pre_saturation,national,regional_csv
+Geothermal Energy,NZL,New Zealand,MW,2000,2020,2021,pre_saturation,national,regional_csv
+Geothermal Energy,MEX,Mexico,MW,2000,2021,2021,pre_saturation,national,regional_csv
+Telephones,GNQ,Equatorial Guinea,-,1981,2002,2002,pre_saturation,national,regional_csv
+Television,GIN,Guinea,-,1978,1999,1999,pre_saturation,national,regional_csv
+Telephones,GNB,Guinea-Bissau,-,1981,2002,2002,pre_saturation,national,regional_csv
+Offshore Wind Energy,SWE,Sweden,MW,2000,2014,2021,saturating,national,regional_csv
+Offshore Wind Energy,DNK,Denmark,MW,2000,2021,2021,pre_saturation,national,regional_csv
+Solar Photovoltaic,SVN,Slovenia,MW,2000,2020,2021,pre_saturation,national,regional_csv
+Solar Thermal Energy,USA,United States of America,MW,2000,2015,2020,saturating,national,regional_csv
+Solar Photovoltaic,SAU,Saudi Arabia,MW,2000,2021,2021,pre_saturation,national,regional_csv
+Solar Photovoltaic,JPN,Japan,MW,2000,2021,2021,pre_saturation,national,regional_csv
+Solar Photovoltaic,ESP,Spain,MW,2000,2021,2021,pre_saturation,national,regional_csv
+Solar Photovoltaic,ITA,Italy,MW,2000,2021,2021,pre_saturation,national,regional_csv
+Solar Photovoltaic,LKA,Sri Lanka,MW,2000,2021,2021,pre_saturation,national,regional_csv
+Solar Photovoltaic,DEU,Germany,MW,2000,2021,2021,pre_saturation,national,regional_csv
+Solar Photovoltaic,NOR,Norway,MW,2000,2021,2021,pre_saturation,national,regional_csv
+Solar Photovoltaic,CHE,Switzerland,MW,2000,2021,2021,pre_saturation,national,regional_csv
+Marine Energy,GBR,United Kingdom of Great Britain and Northern Ireland,MW,2000,2020,2021,pre_saturation,national,regional_csv
+Solar Photovoltaic,NLD,Netherlands,MW,2000,2021,2021,pre_saturation,national,regional_csv
+Solar Photovoltaic,FSM,Micronesia (Federated States of),MW,2000,2018,2021,saturating,national,regional_csv
+Solar Photovoltaic,PRT,Portugal,MW,2000,2021,2021,pre_saturation,national,regional_csv
+Solar Photovoltaic,KOR,Republic of Korea,MW,2000,2021,2021,pre_saturation,national,regional_csv
+Solar Photovoltaic,TTO,Trinidad and Tobago,MW,2000,2015,2021,saturating,national,regional_csv
+Marine Energy,CHN,China,MW,2000,2020,2021,pre_saturation,national,regional_csv
+Solar Photovoltaic,MEX,Mexico,MW,2000,2021,2021,pre_saturation,national,regional_csv
+Solar Photovoltaic,TUR,Türkiye,MW,2000,2021,2021,pre_saturation,national,regional_csv
+Solar Photovoltaic,AUS,Australia,MW,2000,2021,2021,pre_saturation,national,regional_csv
+Offshore Wind Energy,GBR,United Kingdom of Great Britain and Northern Ireland,MW,2000,2021,2021,pre_saturation,national,regional_csv
+Solar Photovoltaic,AUT,Austria,MW,2000,2021,2021,pre_saturation,national,regional_csv
+Solar Photovoltaic,CZE,Czechia,MW,2000,2020,2021,pre_saturation,national,regional_csv
+Solar Photovoltaic,FRA,France,MW,2000,2021,2021,pre_saturation,national,regional_csv
+Solar Photovoltaic,FIN,Finland,MW,2000,2021,2021,pre_saturation,national,regional_csv
+Solar Photovoltaic,DMA,Dominica,MW,2000,2016,2021,pre_saturation,national,regional_csv
+Solar Photovoltaic,DNK,Denmark,MW,2000,2021,2021,pre_saturation,national,regional_csv
+Solar Photovoltaic,SWE,Sweden,MW,2000,2021,2021,pre_saturation,national,regional_csv
+Solar Photovoltaic,CAN,Canada,MW,2000,2021,2021,pre_saturation,national,regional_csv
+Solar Photovoltaic,CRI,Costa Rica,MW,2000,2021,2021,pre_saturation,national,regional_csv
+Solar Photovoltaic,KHM,Cambodia,MW,2000,2021,2021,pre_saturation,national,regional_csv
+Marine Energy,FRA,France,MW,2000,2016,2021,saturating,national,regional_csv
+Solar Photovoltaic,CHN,China,MW,2000,2021,2021,pre_saturation,national,regional_csv
+Solar Photovoltaic,TWN,Chinese Taipei,MW,2000,2021,2021,pre_saturation,national,regional_csv
+Solar Photovoltaic,COK,Cook Islands,MW,2000,2016,2021,saturating,national,regional_csv
+Telephones,LBY,Libya,-,1981,2001,2001,pre_saturation,national,regional_csv
+Cellphones,ARE,United Arab Emirates,-,1982,2002,2002,pre_saturation,national,regional_csv
+Solar Photovoltaic,JAM,Jamaica,MW,2001,2019,2021,saturating,national,regional_csv
+Solar Photovoltaic,BRB,Barbados,MW,2001,2020,2021,pre_saturation,national,regional_csv
+Telephones,LBR,Liberia,-,1981,1990,2001,pre_saturation,national,regional_csv
+Solar Photovoltaic,BRA,Brazil,MW,2001,2021,2021,pre_saturation,national,regional_csv
+Solar Photovoltaic,GRC,Greece,MW,2001,2021,2021,pre_saturation,national,regional_csv
+Solar Photovoltaic,LUX,Luxembourg,MW,2001,2021,2021,pre_saturation,national,regional_csv
+Solar Photovoltaic,ALB,Albania,MW,2001,2021,2021,pre_saturation,national,regional_csv
+Geothermal Energy,AUS,Australia,MW,2000,2019,2021,saturating,national,regional_csv
+Solar Photovoltaic,BEL,Belgium,MW,2002,2021,2021,pre_saturation,national,regional_csv
+Television,LTU,Lithuania,-,1983,2002,2002,pre_saturation,national,regional_csv
+Telephones,MKD,Macedonia,-,1983,2002,2002,pre_saturation,national,regional_csv
+Air-Source Heat Pumps,USA,United States,-,2003,2022,2022,pre_saturation,national,regional_csv
+Television,GEO,Georgia,-,1983,1998,2002,pre_saturation,national,regional_csv
+Television,MLI,Mali,-,1983,2002,2002,pre_saturation,national,regional_csv
+Television,LVA,Latvia,-,1983,2002,2002,pre_saturation,national,regional_csv
+Television,EST,Estonia,-,1983,2002,2002,pre_saturation,national,regional_csv
+Television,AZE,Azerbaijan,-,1983,2002,2002,pre_saturation,national,regional_csv
+Television,KAZ,Kazakhstan,-,1983,2001,2001,pre_saturation,national,regional_csv
+Disk Brakes,USA,United States,%,1966,1979,1984,saturating,national,regional_csv
+Television,UZB,Uzbekistan,-,1983,2001,2001,pre_saturation,national,regional_csv
+Television,TKM,Turkmenistan,-,1983,2000,2001,pre_saturation,national,regional_csv
+Solar Photovoltaic,BIH,Bosnia and Herzegovina,MW,2003,2021,2021,pre_saturation,national,regional_csv
+Offshore Wind Energy,JPN,Japan,MW,2003,2017,2021,saturating,national,regional_csv
+Television,MDA,Moldova,-,1983,1996,2001,saturating,national,regional_csv
+Geothermal Energy,CHN,China,MW,2000,2011,2018,saturating,national,regional_csv
+Television,TJK,Tajikistan,-,1983,2001,2001,pre_saturation,national,regional_csv
+Television,UKR,Ukraine,-,1975,2000,2000,pre_saturation,national,regional_csv
+Radio,BLZ,Belize,-,1981,1999,1999,pre_saturation,national,regional_csv
+Solar Photovoltaic,CYP,Cyprus,MW,2004,2021,2021,pre_saturation,national,regional_csv
+Solar Photovoltaic,PYF,French Polynesia,MW,2004,2019,2021,saturating,national,regional_csv
+Television,BDI,Burundi,-,1985,2002,2002,pre_saturation,national,regional_csv
+Solar Photovoltaic,IRN,Iran (Islamic Republic of),MW,2004,2021,2021,pre_saturation,national,regional_csv
+Television,LSO,Lesotho,-,1985,2002,2002,pre_saturation,national,regional_csv
+Geothermal Energy,DEU,Germany,MW,2004,2019,2021,saturating,national,regional_csv
+Solar Photovoltaic,REU,Réunion,MW,2004,2021,2021,pre_saturation,national,regional_csv
+Solar Photovoltaic,PHL,Philippines,MW,2004,2021,2021,pre_saturation,national,regional_csv
+Solar Photovoltaic,MLT,Malta,MW,2005,2021,2021,pre_saturation,national,regional_csv
+Solar Photovoltaic,ISR,Israel,MW,2005,2021,2021,pre_saturation,national,regional_csv
+Solar Photovoltaic,IND,India,MW,2005,2021,2021,pre_saturation,national,regional_csv
+Television,BLZ,Belize,-,1985,2001,2001,pre_saturation,national,regional_csv
+Latent Heat Storage,USA,United States,kWh,1991,2017,2017,pre_saturation,national,regional_csv
+Microwaves,USA,United States,%,1975,2010,2016,saturating,national,regional_csv
+Television,MRT,Mauritania,-,1983,1999,1999,pre_saturation,national,regional_csv
+Latent Heat Storage,USA,United States,kW,1991,2017,2017,pre_saturation,national,regional_csv
+Solar Photovoltaic,SRB,Serbia,MW,2005,2021,2021,pre_saturation,national,regional_csv
+Solar Photovoltaic,NCL,New Caledonia,MW,2005,2021,2021,pre_saturation,national,regional_csv
+Television,NPL,Nepal,-,1985,2001,2001,pre_saturation,national,regional_csv
+Solar Photovoltaic,PLW,Palau,MW,2005,2018,2021,saturating,national,regional_csv
+Solar Photovoltaic,GLP,Guadeloupe,MW,2005,2021,2021,pre_saturation,national,regional_csv
+Nox Pollution Controls (Boilers),USA,United States,%,1990,2005,2005,pre_saturation,national,regional_csv
+Television,LAO,Laos,-,1984,1999,1999,pre_saturation,national,regional_csv
+Offshore Wind Energy,NLD,Netherlands,MW,2006,2021,2021,pre_saturation,national,regional_csv
+Telephones,KHM,Cambodia,-,1987,2002,2002,pre_saturation,national,regional_csv
+Solar Photovoltaic,NRU,Nauru,MW,2006,2019,2021,saturating,national,regional_csv
+Solar Photovoltaic,MNE,Montenegro,MW,2006,2021,2021,pre_saturation,national,regional_csv
+Solar Photovoltaic,THA,Thailand,MW,2006,2021,2021,pre_saturation,national,regional_csv
+Solar Photovoltaic,MTQ,Martinique,MW,2006,2021,2021,pre_saturation,national,regional_csv
+Solar Photovoltaic,BHS,Bahamas,MW,2007,2019,2021,saturating,national,regional_csv
+Television,BWA,Botswana,-,1987,2001,2001,pre_saturation,national,regional_csv
+Solar Photovoltaic,HUN,Hungary,MW,2007,2020,2021,pre_saturation,national,regional_csv
+Television,CMR,Cameroon,-,1987,2001,2001,pre_saturation,national,regional_csv
+Television,PNG,Papua New Guinea,-,1987,2001,2001,pre_saturation,national,regional_csv
+Lead-Acid Battery Storage,USA,United States,kWh,1987,2016,2016,pre_saturation,national,regional_csv
+Television,GUY,Guyana,-,1987,2001,2001,pre_saturation,national,regional_csv
+Solar Photovoltaic,AZE,Azerbaijan,MW,2007,2021,2021,pre_saturation,national,regional_csv
+Lead-Acid Battery Storage,USA,United States,kW,1987,2016,2016,pre_saturation,national,regional_csv
+Offshore Wind Energy,CHN,China,MW,2007,2021,2021,pre_saturation,national,regional_csv
+Ethanol,World,World,million pounds,1958,1969,1972,pre_saturation,global,regional_csv
+Solar Photovoltaic,BGR,Bulgaria,MW,2007,2021,2021,pre_saturation,national,regional_csv
+Passenger Cars,CHN,China,-,1978,1997,1997,pre_saturation,national,regional_csv
+Solar Photovoltaic,NZL,New Zealand,MW,2007,2021,2021,pre_saturation,national,regional_csv
+Solar Photovoltaic,MYS,Malaysia,MW,2007,2021,2021,pre_saturation,national,regional_csv
+Steamships,SWE,Sweden,-,1865,1878,1879,pre_saturation,national,regional_csv
+Solar Photovoltaic,RWA,Rwanda,MW,2007,2017,2021,saturating,national,regional_csv
+Social Media Usage,USA,United States,%,2005,2017,2019,saturating,national,regional_csv
+Solar Photovoltaic,MAR,Morocco,MW,2007,2021,2021,pre_saturation,national,regional_csv
+Solar Photovoltaic,PAK,Pakistan,MW,2007,2021,2021,pre_saturation,national,regional_csv
+Solar Photovoltaic,LTU,Lithuania,MW,2008,2021,2021,pre_saturation,national,regional_csv
+Solar Photovoltaic,SGP,Singapore,MW,2008,2021,2021,pre_saturation,national,regional_csv
+Offshore Wind Energy,FIN,Finland,MW,2008,2019,2021,saturating,national,regional_csv
+Solar Photovoltaic,GRD,Grenada,MW,2008,2020,2021,pre_saturation,national,regional_csv
+Solar Photovoltaic,MYT,Mayotte,MW,2008,2020,2021,pre_saturation,national,regional_csv
+Solar Photovoltaic,GUF,French Guiana,MW,2008,2020,2021,pre_saturation,national,regional_csv
+Telephones,SVN,Slovenia,-,1985,2002,2002,pre_saturation,national,regional_csv
+Electric Bicycles,CHN,China,MW,1997,2010,2010,pre_saturation,national,regional_csv
+Solar Thermal Energy,ISR,Israel,MW,2008,2019,2021,saturating,national,regional_csv
+Solar Photovoltaic,ROU,Romania,MW,2008,2019,2021,saturating,national,regional_csv
+Compact Fluorescent Light Bulbs,World,World,MW,1990,2003,2003,pre_saturation,global,regional_csv
+Solar Photovoltaic,TUV,Tuvalu,MW,2008,2020,2021,pre_saturation,national,regional_csv
+Cellphones,SAU,Saudi Arabia,-,1990,2002,2002,pre_saturation,national,regional_csv
+Offshore Wind Energy,DEU,Germany,MW,2009,2020,2021,pre_saturation,national,regional_csv
+Solar Photovoltaic,HRV,Croatia,MW,2009,2020,2021,pre_saturation,national,regional_csv
+Offshore Wind Energy,NOR,Norway,MW,2009,2021,2021,pre_saturation,national,regional_csv
+Radial Tires,USA,United States,%,1972,1983,1984,pre_saturation,national,regional_csv
+Television,SVN,Slovenia,-,1990,2000,2002,saturating,national,regional_csv
+Solar Photovoltaic,ARE,United Arab Emirates,MW,2009,2021,2021,pre_saturation,national,regional_csv
+Solar Photovoltaic,PRI,Puerto Rico,MW,2009,2021,2021,pre_saturation,national,regional_csv
+Marine Energy,KOR,Republic of Korea,MW,2009,2019,2021,saturating,national,regional_csv
+Solar Photovoltaic,NIU,Niue,MW,2009,2019,2021,saturating,national,regional_csv
+Offshore Wind Energy,BEL,Belgium,MW,2009,2020,2021,pre_saturation,national,regional_csv
+Solar Photovoltaic,LCA,Saint Lucia,MW,2009,2018,2021,saturating,national,regional_csv
+Solar Photovoltaic,ATG,Antigua and Barbuda,MW,2009,2020,2021,pre_saturation,national,regional_csv
+Solar Photovoltaic,GUM,Guam,MW,2009,2018,2021,saturating,national,regional_csv
+Solar Photovoltaic,EST,Estonia,MW,2009,2021,2021,pre_saturation,national,regional_csv
+Desalination Capacity,World,World,Million cubic meters per day,1960,2020,2020,pre_saturation,global,regional_csv
+Cellphones,ISR,Israel,-,1990,2002,2002,pre_saturation,national,regional_csv
+Television,GMB,Gambia,-,1987,1999,1999,pre_saturation,national,regional_csv
+Television,CZE,Czech Republic,-,1990,2001,2001,pre_saturation,national,regional_csv
+Lithium-Ion Battery Storage,USA,United States,kW,2009,2020,2020,pre_saturation,national,regional_csv
+Lithium-Ion Battery Storage,USA,United States,kWh,2009,2020,2020,pre_saturation,national,regional_csv
+Passenger Cars,AZE,Azerbaijan,-,1990,2001,2001,pre_saturation,national,regional_csv
+Solar Photovoltaic,BHR,Bahrain,MW,2010,2021,2021,pre_saturation,national,regional_csv
+Solar Photovoltaic,SVK,Slovakia,MW,2010,2019,2021,pre_saturation,national,regional_csv
+Solar Photovoltaic,ZAF,South Africa,MW,2010,2021,2021,pre_saturation,national,regional_csv
+Solar Photovoltaic,IDN,Indonesia,MW,2010,2021,2021,pre_saturation,national,regional_csv
+Solar Photovoltaic,LBN,Lebanon,MW,2010,2019,2021,saturating,national,regional_csv
+Solar Photovoltaic,MKD,Republic of North Macedonia,MW,2010,2020,2021,pre_saturation,national,regional_csv
+Solar Photovoltaic,RUS,Russian Federation,MW,2010,2021,2021,pre_saturation,national,regional_csv
+Passenger Cars,ALB,Albania,-,1990,2001,2001,pre_saturation,national,regional_csv
+Solar Photovoltaic,TUN,Tunisia,MW,2010,2020,2021,pre_saturation,national,regional_csv
+Solar Photovoltaic,UKR,Ukraine,MW,2010,2021,2021,pre_saturation,national,regional_csv
+Solar Photovoltaic,BRN,Brunei Darussalam,MW,2010,2021,2021,pre_saturation,national,regional_csv
+Solar Photovoltaic,NPL,Nepal,MW,2011,2021,2021,pre_saturation,national,regional_csv
+Television,HRV,Croatia,-,1990,2000,2000,pre_saturation,national,regional_csv
+Television,MKD,Macedonia,-,1990,2000,2000,pre_saturation,national,regional_csv
+Solar Photovoltaic,URY,Uruguay,MW,2011,2020,2021,pre_saturation,national,regional_csv
+Solar Photovoltaic,PSE,State of Palestine,MW,2011,2020,2021,pre_saturation,national,regional_csv
+Passenger Cars,SVN,Slovenia,-,1990,2000,2000,pre_saturation,national,regional_csv
+Passenger Cars,UKR,Ukraine,-,1990,2000,2000,pre_saturation,national,regional_csv
+Television,GNB,Guinea-Bissau,-,1989,1999,1999,pre_saturation,national,regional_csv
+Passenger Cars,LTU,Lithuania,-,1990,2000,2000,pre_saturation,national,regional_csv
+Passenger Cars,ISL,Iceland,-,1990,2000,2000,pre_saturation,national,regional_csv
+Passenger Cars,BLR,Belarus,-,1990,2000,2000,pre_saturation,national,regional_csv
+Passenger Cars,SVK,Slovak Republic,-,1990,2000,2000,pre_saturation,national,regional_csv
+Solar Photovoltaic,POL,Poland,MW,2011,2021,2021,pre_saturation,national,regional_csv
+Passenger Cars,EST,Estonia,-,1990,2000,2000,pre_saturation,national,regional_csv
+Passenger Cars,LVA,Latvia,-,1990,2000,2000,pre_saturation,national,regional_csv
+Sodium-Based Battery Storage,USA,United States,kWh,2002,2016,2016,pre_saturation,national,regional_csv
+Sodium-Based Battery Storage,USA,United States,kW,2002,2016,2016,pre_saturation,national,regional_csv
+Home Computers,USA,United States,%,1992,2016,2016,pre_saturation,national,regional_csv
+Solar Photovoltaic,KEN,Kenya,MW,2011,2021,2021,pre_saturation,national,regional_csv
+Solar Photovoltaic,DOM,Dominican Republic,MW,2011,2021,2021,pre_saturation,national,regional_csv
+Telephones,ERI,Eritrea,-,1992,2002,2002,pre_saturation,national,regional_csv
+Sodium-Based Battery Storage,JPN,Japan,kWh,1999,2016,2016,pre_saturation,national,regional_csv
+Flywheel Battery Storage,USA,United States,kWh,2006,2020,2020,pre_saturation,national,regional_csv
+Telephones,BIH,Bosnia-Herzegovina,-,1992,2002,2002,pre_saturation,national,regional_csv
+Sodium-Based Battery Storage,JPN,Japan,kW,1999,2016,2016,pre_saturation,national,regional_csv
+Solar Photovoltaic,ARG,Argentina,MW,2011,2021,2021,pre_saturation,national,regional_csv
+Flywheel Battery Storage,USA,United States,kW,2006,2020,2020,pre_saturation,national,regional_csv
+Podcasting,USA,United States,%,2006,2015,2015,pre_saturation,national,regional_csv
+Passenger Cars,MDA,Moldova,-,1990,1999,1999,pre_saturation,national,regional_csv
+Crop Harvester,EST,Estonia,-,1992,2001,2001,pre_saturation,national,regional_csv
+Ebook Reader,USA,United States,%,2009,2018,2018,pre_saturation,national,regional_csv
+Solar Photovoltaic,CHL,Chile,MW,2012,2021,2021,pre_saturation,national,regional_csv
+Television,BIH,Bosnia-Herzegovina,-,1991,2000,2000,pre_saturation,national,regional_csv
+Television,ERI,Eritrea,-,1993,2002,2002,pre_saturation,national,regional_csv
+Solar Photovoltaic,TGO,Togo,MW,2012,2021,2021,pre_saturation,national,regional_csv
+Solar Photovoltaic,CUB,Cuba,MW,2012,2021,2021,pre_saturation,national,regional_csv
+Solar Photovoltaic,PER,Peru,MW,2012,2021,2021,pre_saturation,national,regional_csv
+Solar Photovoltaic,BGD,Bangladesh,MW,2012,2021,2021,pre_saturation,national,regional_csv
+Solar Thermal Energy,CHN,China,MW,2012,2021,2021,pre_saturation,national,regional_csv
+Passenger Cars,RUS,Russia,-,1991,2000,2000,pre_saturation,national,regional_csv
+Solar Photovoltaic,LVA,Latvia,MW,2012,2021,2021,pre_saturation,national,regional_csv
+Hydro Power,World,World,MW,1882,2017,2017,pre_saturation,global,world_csv
+Jet Aircrafts,World,World,MW,1958,2007,2007,pre_saturation,global,world_csv
+Passenger Cars,World,World,MW,1901,2005,2005,pre_saturation,global,world_csv
+Compact Flourescent Lightbulbs,World,World,MW,1990,2003,2003,pre_saturation,global,world_csv
+Bicycles,World,World,MW,1862,2007,2007,pre_saturation,global,world_csv
+Electric Bicycles,World,World,MW,1997,2010,2010,pre_saturation,global,world_csv
+Motorcycles,World,World,MW,1900,2008,2008,pre_saturation,global,world_csv
+Cellphones,World,World,MW,1979,2010,2010,pre_saturation,global,world_csv
+Washing Machines,World,World,MW,1920,2008,2008,pre_saturation,global,world_csv
+Refrigerators,World,World,MW,1918,2009,2009,pre_saturation,global,world_csv
+Laundry Dryers,World,World,MW,1920,2006,2006,pre_saturation,global,world_csv
+Solar Photovoltaic,World,World,MW,1980,2018,2018,pre_saturation,global,world_csv
+Wind,World,World,MW,1980,2019,2019,pre_saturation,global,world_csv
+Nuclear,World,World,MW,1956,2018,2018,pre_saturation,global,world_csv
+Concentrated Solar Power,World,World,MW,1984,2020,2020,pre_saturation,global,world_csv
+Offshore Wind,World,World,MW,1999,2020,2020,pre_saturation,global,world_csv
+High Speed Rail,World,World,Length in Kilometers,1996,2020,2020,pre_saturation,global,world_csv
+Public Roads,United States,United States,Miles,1900,2014,2016,saturating,global,world_csv
+Railroad Tracks,United States,United States,Miles built,1830,1952,1952,pre_saturation,global,world_csv
+Flow Battery Storage,World,World,KW,2000,2018,2018,pre_saturation,global,world_csv
+Flywheel Battery Storage,World,World,KW,2006,2020,2020,pre_saturation,global,world_csv
+Heat Thermal Battery Storage,World,World,KW,2007,2017,2017,pre_saturation,global,world_csv
+Latent Heat Storage,World,World,KW,1997,2017,2017,pre_saturation,global,world_csv
+Lead-Acid Battery Storage,World,World,KW,1994,2016,2016,pre_saturation,global,world_csv
+Lithium-Ion Battery Storage,World,World,KW,2008,2020,2020,pre_saturation,global,world_csv
+Pumped Hydro Storage,World,World,KW,1944,1987,1987,pre_saturation,global,world_csv
+Sensible Heat Storage,World,World,KW,2007,2018,2018,pre_saturation,global,world_csv
+Sodium-Based Battery Storage,World,World,KW,1999,2019,2019,pre_saturation,global,world_csv
+Wet Flue Gas Desulfurization Systems,World,World,GWe,1972,1999,1999,pre_saturation,global,world_csv
+Desalination,World,World,Million cubic meters per day,1960,2020,2020,pre_saturation,global,world_csv
+Canals,United States,United States,Mileage built,1825,1851,1851,pre_saturation,global,world_csv
+Herbicide-Tolerant Corn,United States,United States,Number of planted acres,1996,2020,2020,pre_saturation,global,world_csv
+Insect-Resistant Corn,United States,United States,Number of planted acres,1996,2020,2020,pre_saturation,global,world_csv
+Insect-Resistant Cotton,United States,United States,Number of planted acres,1996,2020,2020,pre_saturation,global,world_csv
+Herbicide-Resistant Cotton,United States,United States,Number of planted acres,1996,2020,2020,pre_saturation,global,world_csv
+Herbicide-Resistant Soybeans,United States,United States,Number of planted acres,1996,2020,2020,pre_saturation,global,world_csv
+Color TVs,United States,United States,MW,1966,2005,2005,pre_saturation,global,world_csv
+Microwaves,United States,United States,MW,1975,2017,2017,pre_saturation,global,world_csv
+Vacuums,United States,United States,MW,1947,1978,1978,pre_saturation,global,world_csv
+Telephone Landlines,United States,United States,MW,1947,2018,2018,pre_saturation,global,world_csv
+Household Air Conditioning Units,United States,United States,MW,1957,2011,2011,pre_saturation,global,world_csv
+Household Radios,United States,United States,MW,1947,2005,2005,pre_saturation,global,world_csv
+Air Source Heat Pump Shipments,United States,United States,BTU,2002,2020,2020,pre_saturation,global,world_csv
+On-Grid Marine Energy,World,World,Installed electricity Capacity MW,2000,2018,2021,saturating,global,world_csv

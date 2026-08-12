@@ -1,0 +1,171 @@
+{
+  "filter_name": "genuine_tech_adoption_v2",
+  "source": "data/combined_genuine",
+  "n_source": 1658,
+  "n_kept": 1372,
+  "n_dropped": 286,
+  "pct_kept": 82.8,
+  "n_technologies_kept": 84,
+  "dropped_by_group": {
+    "moores_law_metrics": {
+      "techs": [
+        "Processor Performance",
+        "Microprocessor Clock Speed",
+        "Random Access Memory",
+        "Transistors Per Microprocessor",
+        "Transistors per Microprocessor"
+      ],
+      "n_dropped": 5
+    },
+    "activity_traffic_volumes": {
+      "techs": [
+        "Postal Traffic",
+        "Postal and Telegraph Traffic",
+        "Telegraph Traffic",
+        "Internet Data Traffic",
+        "Internet Traffic",
+        "Internet Backbone Bandwidth"
+      ],
+      "n_dropped": 95
+    },
+    "military_stockpile": {
+      "techs": [
+        "Nuclear Weapons"
+      ],
+      "n_dropped": 9
+    },
+    "industrial_production_slipped_through": {
+      "techs": [
+        "BisphenolA",
+        "Cement",
+        "Cement Production",
+        "Coal Power",
+        "Natural Gas Power",
+        "Ethanol Production"
+      ],
+      "n_dropped": 7
+    },
+    "fossil_fuel_infrastructure": {
+      "techs": [
+        "Oil Pipeline",
+        "Oil Pipelines",
+        "Oil Refineries",
+        "Natural Gas Pipeline",
+        "Natural Gas Pipelines",
+        "Liquefied Natural Gas",
+        "Liquefied Natural Gas Exports",
+        "Liquefied Natural Gas Plants"
+      ],
+      "n_dropped": 8
+    },
+    "bioenergy_production_volumes": {
+      "techs": [
+        "All Biofuels",
+        "Biogas",
+        "Solid Biofuels",
+        "Solid Biomass",
+        "Liquid Biofuels"
+      ],
+      "n_dropped": 146
+    },
+    "launch_activity_counts": {
+      "techs": [
+        "Satellite Launches",
+        "Space Launches"
+      ],
+      "n_dropped": 16
+    }
+  },
+  "remaining_technologies": [
+    "Air Source Heat Pump Shipments",
+    "Air-Source Heat Pumps",
+    "Bicycles",
+    "Cable TV",
+    "Canals",
+    "Carbon Capture and Sequestration",
+    "Cellphones",
+    "Color TVs",
+    "Colour TV",
+    "Compact Flourescent Lightbulbs",
+    "Compact Fluorescent Light Bulbs",
+    "Concentrated Solar Power",
+    "Crop Harvester",
+    "Desalination",
+    "Desalination Capacity",
+    "Disk Brakes",
+    "Ebook Reader",
+    "Electric Bicycles",
+    "Electricity",
+    "Ethanol",
+    "Flow Battery Storage",
+    "Fluid Catalytic Cracking Refineries",
+    "Flywheel Battery Storage",
+    "Geothermal Energy",
+    "Heat Thermal Battery Storage",
+    "Herbicide-Resistant Cotton",
+    "Herbicide-Resistant Soybeans",
+    "Herbicide-Tolerant Corn",
+    "Herbicide-Tolerant Cotton",
+    "Herbicide-Tolerant Soybeans",
+    "High Speed Rail",
+    "High-Speed Rail",
+    "Home Air Conditioning",
+    "Home Computers",
+    "Household Air Conditioning Units",
+    "Household Internet Access",
+    "Household Radios",
+    "Hydro Power",
+    "Hydroelectricity",
+    "Insect-Resistant Corn",
+    "Insect-Resistant Cotton",
+    "Jet Aircraft",
+    "Jet Aircrafts",
+    "Latent Heat Storage",
+    "Laundry Dryers",
+    "Lead-Acid Battery Storage",
+    "Lithium-Ion Battery Storage",
+    "Marine Energy",
+    "Microcomputers",
+    "Microwaves",
+    "Motorcycles",
+    "Nox Pollution Controls (Boilers)",
+    "Nuclear",
+    "Nuclear Energy",
+    "Offshore Wind",
+    "Offshore Wind Energy",
+    "On-Grid Marine Energy",
+    "Onshore Wind Energy",
+    "Passenger Cars",
+    "Podcasting",
+    "Power Steering",
+    "Public Roads",
+    "Pumped Hydro Storage",
+    "Radial Tires",
+    "Radio",
+    "Railroad",
+    "Railroad Tracks",
+    "Real-Time Gross Settlement Adoption",
+    "Refrigerators",
+    "Renewable Power",
+    "Sensible Heat Storage",
+    "Social Media Usage",
+    "Sodium-Based Battery Storage",
+    "Solar Photovoltaic",
+    "Solar Thermal Energy",
+    "Steamships",
+    "Stove",
+    "Telephone Landlines",
+    "Telephones",
+    "Television",
+    "Vacuums",
+    "Washing Machines",
+    "Wet Flue Gas Desulfurization Systems",
+    "Wind"
+  ],
+  "start_stats": {
+    "exactly_zero_pct": 90.9,
+    "below_1pct_pct": 94.1,
+    "below_10pct_pct": 96.5,
+    "above_50pct_pct": 0.6
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "per_feature_frac_outside": {
+    "ac1_early": 0.010460251046025104,
+    "ac1_late": 0.012552301255230125,
+    "ac1_trend": 0.0020920502092050207,
+    "var_early": 0.04811715481171548,
+    "var_late": 0.008368200836820083,
+    "var_trend": 0.24267782426778242,
+    "skewness_early": 0.029288702928870293,
+    "skewness_late": 0.0397489539748954,
+    "t_inflection": 0.24267782426778242,
+    "inflection_sharpness": 0.0502092050209205,
+    "pre_inflec_concavity": 0.02092050209205021,
+    "post_inflec_concavity": 0.2196652719665272,
+    "asymmetry_ratio": 0.24267782426778242,
+    "saturation_speed": 0.28661087866108786,
+    "onset_speed": 0.012552301255230125,
+    "loop_area": 0.18619246861924685,
+    "phase_spread_x": 0.13179916317991633,
+    "phase_spread_y": 0.26778242677824265,
+    "phase_corr": 0.14853556485355648,
+    "phase_skew_x": 0.2384937238493724,
+    "phase_kurtosis_x": 0.05439330543933055,
+    "nonlinearity": 0.14853556485355648,
+    "entropy_approx": 0.1192468619246862,
+    "ac_decay_rate": 0.060669456066945605,
+    "outlier_timing": 0.008368200836820083,
+    "histogram_mode": 0.06485355648535565,
+    "zero_crossing_rate": 0.006276150627615063,
+    "t_inflection_symmetry": 0.0,
+    "velocity_cv": 0.05230125523012552,
+    "early_plateau_frac": 0.058577405857740586,
+    "bimodality_coeff": 0.07531380753138076,
+    "net_rise_score": 0.03765690376569038,
+    "residual_var_frac": 0.07112970711297072,
+    "early_log_slope": 0.02092050209205021,
+    "monotone_dx_frac": 0.0020920502092050207,
+    "tc_exp_onset": 0.03138075313807531,
+    "tc_percap_linearity": 0.08577405857740586,
+    "tc_velocity_symmetry": 0.03556485355648536,
+    "tc_exp_relax": 0.0020920502092050207,
+    "tc_logistic_r2": 0.05230125523012552,
+    "onset_beta": 0.02301255230125523,
+    "approach_expfit": 0.0,
+    "inflection_penetration": 0.20502092050209206,
+    "velocity_asymmetry": 0.027196652719665274,
+    "takeoff_abruptness": 0.010460251046025104,
+    "csd_var_rate": 0.01882845188284519
+  },
+  "mean_frac_features_outside_per_curve": 0.0807258504638894,
+  "frac_real_curves_with_any_feature_outside": 0.7531380753138075,
+  "frac_real_curves_over_25pct_features_outside": 0.0397489539748954,
+  "mahalanobis_median_synth": 22.06772533771356,
+  "mahalanobis_median_real": 88.5914475546177,
+  "mahalanobis_p99_synth": 244.66999851508595,
+  "frac_real_beyond_synth_p99": 0.1903765690376569,
+  "mean_dist_to_centroid": {
+    "SN": {
+      "real_median": 10.869505388642033,
+      "synth_own_class_median": 3.9587044574387917
+    },
+    "TC": {
+      "real_median": 7.046766386147127,
+      "synth_own_class_median": 5.442891894302991
+    },
+    "Null": {
+      "real_median": 7.863490291929624,
+      "synth_own_class_median": 4.2876856631575375
+    }
+  },
+  "verdict": "PARTIAL EXTRAPOLATION: 19% of real curves are outside the synthetic 99th percentile; the real-data verdict is unreliable for a substantial subset."
+}

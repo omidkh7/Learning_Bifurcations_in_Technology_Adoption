@@ -1,0 +1,68 @@
+source,method,year,value_Mt,metric
+IEA,BECCS,2017,0.5,capacity
+IEA,BECCS,2018,0.5,capacity
+IEA,BECCS,2019,0.5,capacity
+IEA,BECCS,2020,0.68,capacity
+IEA,BECCS,2021,0.68,capacity
+IEA,BECCS,2022,0.86,capacity
+IEA,BECCS,2023,1.06,capacity
+IEA,BECCS,2024,1.06,capacity
+IEA,BECCS,2025,2.405,capacity
+IEA,BECCS,2026,2.405,capacity
+IEA,DACCS,2021,0.004,capacity
+IEA,DACCS,2022,0.004,capacity
+IEA,DACCS,2023,0.004,capacity
+IEA,DACCS,2024,0.01,capacity
+IEA,DACCS,2025,0.014,capacity
+IEA,DACCS,2026,0.014,capacity
+IEA,Industrial-bio,2025,0.044,capacity
+IEA,Industrial-bio,2026,0.044,capacity
+SoCDR,Ocean alkalinity,2023,0.00013725,delivered
+SoCDR,Ocean alkalinity,2024,0.001192819,delivered
+SoCDR,Ocean alkalinity,2025,0.00354,delivered
+SoCDR,Bio-oil storage,2020,0.0035,delivered
+SoCDR,Bio-oil storage,2021,0.0025,delivered
+SoCDR,Bio-oil storage,2022,0.0003,delivered
+SoCDR,Bio-oil storage,2023,0.0008,delivered
+SoCDR,Bio-oil storage,2024,0.0008,delivered
+SoCDR,Bio-oil storage,2025,0.0057,delivered
+SoCDR,Biochar,2021,0.205026752,delivered
+SoCDR,Biochar,2022,0.4961,delivered
+SoCDR,Biochar,2023,0.788980784,delivered
+SoCDR,Biochar,2024,1.1305,delivered
+SoCDR,Biochar,2025,1.4629,delivered
+SoCDR,BECCS,2017,0.50665,delivered
+SoCDR,BECCS,2018,0.525002,delivered
+SoCDR,BECCS,2019,0.51978,delivered
+SoCDR,BECCS,2020,0.428,delivered
+SoCDR,BECCS,2021,0.428,delivered
+SoCDR,BECCS,2022,0.519,delivered
+SoCDR,BECCS,2023,0.6061,delivered
+SoCDR,BECCS,2024,0.6635,delivered
+SoCDR,BECCS,2025,0.5105,delivered
+SoCDR,Biomass burial,2023,0.0019,delivered
+SoCDR,Biomass burial,2024,0.0174,delivered
+SoCDR,Biomass burial,2025,0.0465,delivered
+SoCDR,Biomass sinking,2020,0.0021,delivered
+SoCDR,Biomass sinking,2021,0.0005,delivered
+SoCDR,Biomass sinking,2022,0.0037,delivered
+SoCDR,Biomass sinking,2023,0.004726,delivered
+SoCDR,DACCS,2023,0.0001,delivered
+SoCDR,DACCS,2024,0.0014,delivered
+SoCDR,DACCS,2025,0.0015,delivered
+SoCDR,Enhanced weathering,2021,0.0025,delivered
+SoCDR,Enhanced weathering,2022,0.0029,delivered
+SoCDR,Enhanced weathering,2023,0.0028,delivered
+SoCDR,Enhanced weathering,2024,0.0063,delivered
+SoCDR,Enhanced weathering,2025,0.0038,delivered
+SoCDR,Mineral products,2021,0.0004,delivered
+SoCDR,Mineral products,2022,0.0015,delivered
+SoCDR,Mineral products,2023,0.0037,delivered
+SoCDR,Mineral products,2024,0.0117,delivered
+SoCDR,Mineral products,2025,0.0022,delivered
+SoCDR,Other (SoCDR),2020,0.0035,delivered
+SoCDR,Other (SoCDR),2021,0.0025,delivered
+SoCDR,Other (SoCDR),2022,0.0003,delivered
+SoCDR,Other (SoCDR),2023,0.001,delivered
+SoCDR,Other (SoCDR),2024,0.002,delivered
+SoCDR,Other (SoCDR),2025,0.0093,delivered

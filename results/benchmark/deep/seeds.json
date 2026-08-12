@@ -1,0 +1,52 @@
+{
+  "lambda_fs": 0.3,
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "runs": [
+    {
+      "model": "encoder_fs",
+      "seed": 0,
+      "val": 0.9646609360076409,
+      "matched_test": 0.9371428571428572,
+      "natural": 0.9116666666666666
+    },
+    {
+      "model": "encoder_0",
+      "seed": 0,
+      "val": 0.9617956064947469,
+      "matched_test": 0.9304761904761905,
+      "natural": 0.8531666666666666
+    },
+    {
+      "model": "encoder_fs",
+      "seed": 1,
+      "val": 0.9188156638013372,
+      "matched_test": 0.8923809523809524,
+      "natural": 0.7714166666666666
+    },
+    {
+      "model": "encoder_0",
+      "seed": 1,
+      "val": 0.9522445081184336,
+      "matched_test": 0.9076190476190477,
+      "natural": 0.8356666666666667
+    },
+    {
+      "model": "encoder_fs",
+      "seed": 2,
+      "val": 0.9637058261700095,
+      "matched_test": 0.9352380952380952,
+      "natural": 0.85575
+    },
+    {
+      "model": "encoder_0",
+      "seed": 2,
+      "val": 0.9646609360076409,
+      "matched_test": 0.9447619047619048,
+      "natural": 0.84725
+    }
+  ]
+}

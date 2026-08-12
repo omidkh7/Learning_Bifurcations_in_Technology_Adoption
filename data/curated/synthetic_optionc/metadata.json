@@ -1,0 +1,16 @@
+{
+ "n_samples": 30000,
+ "null_class_version": "optionc_inflfree",
+ "null_subtypes": [
+  "linear_ramp",
+  "partial_expsat",
+  "sigmoid"
+ ],
+ "n_per_class": {
+  "0": 10000,
+  "1": 10000,
+  "2": 10000
+ },
+ "target_points": 500,
+ "seed": 0
+}

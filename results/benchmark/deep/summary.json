@@ -1,0 +1,115 @@
+{
+  "matched_test": {
+    "t50-only logreg": 0.3361904761904762,
+    "46-D nearest-centroid": 0.8647619047619047,
+    "46-D logreg": 0.9904761904761905,
+    "FeatMLP (46-D in)": 0.9904761904761905,
+    "Encoder + feature supervision": 0.9561904761904761,
+    "Encoder ablation (lambda=0)": 0.8933333333333333
+  },
+  "natural": {
+    "t50-only logreg": 0.5088333333333334,
+    "46-D nearest-centroid": 0.82,
+    "46-D logreg": 0.8863333333333333,
+    "FeatMLP (46-D in)": 0.94525,
+    "Encoder + feature supervision": 0.9455,
+    "Encoder ablation (lambda=0)": 0.74375
+  },
+  "feature_r2_by_group": {
+    "A:CSD": 0.7312481999397278,
+    "B:Inflect": 0.4303879737854004,
+    "C:Phase": 0.8548789024353027,
+    "D:Catch22": 0.7221255898475647,
+    "E:SN-fp": 0.7737124562263489,
+    "F:Transit": 0.8500833511352539,
+    "G:TC-fp": 0.3005228042602539,
+    "H:Crit": 0.3765676021575928
+  },
+  "feature_r2": {
+    "ac1_early": 0.8145556449890137,
+    "ac1_late": 0.8363842964172363,
+    "ac1_trend": 0.6598948240280151,
+    "var_early": 0.7401350736618042,
+    "var_late": 0.7987463474273682,
+    "var_trend": 0.8010849952697754,
+    "skewness_early": 0.3587568402290344,
+    "skewness_late": 0.8404276371002197,
+    "t_inflection": 0.4630321264266968,
+    "inflection_sharpness": 0.7111107110977173,
+    "pre_inflec_concavity": 0.06087374687194824,
+    "post_inflec_concavity": 0.03107088804244995,
+    "asymmetry_ratio": 0.03774309158325195,
+    "saturation_speed": 0.9339465498924255,
+    "onset_speed": 0.774938702583313,
+    "loop_area": 0.9376915693283081,
+    "phase_spread_x": 0.8524461388587952,
+    "phase_spread_y": 0.8444811105728149,
+    "phase_corr": 0.8655338883399963,
+    "phase_skew_x": 0.9632046818733215,
+    "phase_kurtosis_x": 0.665915846824646,
+    "nonlinearity": 0.39879387617111206,
+    "entropy_approx": 0.8489260077476501,
+    "ac_decay_rate": 0.6667236089706421,
+    "outlier_timing": 0.7660143375396729,
+    "histogram_mode": 0.672427773475647,
+    "zero_crossing_rate": 0.9798681139945984,
+    "t_inflection_symmetry": 0.3619663715362549,
+    "velocity_cv": 0.9179746508598328,
+    "early_plateau_frac": 0.9675832986831665,
+    "bimodality_coeff": 0.8473255634307861,
+    "net_rise_score": 0.8084257245063782,
+    "residual_var_frac": 0.9179180860519409,
+    "early_log_slope": 0.8308442831039429,
+    "monotone_dx_frac": 0.8431453704833984,
+    "tc_exp_onset": 0.3976309895515442,
+    "tc_percap_linearity": 0.3358982801437378,
+    "tc_velocity_symmetry": 0.18495392799377441,
+    "tc_exp_relax": 0.28518515825271606,
+    "tc_logistic_r2": 0.2989456057548523,
+    "onset_beta": 0.5649843215942383,
+    "approach_expfit": 0.0265505313873291,
+    "inflection_penetration": 0.36548900604248047,
+    "velocity_asymmetry": 0.5393379926681519,
+    "takeoff_abruptness": 0.674170970916748,
+    "csd_var_rate": 0.08887290954589844
+  },
+  "verdict": "SEED-ROBUST VERDICT: the raw-curve encoder learns the dynamics on the matched set regardless of feature supervision (with FS 92.2+/-2.1%, without 92.8+/-1.5%, chance 33.3%, old FFT = chance). The decisive ingredients are the t50-MATCHED training data (no inflection shortcut to exploit) and an architecture that sees the noise structure (dx channel + recurrence), not the feature-regression head: feature supervision is performance-neutral here. The best model overall remains the 46-D features as INPUT (FeatMLP, 99.0%).",
+  "seed_stats": {
+    "encoder_fs.matched_test": {
+      "mean": 0.9215873015873015,
+      "sd": 0.020666642284139416,
+      "runs": [
+        0.9371428571428572,
+        0.8923809523809524,
+        0.9352380952380952
+      ]
+    },
+    "encoder_fs.natural": {
+      "mean": 0.8462777777777778,
+      "sd": 0.05764724838978509,
+      "runs": [
+        0.9116666666666666,
+        0.7714166666666666,
+        0.85575
+      ]
+    },
+    "encoder_0.matched_test": {
+      "mean": 0.9276190476190477,
+      "sd": 0.015297503242103817,
+      "runs": [
+        0.9304761904761905,
+        0.9076190476190477,
+        0.9447619047619048
+      ]
+    },
+    "encoder_0.natural": {
+      "mean": 0.845361111111111,
+      "sd": 0.007268123367414063,
+      "runs": [
+        0.8531666666666666,
+        0.8356666666666667,
+        0.84725
+      ]
+    }
+  }
+}
