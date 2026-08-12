@@ -12,7 +12,7 @@ for _v in ("OMP_NUM_THREADS","VECLIB_MAXIMUM_THREADS","OPENBLAS_NUM_THREADS","MK
     os.environ.setdefault(_v,"1")
 warnings.filterwarnings("ignore")
 import numpy as np, torch
-HERE=os.path.dirname(os.path.abspath(__file__)); ROOT=os.path.dirname(HERE)
+HERE=os.path.dirname(os.path.abspath(__file__)); ROOT=os.path.dirname(os.path.dirname(os.path.dirname(HERE)))
 sys.path.insert(0,HERE); sys.path.insert(0,ROOT)
 from benchmark_data import load_benchmark
 from paper_figures import build_features, load_four_group

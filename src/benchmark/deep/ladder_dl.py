@@ -20,7 +20,7 @@ import numpy as np, pandas as pd
 import torch
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-ROOT = os.path.dirname(HERE)
+ROOT = os.path.dirname(os.path.dirname(os.path.dirname(HERE)))
 sys.path.insert(0, HERE); sys.path.insert(0, ROOT)
 from benchmark_data import load_benchmark, LADDER
 from paper_figures import build_features
@@ -28,7 +28,7 @@ from models import FeatMLP
 import train as T
 
 N_PER, N_SEEDS = 800, 5                     # N_PER matches null_ladder.py exactly
-os.makedirs(os.path.join(HERE, "runs", "ladder"), exist_ok=True)
+os.makedirs(os.path.join(ROOT, "results", "benchmark", "ladder"), exist_ok=True)
 
 
 def main():
@@ -56,7 +56,7 @@ def main():
                          tcnull_dl=100 * np.mean(tcnulls)))
         print(f"{str(nv):11s}: FeatMLP {rows[-1]['acc_dl']:5.1f} +/- {rows[-1]['acc_sd']:.1f}%  "
               f"TC<->null {rows[-1]['tcnull_dl']:5.1f}", flush=True)
-    out = os.path.join(ROOT, "runs", "unsup", "bifurcation_explore", "null_ladder_dl.csv")
+    out = os.path.join(ROOT, "results", "unsup", "bifurcation_explore", "null_ladder_dl.csv")
     pd.DataFrame(rows).to_csv(out, index=False)
     print(f"saved {out}")
 

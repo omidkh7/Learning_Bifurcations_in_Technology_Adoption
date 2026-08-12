@@ -22,7 +22,7 @@ warnings.filterwarnings("ignore")
 import numpy as np
 from scipy.interpolate import PchipInterpolator
 
-ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 sys.path.insert(0, ROOT)
 from Synthetic_Data_Gen import (saddle_node_rhs, transcritical_rhs, integrate_sde,
                                 normalize_series, pchip_to_500, is_valid_trajectory,
@@ -145,8 +145,8 @@ def gen_pool_meta(label, n, seed, sigma_choices=SIGMA_CHOICES, obs_noise=None,
 
 def load_mixed_null(n, seed, grid=T):
     """The SI's heterogeneous Option-C null (class 2 of data/synthetic_optionc)."""
-    X = np.load(os.path.join(ROOT, "data/synthetic_optionc/X_full.npy"))
-    y = np.load(os.path.join(ROOT, "data/synthetic_optionc/y.npy"))
+    X = np.load(os.path.join(ROOT, "data/curated/synthetic_optionc/X_full.npy"))
+    y = np.load(os.path.join(ROOT, "data/curated/synthetic_optionc/y.npy"))
     idx = np.where(y == 2)[0]
     rng = np.random.default_rng(seed)
     pick = rng.choice(idx, min(n, len(idx)), replace=False)

@@ -14,7 +14,7 @@ Feature spaces (all subsets of the canonical 46-D space, sliced by feature group
   A+E+H          : the three strongest groups (CSD + saddle-node fingerprint + critical)
 Algorithms: Student-t, skew-t (unsupervised) + mechanism prior, nearest-centroid (oracle).
 
-Output: Manuscript/SI_figures/figS_benchmark_spaces.png  + printed accuracy/ARI grids.
+Output: figures/si/figS_benchmark_spaces.png  + printed accuracy/ARI grids.
 """
 import os, warnings
 warnings.filterwarnings("ignore")
@@ -30,7 +30,7 @@ from paper_figures import _tag, build_features, GROUP
 from unsup_real_world import fit_t_mixture, fit_skew_t_mixture, fit_theory_bayes_gmm
 from benchmark_data import load_benchmark, CANONICAL_NULL
 
-SI = "Manuscript/SI_figures"; os.makedirs(SI, exist_ok=True)
+SI = "figures/si"; os.makedirs(SI, exist_ok=True)
 # two UNSUPERVISED mixtures (GMM dropped) + two MECHANISM-PRIOR (oracle) references given true centroids
 ALGOS = ["Student-t", "skew-t", "mechanism prior", "nearest-centroid"]
 N_UNSUP = 2

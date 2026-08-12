@@ -7,7 +7,7 @@ Takeoff = inflection = argmax of the gradient of the Gaussian-smoothed, min-max-
 in normalized lifecycle units [0,1]. Each series is aligned to its own t_inf (standard EWS practice).
 Pre-takeoff Kendall-tau is computed over rolling-window EWS points with pos <= t_inf.
 
-Writes a diagnostic PNG (runs/takeoff_ewstools.png) + a console summary.
+Writes a diagnostic PNG (results/takeoff_ewstools.png) + a console summary.
 """
 import warnings; warnings.filterwarnings("ignore")
 import numpy as np, pandas as pd, ewstools

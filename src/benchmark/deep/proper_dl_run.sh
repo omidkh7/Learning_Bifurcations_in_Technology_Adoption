@@ -8,12 +8,12 @@
 #
 # Detached launch (survives terminal close; caffeinate -is keeps the Mac awake on AC power):
 #   cd <repo root>
-#   nohup caffeinate -is bash second_attempt_deep/proper_dl_run.sh > second_attempt_deep/runs/proper_dl.log 2>&1 &
+#   nohup caffeinate -is bash src/benchmark/deep/proper_dl_run.sh > results/benchmark/proper_dl.log 2>&1 &
 set -u
-cd "$(dirname "$0")/.."       # repo root: all data paths are relative to it
+cd "$(dirname "$0")/../../.."       # repo root: all data paths are relative to it
 echo "=== PROPER DL RUN START $(date) ==="
-python second_attempt_deep/benchmark_dl.py proper
+python src/benchmark/deep/benchmark_dl.py proper
 echo "--- benchmark_dl proper exit=$? $(date) ---"
-python second_attempt_deep/confidence_distribution.py proper
+python src/benchmark/deep/confidence_distribution.py proper
 echo "--- confidence_distribution proper exit=$? $(date) ---"
 echo "=== PROPER DL RUN DONE $(date) ==="

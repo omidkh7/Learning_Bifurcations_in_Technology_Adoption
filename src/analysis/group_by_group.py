@@ -9,7 +9,7 @@ Standalone performance of each of the eight feature groups, reported plainly:
 Up front: the CSD group is the single strongest discriminator on the benchmark; on real data no group
 crosses the discrete-cluster threshold.
 
-Output: Manuscript/SI_figures/figS_group_by_group.png + printed table.
+Output: figures/si/figS_group_by_group.png + printed table.
 """
 import os, warnings
 warnings.filterwarnings("ignore")
@@ -25,7 +25,7 @@ from paper_figures import build_features, GROUP, load_four_group, GCOLOR, _tag
 from benchmark_data import load_benchmark, CANONICAL_NULL
 from unsup_real_world import fit_t_mixture
 
-SI = "Manuscript/SI_figures"; os.makedirs(SI, exist_ok=True)
+SI = "figures/si"; os.makedirs(SI, exist_ok=True)
 GORDER = ["A:CSD", "B:Inflect", "C:Phase", "D:Catch22", "E:SN-fp", "F:Transit", "G:TC-fp", "H:Crit"]
 
 

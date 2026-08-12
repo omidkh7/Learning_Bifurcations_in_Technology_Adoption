@@ -16,6 +16,7 @@ import numpy as np
 import torch
 
 HERE = os.path.dirname(os.path.abspath(__file__))
+ROOT = os.path.dirname(os.path.dirname(os.path.dirname(HERE)))
 sys.path.insert(0, HERE)
 from checks_common import gen_pool_meta, load_mixed_null
 from data import match_t50_3class, natural_balanced
@@ -23,8 +24,8 @@ from features import build_features46
 from models import FeatMLP
 import train as T
 
-CDATA = os.path.join(HERE, "data", "checks")
-CRUNS = os.path.join(HERE, "runs", "checks")
+CDATA = os.path.join(ROOT, "data", "curated", "deep", "checks")
+CRUNS = os.path.join(ROOT, "results", "benchmark", "checks")
 os.makedirs(CDATA, exist_ok=True)
 os.makedirs(CRUNS, exist_ok=True)
 

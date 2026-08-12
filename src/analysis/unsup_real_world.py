@@ -37,10 +37,10 @@ Synthetic benchmark performance (on 9,000 labelled series, seed=42):
 Usage
 -----
   python unsup_real_world.py \\
-      --real_data_dir data/real_world \\
-      --synth_dir     data/synthetic \\
-      --bundle_path   runs/unsup/benchmark/synth_features.pkl \\
-      --out_dir       runs/unsup/real_world \\
+      --real_data_dir data/curated/real_world \\
+      --synth_dir     data/curated/synthetic \\
+      --bundle_path   results/unsup/benchmark/synth_features.pkl \\
+      --out_dir       results/unsup/real_world \\
       --n_kernels     2000 \\
       --seed          42
 """
@@ -1069,7 +1069,7 @@ METHOD_SPECS = {
     "theory_gmm":    {"label": "Theory-GMM",   "synth_acc": 0.909},
     "theory_t":      {"label": "Theory-TMM",   "synth_acc": 0.934},
     "theory_skewt":  {"label": "Theory-SkewT", "synth_acc": None},
-    # ── Archived methods (see runs/unsup/Archive/stage1_bayes_t_raw/) ───────
+    # ── Archived methods (see results/unsup/Archive/stage1_bayes_t_raw/) ───────
     # "theory_t_raw":  {"label": "Theory-TMM (no whiten)",  "synth_acc": None},
     #   → degenerate on genuine_v2: 100% SN (labels every series the same class)
     # "theory_bayes":  {"label": "Theory-Bayes GMM",        "synth_acc": None},
@@ -1527,10 +1527,10 @@ def plot_bifurcation_summary(
 # ═══════════════════════════════════════════════════════════════════════════════
 
 def run_real_world(
-    real_data_dir:  str  = "data/combined",
-    out_dir:        str  = "runs/unsup/real_world",
-    synth_dir:      str  = "data/synthetic",
-    bundle_path:    str  = "runs/unsup/benchmark/synth_features.pkl",
+    real_data_dir:  str  = "data/curated/combined",
+    out_dir:        str  = "results/unsup/real_world",
+    synth_dir:      str  = "data/curated/synthetic",
+    bundle_path:    str  = "results/unsup/benchmark/synth_features.pkl",
     n_kernels:      int  = 2000,
     ae_epochs:      int  = 80,
     latent_dim:     int  = 32,
@@ -1806,17 +1806,17 @@ if __name__ == "__main__":
         description="Real-world technology adoption bifurcation clustering"
     )
     parser.add_argument("--real_data_dir",
-                        default="data/combined",
+                        default="data/curated/combined",
                         help="Directory with X_full.npy, real_world_samples.pkl "
-                             "(canonical combined dataset lives in data/combined/)")
+                             "(canonical combined dataset lives in data/curated/combined/)")
     parser.add_argument("--synth_dir",
-                        default="data/synthetic",
+                        default="data/curated/synthetic",
                         help="Directory with validated synthetic dataset (y.npy etc.)")
     parser.add_argument("--bundle_path",
-                        default="runs/unsup/benchmark/synth_features.pkl",
+                        default="results/unsup/benchmark/synth_features.pkl",
                         help="Path to synthetic AE bundle (reused if arch matches)")
     parser.add_argument("--out_dir",
-                        default="runs/unsup/real_world")
+                        default="results/unsup/real_world")
     parser.add_argument("--n_kernels", type=int, default=2000,
                         help="ROCKET kernels (2000 is fast, 3000 is more stable)")
     parser.add_argument("--ae_epochs", type=int, default=60)

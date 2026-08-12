@@ -10,7 +10,7 @@ Splits are stratified per class 70/15/15 with a fixed seed; the SAME split indic
 saved and reused by evaluate.py. Feature standardisation (for both the MLP input and the
 regression targets) is fit on the training split only.
 
-Writes to second_attempt_deep/runs/: {name}.pt checkpoints, scaler.npz, splits.npz,
+Writes to results/benchmark/: {name}.pt checkpoints, scaler.npz, splits.npz,
 history.json.
 """
 import os, sys, json, time, warnings
@@ -20,11 +20,12 @@ import torch
 from torch.utils.data import DataLoader, TensorDataset
 
 HERE = os.path.dirname(os.path.abspath(__file__))
+ROOT = os.path.dirname(os.path.dirname(os.path.dirname(HERE)))
 sys.path.insert(0, HERE)
 from models import FeatMLP, TSEncoder, multitask_loss
 
-DATA = os.path.join(HERE, "data")
-RUNS = os.path.join(HERE, "runs")
+DATA = os.path.join(ROOT, "data", "curated", "deep")
+RUNS = os.path.join(ROOT, "results", "benchmark", "deep")
 os.makedirs(RUNS, exist_ok=True)
 
 SEED = 42

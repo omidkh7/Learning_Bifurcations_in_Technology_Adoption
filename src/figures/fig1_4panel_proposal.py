@@ -11,7 +11,7 @@ Policy point Alan wants emphasized: for a saddle-node a large enough ONE-OFF cha
 transcritical a state push has NO lasting effect; only moving the control PARAMETER changes adoption,
 proportionally and without a threshold.
 
-Writes a proposal PNG only; does NOT touch Manuscript/figures/fig1_concept.png.
+Writes a proposal PNG only; does NOT touch figures/main/fig1_concept.png.
 """
 import warnings; warnings.filterwarnings("ignore")
 import numpy as np
@@ -27,7 +27,7 @@ set_style()
 SNCOL, TCCOL = "#d62828", "#457b9d"
 LAST, FADE, PARAM = "#2a9d8f", "#9aa0a6", "#222222"
 #OUT = "/private/tmp/claude-503/-Users-Omidkh7-Downloads-Tech-Adoption-DL/76694a1b-ec86-4b9e-aadf-84219eec0c5e/scratchpad"
-OUT = "Manuscript/figures"
+OUT = "figures/main"
 
 
 def _threeclass_recovery():
@@ -39,7 +39,7 @@ def _threeclass_recovery():
     unsup = 70   # SI Sec. S3: unsupervised Student-t mixture on the logistic stable twin
     superv = 94  # documented fallback if the artifact is absent (94.3 +/- 0.4%, 3 draws x 10 seeds)
     bm = os.path.join(os.path.dirname(os.path.abspath(__file__)),
-                      "second_attempt_deep/runs/benchmark/benchmark_dl_proper.json")
+                      "results/benchmark/benchmark_dl_proper.json")
     try:
         superv = round(100 * json.load(open(bm))["aggregate_dl"]["logistic"]["acc_mean"])
     except Exception:

@@ -11,7 +11,7 @@ not a per-series detector (consistent with the detection limit in the preceding 
 NOT failed technologies that never took off; typing the decline is out of scope.
 
 Method matches main-text Fig 2 (residual rolling-variance Kendall-tau) but aligned to the turnover
-instead of the takeoff. Writes Manuscript/SI_figures/figS_decline_ews.png.
+instead of the takeoff. Writes figures/si/figS_decline_ews.png.
 """
 import warnings; warnings.filterwarnings("ignore")
 import numpy as np, pandas as pd
@@ -22,10 +22,10 @@ import os
 from paper_style import set_style, COL2
 set_style()
 # Prefer the shipped decline subset (the 4 obsolescence mechanisms); fall back to the full raw master.
-DECLINE = "data/failed_tech/decline_series_raw.csv"
-MASTER = "data/master/adoption_master_long.csv"
+DECLINE = "data/curated/failed_tech/decline_series_raw.csv"
+MASTER = "data/curated/master/adoption_master_long.csv"
 DATA = DECLINE if os.path.exists(DECLINE) else MASTER
-OUT = "Manuscript/SI_figures/figS_decline_ews.png"
+OUT = "figures/si/figS_decline_ews.png"
 GENUINE = {"Fixed telephone": "landline", "Telegraph Traffic": "telegraph",
            "Postal Traffic": "postal", "Railroad": "railroad"}
 BROWN, GREY = "#7f5539", "#adb5bd"

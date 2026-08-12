@@ -24,10 +24,10 @@ geographies (US, India, Brazil), NOT in the policy-richest jurisdictions (EU/UK/
 weak or even NEGATIVE stringency↔deployment correlation is the EXPECTED early-stage signature, not a
 failure: policy leadership precedes, and does not yet coincide with, delivery.
 
-Inputs : SoCDR-Edition-3/SoCDR-Edition-3-Chapter-5-G20-CDR-policy-database.csv
-         SoCDR-Edition-3/SoCDR-Edition-3-Chapter-7.csv  (Novel CDR by method and country in 2025)
-Outputs: data/cdr/cdr_policy_stringency.csv   per-country covariate (components + index + outcome)
-         runs/figures/fig_cdr_policy_stringency.png
+Inputs : data/raw/SoCDR-Edition-3/SoCDR-Edition-3-Chapter-5-G20-CDR-policy-database.csv
+         data/raw/SoCDR-Edition-3/SoCDR-Edition-3-Chapter-7.csv  (Novel CDR by method and country in 2025)
+Outputs: data/curated/cdr/cdr_policy_stringency.csv   per-country covariate (components + index + outcome)
+         results/figures/fig_cdr_policy_stringency.png
 """
 import os, warnings
 warnings.filterwarnings("ignore")
@@ -35,9 +35,9 @@ import numpy as np, pandas as pd
 from scipy.stats import spearmanr
 import matplotlib; matplotlib.use("Agg"); import matplotlib.pyplot as plt
 
-os.makedirs("data/cdr", exist_ok=True)
-CH5 = "SoCDR-Edition-3/SoCDR-Edition-3-Chapter-5-G20-CDR-policy-database.csv"
-CH7 = "SoCDR-Edition-3/SoCDR-Edition-3-Chapter-7.csv"
+os.makedirs("data/curated/cdr", exist_ok=True)
+CH5 = "data/raw/SoCDR-Edition-3/SoCDR-Edition-3-Chapter-5-G20-CDR-policy-database.csv"
+CH7 = "data/raw/SoCDR-Edition-3/SoCDR-Edition-3-Chapter-7.csv"
 
 # ISO3 (policy DB)  →  country name (Ch7 snapshot). EU bloc handled separately.
 ISO2NAME = {"USA": "United States", "GBR": "United Kingdom", "DEU": "Germany", "FRA": "France",
@@ -85,7 +85,7 @@ def main():
     by_c = realized_2025()
     s["novel_cdr_2025_Mt"] = [by_c.get(ISO2NAME.get(i, ""), 0.0) for i in s.iso]
     s.loc[s.iso == "EU", "novel_cdr_2025_Mt"] = np.nan          # bloc: no own country outcome
-    s.to_csv("data/cdr/cdr_policy_stringency.csv", index=False)
+    s.to_csv("data/curated/cdr/cdr_policy_stringency.csv", index=False)
 
     print("=== G20 CDR-policy stringency (sorted) ===")
     print(s[["jurisdiction", "iso"] + COMPS + ["stringency", "novel_cdr_2025_Mt"]]
@@ -108,7 +108,7 @@ def main():
     from paper_style import set_style, COL2
     set_style()
     from paper_figures import _tag
-    SI = "Manuscript/SI_figures"; os.makedirs(SI, exist_ok=True)
+    SI = "figures/si"; os.makedirs(SI, exist_ok=True)
 
     fig, ax = plt.subplots(1, 2, figsize=(COL2, 3.4), gridspec_kw=dict(wspace=0.5))
     # (a) composite stringency index, ranked (policy leaders on top; EU excluded, duplicates members)
@@ -135,8 +135,8 @@ def main():
     _tag(ax[1], "(b) stringency vs realized deployment")
 
     fig.savefig(f"{SI}/figS_cdr_policy_stringency.png", bbox_inches="tight")
-    fig.savefig("runs/figures/fig_cdr_policy_stringency.png", bbox_inches="tight"); plt.close(fig)
-    print(f"\nSaved → data/cdr/cdr_policy_stringency.csv + {SI}/figS_cdr_policy_stringency.png")
+    fig.savefig("results/figures/fig_cdr_policy_stringency.png", bbox_inches="tight"); plt.close(fig)
+    print(f"\nSaved → data/curated/cdr/cdr_policy_stringency.csv + {SI}/figS_cdr_policy_stringency.png")
 
 
 if __name__ == "__main__":

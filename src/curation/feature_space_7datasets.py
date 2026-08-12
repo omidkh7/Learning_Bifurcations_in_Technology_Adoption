@@ -38,8 +38,8 @@ import unsup_real_world
 from unsup_theory_features import extract_theory_features
 from adoption_clean import truncate_decline
 
-OUTD = "runs/unsup/bifurcation_explore"; os.makedirs(OUTD, exist_ok=True)
-FIGD = "runs/figures"
+OUTD = "results/unsup/bifurcation_explore"; os.makedirs(OUTD, exist_ok=True)
+FIGD = "results/figures"
 DATASETS = ["combined", "filter10", "genuine_v1", "genuine_v2", "hardexcl", "s002", "s005"]
 
 
@@ -49,7 +49,7 @@ class _U(pickle.Unpickler):
 
 
 def load_pkl(folder):
-    return _U(open(f"data/{folder}/real_world_samples.pkl", "rb")).load()
+    return _U(open(f"data/curated/{folder}/real_world_samples.pkl", "rb")).load()
 
 
 def recon_raw(x_full, years_full):
@@ -123,7 +123,7 @@ def main():
     # ── member row_ids per dataset ──
     def members(folder):
         return [s.row_id for s in load_pkl(folder)]
-    q = pd.read_csv("runs/unsup/shape_diagnostic/scurve_quality.csv")
+    q = pd.read_csv("results/unsup/shape_diagnostic/scurve_quality.csv")
     gv2 = load_pkl("combined_genuine_v2")
     def sub_gv2(mask_idx):
         return [gv2[i].row_id for i in mask_idx if i < len(gv2)]

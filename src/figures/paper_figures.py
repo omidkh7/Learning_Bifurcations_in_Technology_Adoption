@@ -12,7 +12,7 @@ Publication MAIN-text figures (PNAS), built on paper_style.py.
   Fig 4  fig4_growth.png     2x2: CDR growth vs precedent + the two most family-discriminating PCs
 SI helpers: fig2_si -> figS_ews_examples.png ; fig4_si -> figS_discriminating.png
 No titles (except the requested named panel tags), no grid, Times New Roman, no em-dashes.
-Outputs -> Manuscript/figures/
+Outputs -> figures/main/
 """
 import os, warnings
 warnings.filterwarnings("ignore")
@@ -32,7 +32,7 @@ from unsup_theory_features import extract_theory_features, FEATURE_NAMES, TCFP_N
 from critical_scaling_features import extract_critical_features, CRIT_NAMES
 
 set_style()
-OUT = "Manuscript/figures"; os.makedirs(OUT, exist_ok=True)
+OUT = "figures/main"; os.makedirs(OUT, exist_ok=True)
 
 # 51 raw features (38 theory + 5 TC-fingerprint + 8 critical), then DROP 5 near-duplicates (|r|>0.93 with
 # another feature) -> 46-D cleaned canonical space.
@@ -125,7 +125,7 @@ def fig1():
         ax.set_xticks([0, 0.5, 1.0])
         if ax not in special: ax.set_xlabel("normalized time", fontsize=7.5)
     fig.tight_layout()
-    fig.savefig("Manuscript/SI_figures/figS_feature_space.png"); plt.close(fig)
+    fig.savefig("figures/si/figS_feature_space.png"); plt.close(fig)
     print("saved figS_feature_space.png (8 groups; moved to SI)")
 
 
@@ -618,7 +618,7 @@ def fig3():
 def fig4():
     # Option A (1x3): (a) PC3 by family (the one family-discriminating continuum axis; PC1/PC2 demoted
     # to the SI), (b) average pace to peak, (c) peak sustained pace + CDR pledge star.
-    R = pd.read_csv("runs/unsup/bifurcation_explore/growth_compare.csv")
+    R = pd.read_csv("results/unsup/bifurcation_explore/growth_compare.csv")
     cats = ["Historical", "Renewables", "BEV"]
     grp, P, evr, L, X = four_group_pca()
     x = P[:, 2]; gm = x.mean()
@@ -712,7 +712,7 @@ def fig2_si(n_show=10):
     fig.legend([plt.Line2D([0], [0], color=FAMCOL[g], lw=2) for g in present], [FAMLABEL[g] for g in present],
                loc="upper center", ncol=len(present), fontsize=7.5, bbox_to_anchor=(0.5, 1.02))
     fig.tight_layout(rect=[0, 0, 1, 0.97])
-    fig.savefig(f"Manuscript/SI_figures/figS_ews_examples.png"); plt.close(fig)
+    fig.savefig(f"figures/si/figS_ews_examples.png"); plt.close(fig)
     print(f"saved figS_ews_examples.png (n={nC})")
 
 
@@ -738,7 +738,7 @@ def fig4_si(topk=14):
     cb.ax.tick_params(labelsize=6)
     axb.barh(range(topk), eta[order], color="#777777", height=0.7); axb.set_ylim(axh.get_ylim()); axb.set_yticks([])
     axb.set_xlabel(r"$\eta^2$ (variance by family)", fontsize=7.5); axb.tick_params(labelsize=6)
-    fig.savefig(f"Manuscript/SI_figures/figS_discriminating.png"); plt.close(fig)
+    fig.savefig(f"figures/si/figS_discriminating.png"); plt.close(fig)
     print("saved figS_discriminating.png")
 
 
@@ -751,7 +751,7 @@ def fig_benchmark(n_per=1000, seed=0, n_init=3, null_kind=None):
     from sklearn.metrics import silhouette_score, adjusted_rand_score
     from unsup_real_world import fit_t_mixture, fit_skew_t_mixture, fit_theory_bayes_gmm
     from benchmark_data import load_benchmark, CANONICAL_NULL
-    os.makedirs("Manuscript/SI_figures", exist_ok=True)
+    os.makedirs("figures/si", exist_ok=True)
     kind = null_kind or CANONICAL_NULL
     fname = "figS_benchmark.png" if null_kind is None else f"figS_benchmark_{null_kind}.png"
     Xn, ys = load_benchmark(kind, n_per, seed)
@@ -830,7 +830,7 @@ def fig_benchmark(n_per=1000, seed=0, n_init=3, null_kind=None):
     _tag(axF, "(f) per-class recovery", y=1.13)
 
     fig.tight_layout()
-    fig.savefig(f"Manuscript/SI_figures/{fname}"); plt.close(fig)
+    fig.savefig(f"figures/si/{fname}"); plt.close(fig)
     print(f"saved {fname} ({kind}) | nearest-centroid (prior only) {nc_acc*100:.0f}%; " + "; ".join(
         f"{m}: acc {res[m]['acc']*100:.0f}% ARI {res[m]['ari']:.2f} sil {res[m]['sil']:.2f}" for m in order))
 
@@ -844,7 +844,7 @@ def fig_benchmark_stack(n_per=1000, seed=0, n_init=3):
     from sklearn.metrics import silhouette_score, adjusted_rand_score
     from unsup_real_world import fit_t_mixture, fit_skew_t_mixture, fit_theory_bayes_gmm
     from benchmark_data import load_benchmark, CANONICAL_NULL
-    os.makedirs("Manuscript/SI_figures", exist_ok=True)
+    os.makedirs("figures/si", exist_ok=True)
     kinds = [CANONICAL_NULL, "linear", "exponential", "ramp_expsat", "sigmoid", "mixed"]
     KLAB = {CANONICAL_NULL: "logistic stable twin (canonical)", "linear": "linear null",
             "exponential": "exponential null", "ramp_expsat": "ramp-expsat null",
@@ -932,7 +932,7 @@ def fig_benchmark_stack(n_per=1000, seed=0, n_init=3):
                        columnspacing=0.7, handletextpad=0.3, bbox_to_anchor=(0.5, 1.02))
             _tag(axF, "per-class recovery")
 
-    fig.savefig("Manuscript/SI_figures/figS_benchmark_all.png", bbox_inches="tight")
+    fig.savefig("figures/si/figS_benchmark_all.png", bbox_inches="tight")
     plt.close(fig)
     print("saved figS_benchmark_all.png")
 

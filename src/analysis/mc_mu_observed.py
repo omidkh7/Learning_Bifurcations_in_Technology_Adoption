@@ -21,8 +21,8 @@ Three observation regimes x two feature sets x three algorithms:
   canonical    sigma in {0.005 ... 0.20}             (the benchmark protocol)
   marginalised sigma in {0.05 ... 0.20}, 10-25 obs, window truncation (hostile observation)
 
-Output: console table (95% CIs) + runs/unsup/bifurcation_explore/mc_mu_observed.csv
-        + Manuscript/SI_figures/figS_mu_observed.png  (showcase + accuracy panels)
+Output: console table (95% CIs) + results/unsup/bifurcation_explore/mc_mu_observed.csv
+        + figures/si/figS_mu_observed.png  (showcase + accuracy panels)
 Run `python mc_mu_observed.py figure` to redraw the figure from the saved CSV without re-running.
 """
 import warnings
@@ -185,8 +185,8 @@ def main():
                 print(f"  {fname:7s} {algo:10s}: {100*a:5.1f}% +- {ci(a, m):.1f}")
                 rows.append(dict(regime=regime, featset=fname, algo=algo, acc=100 * a))
     df = pd.DataFrame(rows)
-    df.to_csv("runs/unsup/bifurcation_explore/mc_mu_observed.csv", index=False)
-    print("\nSaved -> runs/unsup/bifurcation_explore/mc_mu_observed.csv")
+    df.to_csv("results/unsup/bifurcation_explore/mc_mu_observed.csv", index=False)
+    print("\nSaved -> results/unsup/bifurcation_explore/mc_mu_observed.csv")
     si_figure(df)
 
 
@@ -279,7 +279,7 @@ def si_figure(df):
                title_fontsize=6.2, loc="lower center", bbox_to_anchor=(0.5, 0.315))
 
     import os
-    SI = "Manuscript/SI_figures"; os.makedirs(SI, exist_ok=True)
+    SI = "figures/si"; os.makedirs(SI, exist_ok=True)
     fig.savefig(f"{SI}/figS_mu_observed.png", bbox_inches="tight"); plt.close(fig)
     print(f"Saved -> {SI}/figS_mu_observed.png")
 
@@ -287,6 +287,6 @@ def si_figure(df):
 if __name__ == "__main__":
     import sys
     if "figure" in sys.argv:
-        si_figure(pd.read_csv("runs/unsup/bifurcation_explore/mc_mu_observed.csv"))
+        si_figure(pd.read_csv("results/unsup/bifurcation_explore/mc_mu_observed.csv"))
     else:
         main()

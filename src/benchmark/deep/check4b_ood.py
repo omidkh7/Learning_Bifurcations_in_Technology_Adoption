@@ -26,13 +26,13 @@ import matplotlib.pyplot as plt
 from sklearn.covariance import LedoitWolf
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-ROOT = os.path.dirname(HERE)
+ROOT = os.path.dirname(os.path.dirname(os.path.dirname(HERE)))
 sys.path.insert(0, HERE)
 sys.path.insert(0, ROOT)
 from features import FEAT_NAMES_46, FEAT_GROUPS_46
 
-CDATA = os.path.join(HERE, "data", "checks")
-CRUNS = os.path.join(HERE, "runs", "checks")
+CDATA = os.path.join(ROOT, "data", "curated", "deep", "checks")
+CRUNS = os.path.join(ROOT, "results", "benchmark", "checks")
 CLASSES = ["SN", "TC", "Null"]
 
 

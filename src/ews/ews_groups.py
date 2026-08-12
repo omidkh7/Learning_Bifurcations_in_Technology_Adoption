@@ -14,7 +14,7 @@ Quantitative readout: % of series with RISING pre-takeoff EWS (Kendall tau > 0 o
 — rising autocorrelation/variance on approach = the generic signature of an underlying
 bifurcation, agnostic to its type (SN/TC/other).
 
-Output: runs/figures/fig_ews_groups.png + console stats
+Output: results/figures/fig_ews_groups.png + console stats
 """
 import warnings
 warnings.filterwarnings("ignore")
@@ -114,8 +114,8 @@ def main():
                  "underlying bifurcation — agnostic to its TYPE, which is not curve-readable; §90)",
                  fontweight="bold", fontsize=12.5)
     plt.tight_layout()
-    fig.savefig("runs/figures/fig_ews_groups.png", dpi=150, bbox_inches="tight")
-    print("Saved → runs/figures/fig_ews_groups.png")
+    fig.savefig("results/figures/fig_ews_groups.png", dpi=150, bbox_inches="tight")
+    print("Saved → results/figures/fig_ews_groups.png")
 
 
 if __name__ == "__main__":

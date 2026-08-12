@@ -13,18 +13,18 @@ carries zero class information, in training as well as testing. A natural (unmat
 balanced set is kept as a control. 500-point grid throughout (same as §71/§72a evidence).
 
 Classes: 0 = SN, 1 = TC, 2 = Null.
-Writes: second_attempt_deep/data/{X,y,t50}_{matched,natural}.npy + meta.json
+Writes: data/curated/deep/{X,y,t50}_{matched,natural}.npy + meta.json
 """
 import os, sys, json, time, warnings
 warnings.filterwarnings("ignore")
 import numpy as np
 
-ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 sys.path.insert(0, ROOT)
 from matched_inflection_experiment import gen_pool, t50 as t50_of   # wide SN/TC generator (§71)
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-DATA = os.path.join(HERE, "data")
+DATA = os.path.join(ROOT, "data", "curated", "deep")
 os.makedirs(DATA, exist_ok=True)
 
 T = 500

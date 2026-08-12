@@ -13,7 +13,7 @@ Panels:
   (c) median takeoff-aligned variance curve per family, TRUNCATED at takeoff (canonical params)
   (d) same for AC1  -> preview of the "cut at takeoff" display option.
 
-Output: runs/figures/fig_ews_sensitivity.png + console table (incl. per-family canonical numbers).
+Output: results/figures/fig_ews_sensitivity.png + console table (incl. per-family canonical numbers).
 """
 import warnings
 warnings.filterwarnings("ignore")
@@ -122,7 +122,7 @@ def main():
             _tag(ax, tg, y=1.06)
 
     import os
-    SI = "Manuscript/SI_figures"; os.makedirs(SI, exist_ok=True)
+    SI = "figures/si"; os.makedirs(SI, exist_ok=True)
     figS, axsS = plt.subplots(1, 2, figsize=(COL2, 2.7), gridspec_kw=dict(wspace=0.42))
     heatmaps(axsS)
     figS.savefig(f"{SI}/figS_ews_sensitivity.png", bbox_inches="tight"); plt.close(figS)
@@ -145,8 +145,8 @@ def main():
         ax.set_xlabel("time to takeoff", fontsize=7.5); ax.set_ylabel(yl, fontsize=7.5)
         ax.legend(fontsize=6, loc="upper left"); _tag(ax, tg, y=1.08)
 
-    fig.savefig("runs/figures/fig_ews_sensitivity.png", bbox_inches="tight"); plt.close(fig)
-    print("\nSaved -> runs/figures/fig_ews_sensitivity.png")
+    fig.savefig("results/figures/fig_ews_sensitivity.png", bbox_inches="tight"); plt.close(fig)
+    print("\nSaved -> results/figures/fig_ews_sensitivity.png")
 
 
 if __name__ == "__main__":

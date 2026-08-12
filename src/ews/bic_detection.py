@@ -131,11 +131,11 @@ def run_real():
     np.savez(f"{SCR}/bic_real_cache.npz", **{f"p_{g}": det[g] for g in fams})
     rates = {g: round(100 * float(np.mean(det[g] < 0.05)), 1) for g in fams}
     rates["OVERALL"] = round(100 * float(np.mean(allp < 0.05)), 1)
-    json.dump(rates, open("runs/bic_real_detection_rates.json", "w"), indent=2)
+    json.dump(rates, open("results/bic_real_detection_rates.json", "w"), indent=2)
     return rows, det
 
 
-CACHE_FIG = "runs/bic_fig_cache.npz"
+CACHE_FIG = "results/bic_fig_cache.npz"
 CB, CN, CM, CR = "#d62828", "#3a3a3a", "#e07a5f", "#6a4c93"   # bifurcation, stable-twin, multiplicative, real
 
 
@@ -190,7 +190,7 @@ def make_figure():
     D.hist(np.clip(dev["add_null"], 0, hi), bins=bins, density=True, histtype="step", color=CN, lw=1.5, label="synth. stable-twin")
     D.set_xlabel("deviance", fontsize=6.6); D.set_ylabel("density", fontsize=7)
     D.legend(fontsize=6.3, frameon=False); _tag(D, "(d)")
-    out = "Manuscript/SI_figures/figS_bic_detection.png"
+    out = "figures/si/figS_bic_detection.png"
     fig.savefig(out, dpi=200, bbox_inches="tight"); plt.close(fig)
     print(f"saved -> {out}")
 

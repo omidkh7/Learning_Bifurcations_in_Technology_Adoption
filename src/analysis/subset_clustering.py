@@ -7,7 +7,7 @@ Compares A:CSD + E:SN-fp + H:Crit (the top-3 by class eta^2; 18-D) against the f
   * REAL data  -> KMeans silhouette vs k + PC scatter (continuum check), and
   * SYNTHETIC benchmark -> ground-truth accuracy (unsupervised GMM vs mechanism-prior nearest-centroid).
 
-Output: Manuscript/SI_figures/figS_subset_clustering.png
+Output: figures/si/figS_subset_clustering.png
 """
 import os, warnings
 warnings.filterwarnings("ignore")
@@ -24,7 +24,7 @@ from paper_figures import load_four_group, FAMCOL, FAMLABEL, FAMS, _tag, GROUP, 
 from benchmark_feature_spaces import load_synth
 from unsup_real_world import fit_t_mixture
 
-SI = "Manuscript/SI_figures"; os.makedirs(SI, exist_ok=True)
+SI = "figures/si"; os.makedirs(SI, exist_ok=True)
 GROUPS = list(GROUP)                                               # canonical 46-D group labels
 EHA = [i for i, g in enumerate(GROUPS) if g in ("A:CSD", "E:SN-fp", "H:Crit")]
 KS = (2, 3, 4, 5)

@@ -28,7 +28,7 @@ pure-dynamics boundary. Feature space: the paper's own `paper_figures.build_feat
 so the change the DL stage makes to benchmark-class recovery is directly visible.
 
 Runs the canonical logistic twin and the open-set 'mixed' twin. Writes
-runs/benchmark/benchmark_dl.json + fig_benchmark_dl.png (nothing outside second_attempt_deep/).
+runs/benchmark/benchmark_dl.json + fig_benchmark_dl.png (nothing outside src/benchmark/deep/).
 """
 import os, sys, json, time, warnings
 # Cap BLAS threading BEFORE numpy/torch import: mixing macOS Accelerate multithreaded BLAS
@@ -46,7 +46,7 @@ from scipy.optimize import linear_sum_assignment
 from sklearn.preprocessing import StandardScaler
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-ROOT = os.path.dirname(HERE)
+ROOT = os.path.dirname(os.path.dirname(os.path.dirname(HERE)))
 sys.path.insert(0, HERE)
 sys.path.insert(0, ROOT)
 from benchmark_data import load_benchmark, NULL_VERSION
@@ -57,7 +57,7 @@ from models import FeatMLP
 import train as T
 
 set_style()                                                  # paper house style (Times, etc.)
-BRUNS = os.path.join(HERE, "runs", "benchmark")
+BRUNS = os.path.join(ROOT, "results", "benchmark")
 os.makedirs(BRUNS, exist_ok=True)
 
 N_PER = 3000            # per class for the DL split

@@ -15,7 +15,7 @@ y kept as-is/min-max, §83 decline-truncated, identical to feature_space_7datase
 each criterion alone and the strict AND. Datasets: combined, filter10, genuine_v2, hardexcl, s002,
 s005 + the four groups (Historical/Renewables/BEV/CDR).
 
-Output: Manuscript/SI_figures/figS_no_transition.png + runs/unsup/bifurcation_explore/no_transition.csv
+Output: figures/si/figS_no_transition.png + results/unsup/bifurcation_explore/no_transition.csv
 """
 import os, warnings, pickle, json
 warnings.filterwarnings("ignore")
@@ -74,7 +74,7 @@ def main():
     F = np.vstack([extract_theory_features(r[None, :], verbose=False) for r in raws])
     base_idx = {rid[keep[j]]: j for j in range(len(keep))}
 
-    q = pd.read_csv("runs/unsup/shape_diagnostic/scurve_quality.csv")
+    q = pd.read_csv("results/unsup/shape_diagnostic/scurve_quality.csv")
     gv2 = load_pkl("combined_genuine_v2")
     def sub_gv2(mask): return [gv2[i].row_id for i in mask if i < len(gv2)]
     nx = ~q.excluded
@@ -117,11 +117,11 @@ def main():
                          pct_strict_AND=round(100 * cr["strict"].mean(), 1)))
 
     df = pd.DataFrame(rows)
-    df.to_csv("runs/unsup/bifurcation_explore/no_transition.csv", index=False)
+    df.to_csv("results/unsup/bifurcation_explore/no_transition.csv", index=False)
     print(df.to_string(index=False))
 
     # ── figure (SI house style) ──
-    SI = "Manuscript/SI_figures"; os.makedirs(SI, exist_ok=True)
+    SI = "figures/si"; os.makedirs(SI, exist_ok=True)
     NICE = {"combined": "Combined", "filter10": "Filter-10", "genuine_v2": "Genuine",
             "hardexcl": "Hard-excl.", "s002": r"$s\geq0.02$", "s005": r"$s\geq0.05$",
             "Historical": "Historical", "Renewables": "Solar+Wind", "BEV": "BEV", "CDR": "CDR"}
@@ -154,7 +154,7 @@ def main():
     _tag(ax[1], "(b) by individual criterion")
 
     fig.savefig(f"{SI}/figS_no_transition.png", bbox_inches="tight"); plt.close(fig)
-    print(f"\nSaved → {SI}/figS_no_transition.png + runs/unsup/bifurcation_explore/no_transition.csv")
+    print(f"\nSaved → {SI}/figS_no_transition.png + results/unsup/bifurcation_explore/no_transition.csv")
 
 
 if __name__ == "__main__":

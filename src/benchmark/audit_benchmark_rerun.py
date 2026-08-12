@@ -8,7 +8,7 @@ any manuscript figure. Also reproduces the audit's two-texture-feature probe (re
 AC after Gaussian detrend): if those two shape-free features alone separate null-vs-rest, the null
 is identified by noise texture, not dynamics.
 
-Output: console table + runs/unsup/bifurcation_explore/audit_benchmark_rerun.csv
+Output: console table + results/unsup/bifurcation_explore/audit_benchmark_rerun.csv
 """
 import warnings
 warnings.filterwarnings("ignore")
@@ -67,8 +67,8 @@ def main():
             rows.append(dict(null_version=nv, null=kind, acc_t=100*acc_t, acc_skewt=100*acc_s,
                              acc_oracle=100*acc_o, tcnull_conf=100*tcnull,
                              texture_3class=100*acc2, texture_nullrest=100*nullrest2))
-    pd.DataFrame(rows).to_csv("runs/unsup/bifurcation_explore/audit_benchmark_rerun.csv", index=False)
-    print("\nSaved -> runs/unsup/bifurcation_explore/audit_benchmark_rerun.csv")
+    pd.DataFrame(rows).to_csv("results/unsup/bifurcation_explore/audit_benchmark_rerun.csv", index=False)
+    print("\nSaved -> results/unsup/bifurcation_explore/audit_benchmark_rerun.csv")
 
 
 if __name__ == "__main__":

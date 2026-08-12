@@ -6,7 +6,7 @@ Pairwise redundancy audit of the 46 canonical features: signed correlation heatm
 and the list of near-duplicate pairs (|r| > 0.85) on the synthetic benchmark. Flags features that are
 genuinely too similar in definition.
 
-Output: Manuscript/SI_figures/figS_feature_redundancy.png + printed pair list.
+Output: figures/si/figS_feature_redundancy.png + printed pair list.
 """
 import os, warnings
 warnings.filterwarnings("ignore")
@@ -18,7 +18,7 @@ set_style()
 from paper_figures import build_features, GROUP, ALL_NAMES, GCOLOR, _tag
 from benchmark_feature_spaces import load_synth
 
-SI = "Manuscript/SI_figures"; os.makedirs(SI, exist_ok=True)
+SI = "figures/si"; os.makedirs(SI, exist_ok=True)
 GORDER = ["A:CSD", "B:Inflect", "C:Phase", "D:Catch22", "E:SN-fp", "F:Transit", "G:TC-fp", "H:Crit"]
 
 

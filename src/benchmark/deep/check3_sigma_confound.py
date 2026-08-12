@@ -31,6 +31,7 @@ import matplotlib.pyplot as plt
 import torch
 
 HERE = os.path.dirname(os.path.abspath(__file__))
+ROOT = os.path.dirname(os.path.dirname(os.path.dirname(HERE)))
 sys.path.insert(0, HERE)
 from checks_common import gen_pool_meta, SIGMA_CHOICES
 from features import build_features46
@@ -38,7 +39,7 @@ from models import FeatMLP
 from check2_noise_realism import match2, fit, probs
 import train as T
 
-CRUNS = os.path.join(HERE, "runs", "checks")
+CRUNS = os.path.join(ROOT, "results", "benchmark", "checks")
 os.makedirs(CRUNS, exist_ok=True)
 
 N_PER = 9000                 # t50-matching retains only ~15%, so pools must be large

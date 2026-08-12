@@ -8,7 +8,7 @@ sensitivity check (Bury et al. 2021 / open-set-recognition style) -- a heterogen
 blends shapes. SN/TC are held fixed (canonical normal forms). Methods: Student-t, skew-t (unsupervised)
 + mechanism prior + nearest-centroid (oracle).
 
-Output: Manuscript/SI_figures/figS_null_sensitivity.png + printed accuracy/confusion table.
+Output: figures/si/figS_null_sensitivity.png + printed accuracy/confusion table.
 """
 import os, warnings
 warnings.filterwarnings("ignore")
@@ -23,7 +23,7 @@ from paper_figures import build_features, _tag
 from benchmark_data import load_benchmark, CLEAN_NULLS
 from unsup_real_world import fit_t_mixture, fit_skew_t_mixture, fit_theory_bayes_gmm
 
-SI = "Manuscript/SI_figures"; os.makedirs(SI, exist_ok=True)
+SI = "figures/si"; os.makedirs(SI, exist_ok=True)
 NULLS = CLEAN_NULLS + ["mixed"]                                    # 5 clean + 1 demoted open-set
 METHODS = ["Student-t", "skew-t", "mechanism prior", "nearest-centroid"]
 MCOL = {"Student-t": "#8ab17d", "skew-t": "#2a9d8f", "mechanism prior": "#1d4e89", "nearest-centroid": "#457b9d"}

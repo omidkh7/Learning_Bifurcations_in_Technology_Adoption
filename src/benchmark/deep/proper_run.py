@@ -20,7 +20,7 @@ import matplotlib.pyplot as plt
 import torch
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-ROOT = os.path.dirname(HERE)
+ROOT = os.path.dirname(os.path.dirname(os.path.dirname(HERE)))
 sys.path.insert(0, ROOT)
 sys.path.insert(0, HERE)
 from matched_inflection_experiment import gen_pool
@@ -29,8 +29,8 @@ from features import build_features46
 from models import FeatMLP
 import train as T
 
-PDATA = os.path.join(HERE, "data", "proper")
-PRUNS = os.path.join(HERE, "runs", "proper")
+PDATA = os.path.join(ROOT, "data", "curated", "deep", "proper")
+PRUNS = os.path.join(ROOT, "results", "benchmark", "proper")
 os.makedirs(PDATA, exist_ok=True)
 os.makedirs(PRUNS, exist_ok=True)
 

@@ -28,7 +28,7 @@ from sklearn.decomposition import PCA
 from sklearn.preprocessing import StandardScaler
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-ROOT = os.path.dirname(HERE)
+ROOT = os.path.dirname(os.path.dirname(os.path.dirname(HERE)))
 sys.path.insert(0, HERE)
 sys.path.insert(0, ROOT)
 from benchmark_data import load_benchmark, NULL_VERSION
@@ -36,7 +36,7 @@ from paper_figures import build_features
 from models import FeatMLP
 import train as T
 
-CRUNS = os.path.join(HERE, "runs", "checks")
+CRUNS = os.path.join(ROOT, "results", "benchmark", "checks")
 os.makedirs(CRUNS, exist_ok=True)
 N_PER = 3000
 N_SEEDS = 5

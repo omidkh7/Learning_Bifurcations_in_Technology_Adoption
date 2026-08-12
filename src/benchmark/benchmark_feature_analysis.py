@@ -7,7 +7,7 @@ Answers: which feature GROUPS actually carry the class signal, do the SN- and TC
 fire on their intended class (validity check on the feature design), and how much does each group
 contribute (leave-one-group-out). Uses the BALANCED 43-D space (38 + Group G TC-fingerprint).
 
-Output: Manuscript/SI_figures/figS_feature_analysis.png  + printed summary.
+Output: figures/si/figS_feature_analysis.png  + printed summary.
 """
 import os, warnings
 warnings.filterwarnings("ignore")
@@ -19,7 +19,7 @@ set_style()
 from paper_figures import _tag, GROUP, ALL_NAMES, build_features
 from benchmark_feature_spaces import load_synth
 
-SI = "Manuscript/SI_figures"; os.makedirs(SI, exist_ok=True)
+SI = "figures/si"; os.makedirs(SI, exist_ok=True)
 LAB = ["SN", "TC", "Null"]; CCOL = {0: "#d62828", 1: "#457b9d", 2: "#9aa0a6"}
 NAMES = list(ALL_NAMES)                                             # canonical 46-D names
 GROUPS = list(GROUP)                                               # canonical 46-D group labels

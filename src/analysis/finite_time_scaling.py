@@ -15,7 +15,7 @@ Key result (this script):
     "cannot identify mechanism from data alone." (In real adoption data the attained ceiling is
     exogenous rather than mu-set, so even this proxy channel is absent.)
 
-Output: Manuscript/SI_figures/figS_fts_probe.png (two panels: theory in mu, and the L confound)
+Output: figures/si/figS_fts_probe.png (two panels: theory in mu, and the L confound)
 """
 import os, warnings
 warnings.filterwarnings("ignore")
@@ -25,7 +25,7 @@ from paper_style import set_style, COL2
 set_style()
 from paper_figures import _tag
 
-SI = "Manuscript/SI_figures"; os.makedirs(SI, exist_ok=True)
+SI = "figures/si"; os.makedirs(SI, exist_ok=True)
 SNCOL, TCCOL = "#c1121f", "#1d4e89"
 
 

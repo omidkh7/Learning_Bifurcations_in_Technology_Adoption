@@ -34,7 +34,7 @@ from sklearn.decomposition import PCA
 from sklearn.preprocessing import StandardScaler
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-ROOT = os.path.dirname(HERE)
+ROOT = os.path.dirname(os.path.dirname(os.path.dirname(HERE)))
 sys.path.insert(0, HERE); sys.path.insert(0, ROOT)
 from benchmark_data import load_benchmark
 from paper_figures import build_features, load_four_group, _tag, FAMCOL, FAMLABEL, FAMS
@@ -43,9 +43,9 @@ from models import FeatMLP
 import train as T
 
 set_style()                                                   # paper house style (Times, etc.)
-CRUNS = os.path.join(HERE, "runs", "checks")
+CRUNS = os.path.join(ROOT, "results", "benchmark", "checks")
 os.makedirs(CRUNS, exist_ok=True)
-os.makedirs(os.path.join(HERE, "runs", "conf"), exist_ok=True)
+os.makedirs(os.path.join(ROOT, "results", "benchmark", "conf"), exist_ok=True)
 N_PER, N_SEEDS = 3000, 5
 PROPER_N_PER, PROPER_N_SEEDS = 10000, 10     # "proper" mode: python confidence_distribution.py proper
 CLASSES = ["SN", "TC", "Null"]

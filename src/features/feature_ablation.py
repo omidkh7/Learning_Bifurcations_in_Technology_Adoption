@@ -11,7 +11,7 @@ discrete saddle-node / transcritical clusters:
 For each: standardise on the reference families (Historical+Solar+Wind), PCA, then KMeans silhouette
 for k=2..5 (silhouette < 0.5 => no discrete clusters => continuum). Reports the table and a figure.
 
-Output: Manuscript/SI_figures/figS_feature_ablation.png
+Output: figures/si/figS_feature_ablation.png
 """
 import os, warnings
 warnings.filterwarnings("ignore")
@@ -25,7 +25,7 @@ from paper_style import set_style, COL2
 set_style()
 from paper_figures import load_four_group, build_features, GROUP, FAMCOL, FAMLABEL, FAMS, _tag
 
-SI = "Manuscript/SI_figures"; os.makedirs(SI, exist_ok=True)
+SI = "figures/si"; os.makedirs(SI, exist_ok=True)
 
 
 def project(F, grp):

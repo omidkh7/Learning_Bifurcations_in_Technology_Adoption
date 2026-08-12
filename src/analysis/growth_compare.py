@@ -14,7 +14,7 @@ curves, where it is 90% of the level reached SO FAR rather than of a real ceilin
   peak_growth  = fastest sustained rolling-window rate (3-yr window, start above 10% of observed range)
 Policy features (38-D): early_plateau_frac (length of the pre-takeoff "valley"), saturation_speed.
 
-Output: runs/figures/fig_growth_compare.png + runs/unsup/bifurcation_explore/growth_compare.csv
+Output: results/figures/fig_growth_compare.png + results/unsup/bifurcation_explore/growth_compare.csv
 """
 import warnings, pickle
 warnings.filterwarnings("ignore")
@@ -25,8 +25,8 @@ import unsup_real_world
 from unsup_theory_features import extract_theory_features, FEATURE_NAMES
 NG = 100
 START_MAX = 0.10            # §84: discard left-truncated series whose first point > 10% of peak
-CARS = "all_carsales_monthly.csv"; IEA = "IEA CCUS Projects Database 2026.xlsx"
-RENEW_OWID = "data/renewables/owid_solar_wind_share.csv"   # §84: honest solar/wind generation share
+CARS = "data/raw/all_carsales_monthly.csv"; IEA = "data/raw/IEA CCUS Projects Database 2026.xlsx"
+RENEW_OWID = "data/raw/owid_solar_wind_share.csv"   # §84: honest solar/wind generation share
 RENEW = {"Solar Photovoltaic", "Onshore Wind Energy", "Offshore Wind Energy", "Renewable Power",
          "Geothermal Energy", "Solar Thermal Energy", "Marine Energy"}
 EXCLUDE = {"EU + EFTA + UK", "EUROPEAN UNION", "EFTA", "California CNCDA", "Netherlands including used",
@@ -129,7 +129,7 @@ def curve100(vals):
 
 
 def scale_maps():
-    raw = pd.read_csv("technologies.csv"); yc = [c for c in raw.columns if c.isdigit()]
+    raw = pd.read_csv("data/raw/technologies.csv"); yc = [c for c in raw.columns if c.isdigit()]
     pk = raw[yc].max(axis=1)
     return (raw.assign(p=pk).groupby(["Technology Name", "Country Name"])["p"].max().to_dict(),
             raw.assign(p=pk).groupby("Technology Name")["p"].max().to_dict())
@@ -144,8 +144,8 @@ def collect(with_meta=False):
         out.append((g, nm, yy, vv, dict(scale=scale, country=country, year_start=int(yy[0])))
                    if with_meta else (g, nm, yy, vv))
     # gv2 historical + renewables (scale-gated)
-    s = _U(open("data/combined_genuine_v2/real_world_samples.pkl", "rb")).load()
-    md = pd.read_csv("data/combined_genuine_v2/metadata.csv"); key, leader = scale_maps()
+    s = _U(open("data/curated/combined_genuine_v2/real_world_samples.pkl", "rb")).load()
+    md = pd.read_csv("data/curated/combined_genuine_v2/metadata.csv"); key, leader = scale_maps()
     for i, smp in enumerate(s):
         yf = np.asarray(smp.years_full, float)
         if len(yf) < 10 or yf[-1] - yf[0] < 1: continue
@@ -192,7 +192,7 @@ def collect(with_meta=False):
     #   Only 9 annual points (2017-2025) → below onset_trim's 10-pt gate, but it is a curated global
     #   aggregate (like the IEA pipeline), so add directly after stripping any post-peak decline.
     try:
-        so = pd.read_csv("data/cdr/socdr_novel_by_method.csv")
+        so = pd.read_csv("data/curated/cdr/socdr_novel_by_method.csv")
         so = so.rename(columns={so.columns[0]: "year"})
         tot = so.set_index("year").sum(axis=1, min_count=1).dropna()
         yy, vv = truncate_decline(tot.index.values.astype(float), tot.values)
@@ -214,7 +214,7 @@ def main():
                          peak_growth_pct=round(pk, 1) if np.isfinite(pk) else np.nan,
                          early_plateau=round(float(F[FEATURE_NAMES.index("early_plateau_frac")]), 3),
                          sat_speed=round(float(F[FEATURE_NAMES.index("saturation_speed")]), 3)))
-    R = pd.DataFrame(rows); R.to_csv("runs/unsup/bifurcation_explore/growth_compare.csv", index=False)
+    R = pd.DataFrame(rows); R.to_csv("results/unsup/bifurcation_explore/growth_compare.csv", index=False)
     order = ["Historical", "Renewables", "BEV", "CDR"]
     print("Median geometric-average-to-peak and peak rolling growth (%/yr) by group:")
     print(R.groupby("group")[["geo_growth_pct", "peak_growth_pct"]].median().round(1).reindex(order).to_string())
@@ -244,8 +244,8 @@ def main():
     ax[1].set_title("(B) Peak sustained pace — CDR pledge at the historical extreme")
     fig.suptitle("Growth-rate comparison — Historical · Solar+Wind · BEV · CDR (two metrics)",
                  fontweight="bold", fontsize=13)
-    plt.tight_layout(); fig.savefig("runs/figures/fig_growth_compare.png", dpi=140, bbox_inches="tight")
-    print("\nSaved → runs/figures/fig_growth_compare.png + .../growth_compare.csv")
+    plt.tight_layout(); fig.savefig("results/figures/fig_growth_compare.png", dpi=140, bbox_inches="tight")
+    print("\nSaved → results/figures/fig_growth_compare.png + .../growth_compare.csv")
 
 
 if __name__ == "__main__":

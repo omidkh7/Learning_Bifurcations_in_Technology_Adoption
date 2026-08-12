@@ -13,8 +13,8 @@ non-dynamical cue. The logistic null is rebuilt in four stages, each closing one
                own (mu, a2) scale + all class gates         noise, and selection all matched;
                                                             dynamics is the only remaining signal)
 
-Output: Manuscript/SI_figures/figS_null_ladder.png
-        + runs/unsup/bifurcation_explore/null_ladder.csv
+Output: figures/si/figS_null_ladder.png
+        + results/unsup/bifurcation_explore/null_ladder.csv
 """
 import warnings
 warnings.filterwarnings("ignore")
@@ -43,7 +43,7 @@ def hung(lab, ys):
 
 def main(figure_only=False):
     if figure_only:
-        draw(pd.read_csv("runs/unsup/bifurcation_explore/null_ladder.csv"))
+        draw(pd.read_csv("results/unsup/bifurcation_explore/null_ladder.csv"))
         return
     rows = []
     for nv in LADDER:
@@ -60,14 +60,14 @@ def main(figure_only=False):
         rows.append(dict(stage=str(nv), acc_t=100*acc_t, acc_skewt=100*acc_s, acc_oracle=100*acc_o,
                          tcnull=100*conf, sntc=100*sn_tc))
     df = pd.DataFrame(rows)
-    df.to_csv("runs/unsup/bifurcation_explore/null_ladder.csv", index=False)
+    df.to_csv("results/unsup/bifurcation_explore/null_ladder.csv", index=False)
     draw(df)
 
 
 def draw(df):
     # optional supervised overlay (FeatMLP per ladder stage; second_attempt_deep/ladder_dl.py)
     import os
-    dl_path = "runs/unsup/bifurcation_explore/null_ladder_dl.csv"
+    dl_path = "results/unsup/bifurcation_explore/null_ladder_dl.csv"
     dl = None
     if os.path.exists(dl_path):
         dl = pd.read_csv(dl_path, dtype={"stage": str}).set_index("stage")
@@ -101,9 +101,9 @@ def draw(df):
     _tag(ax, "(b) confusion concentrates on detection", y=1.05)
 
     import os
-    SI = "Manuscript/SI_figures"; os.makedirs(SI, exist_ok=True)
+    SI = "figures/si"; os.makedirs(SI, exist_ok=True)
     fig.savefig(f"{SI}/figS_null_ladder.png", bbox_inches="tight"); plt.close(fig)
-    print(f"Saved -> {SI}/figS_null_ladder.png + runs/unsup/bifurcation_explore/null_ladder.csv")
+    print(f"Saved -> {SI}/figS_null_ladder.png + results/unsup/bifurcation_explore/null_ladder.csv")
 
 
 if __name__ == "__main__":

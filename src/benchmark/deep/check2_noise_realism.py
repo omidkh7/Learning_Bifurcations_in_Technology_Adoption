@@ -41,6 +41,7 @@ from scipy.stats import spearmanr
 from scipy.ndimage import gaussian_filter1d
 
 HERE = os.path.dirname(os.path.abspath(__file__))
+ROOT = os.path.dirname(os.path.dirname(os.path.dirname(HERE)))
 sys.path.insert(0, HERE)
 from checks_common import (draw_params, integrate, valid, add_observation_noise,
                            to_grid, t50_of, SIGMA_CHOICES)
@@ -49,7 +50,7 @@ from features import build_features46
 from models import FeatMLP
 import train as T
 
-CRUNS = os.path.join(HERE, "runs", "checks")
+CRUNS = os.path.join(ROOT, "results", "benchmark", "checks")
 os.makedirs(CRUNS, exist_ok=True)
 
 N_PER = 9000

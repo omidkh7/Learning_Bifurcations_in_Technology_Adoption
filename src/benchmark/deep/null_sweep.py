@@ -21,7 +21,7 @@ unlike the headline experiment's widened logistic null; numbers are therefore no
 comparable to the headline table.
 
 Writes: runs/null_sweep.json, runs/fig_null_sweep.png. Reads only; touches nothing outside
-second_attempt_deep/.
+src/benchmark/deep/.
 """
 import os, sys, json, time, warnings
 warnings.filterwarnings("ignore")
@@ -32,7 +32,7 @@ import matplotlib.pyplot as plt
 import torch
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-ROOT = os.path.dirname(HERE)
+ROOT = os.path.dirname(os.path.dirname(os.path.dirname(HERE)))
 sys.path.insert(0, ROOT)
 sys.path.insert(0, HERE)
 from benchmark_data import make_null, CLEAN_NULLS                    # SI null constructions
@@ -49,8 +49,8 @@ CLASSES = ["SN", "TC", "Null"]
 
 def gen_null(kind, n, rng):
     if kind == "mixed":
-        X = np.load(os.path.join(ROOT, "data/synthetic_optionc/X_full.npy"))
-        y = np.load(os.path.join(ROOT, "data/synthetic_optionc/y.npy"))
+        X = np.load(os.path.join(ROOT, "data/curated/synthetic_optionc/X_full.npy"))
+        y = np.load(os.path.join(ROOT, "data/curated/synthetic_optionc/y.npy"))
         nu = X[rng.choice(np.where(y == 2)[0], n, replace=False)]
     else:
         nu = make_null(kind, n, GRID, rng)

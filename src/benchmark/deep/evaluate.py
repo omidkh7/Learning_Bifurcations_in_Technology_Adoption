@@ -27,12 +27,13 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.pipeline import make_pipeline
 
 HERE = os.path.dirname(os.path.abspath(__file__))
+ROOT = os.path.dirname(os.path.dirname(os.path.dirname(HERE)))
 sys.path.insert(0, HERE)
 from models import FeatMLP, TSEncoder
 from features import FEAT_NAMES_46, FEAT_GROUPS_46
 
-DATA = os.path.join(HERE, "data")
-RUNS = os.path.join(HERE, "runs")
+DATA = os.path.join(ROOT, "data", "curated", "deep")
+RUNS = os.path.join(ROOT, "results", "benchmark", "deep")
 DEVICE = torch.device("mps" if torch.backends.mps.is_available() else "cpu")
 CLASSES = ["SN", "TC", "Null"]
 

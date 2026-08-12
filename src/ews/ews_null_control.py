@@ -21,7 +21,7 @@ Test, per qualifying real series (three realised families, len >= 12, >= 4 pre-t
 Also reports a detrending-free variant: the same statistic computed on rolling std of FIRST
 DIFFERENCES (differencing removes smooth trends without a smoother, so curvature leakage is gone).
 
-Output: console summary + runs/unsup/bifurcation_explore/ews_null_control.csv
+Output: console summary + results/unsup/bifurcation_explore/ews_null_control.csv
 """
 import warnings
 warnings.filterwarnings("ignore")
@@ -114,7 +114,7 @@ def main():
         rows.append(out)
 
     df = pd.DataFrame(rows)
-    df.to_csv("runs/unsup/bifurcation_explore/ews_null_control.csv", index=False)
+    df.to_csv("results/unsup/bifurcation_explore/ews_null_control.csv", index=False)
 
     def rep(sub, tag):
         print(f"\n--- {tag} (N={len(sub)}) ---")
@@ -131,7 +131,7 @@ def main():
 
     rep(df, "POOLED")
     for g in FAMS: rep(df[df.family == g], g)
-    print("\nSaved -> runs/unsup/bifurcation_explore/ews_null_control.csv")
+    print("\nSaved -> results/unsup/bifurcation_explore/ews_null_control.csv")
     si_figure(df)
 
 
@@ -143,8 +143,8 @@ def si_figure(df=None):
     from paper_figures import _tag, FAMCOL, FAMLABEL
     import os
     if df is None:
-        df = pd.read_csv("runs/unsup/bifurcation_explore/ews_null_control.csv")
-    SI = "Manuscript/SI_figures"; os.makedirs(SI, exist_ok=True)
+        df = pd.read_csv("results/unsup/bifurcation_explore/ews_null_control.csv")
+    SI = "figures/si"; os.makedirs(SI, exist_ok=True)
 
     fig, axs = plt.subplots(1, 2, figsize=(COL2, 2.9), gridspec_kw=dict(wspace=0.35))
     groups = ["Historical", "Renewables", "BEV", "POOLED"]

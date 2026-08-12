@@ -3,7 +3,7 @@
 paper_si_figures.py
 ===================
 SI figures re-plotted to the manuscript house style (Times New Roman, no grid, no titles,
-named panel tags, no em-dashes), output to Manuscript/SI_figures/.
+named panel tags, no em-dashes), output to figures/si/.
 Covers: CDR by method (IEA), realized-vs-pipeline CDR, IEA-vs-SoCDR source comparison,
 SoCDR realized + growth, four-group distributions, historical era split.
 """
@@ -19,14 +19,14 @@ from unsup_theory_features import FEATURE_NAMES
 from compare_4groups import clean
 from growth_compare import collect, geo_avg_to_peak, peak_growth
 
-SI = "Manuscript/SI_figures"; os.makedirs(SI, exist_ok=True)
+SI = "figures/si"; os.makedirs(SI, exist_ok=True)
 MCOL = ["#1d4e89", "#e07a5f", "#2a9d8f", "#9b5de5", "#bc6c25", "#457b9d", "#06aed5",
         "#8ab17d", "#e76f51", "#adb5bd", "#264653"]
 
 
 # ===================================================================== IEA by method
 def si_cdr_iea():
-    d = pd.read_csv("data/cdr/cdr_by_method.csv")
+    d = pd.read_csv("data/curated/cdr/cdr_by_method.csv")
     meths = sorted(d.method.unique())
     cm = {m: MCOL[i] for i, m in enumerate(meths)}
     fig, axs = plt.subplots(1, 2, figsize=(COL2, 3.1), gridspec_kw=dict(wspace=0.28))
@@ -43,9 +43,9 @@ def si_cdr_iea():
 
 # ===================================================================== realized vs pipeline (IEA + SoCDR)
 def si_cdr_curves():
-    iea = pd.read_csv("data/cdr/cdr_by_method.csv")
+    iea = pd.read_csv("data/curated/cdr/cdr_by_method.csv")
     tot = iea.groupby(["track", "year"]).cum_capacity_Mt.sum().reset_index()
-    so = pd.read_csv("data/cdr/socdr_novel_by_method.csv"); so = so.rename(columns={so.columns[0]: "year"})
+    so = pd.read_csv("data/curated/cdr/socdr_novel_by_method.csv"); so = so.rename(columns={so.columns[0]: "year"})
     so_tot = so.set_index("year").sum(axis=1, min_count=1).dropna()
     fig, ax = plt.subplots(figsize=(COL2 * 0.62, 3.1))
     r = tot[tot.track == "realized"]; p = tot[tot.track == "promised"]
@@ -60,8 +60,8 @@ def si_cdr_curves():
 
 # ===================================================================== IEA vs SoCDR sources
 def si_cdr_sources():
-    pool = pd.read_csv("data/cdr/cdr_sources_pooled.csv")
-    ov = pd.read_csv("data/cdr/cdr_sources_overlap.csv")
+    pool = pd.read_csv("data/curated/cdr/cdr_sources_pooled.csv")
+    ov = pd.read_csv("data/curated/cdr/cdr_sources_overlap.csv")
     SC = {"IEA": "#1d4e89", "SoCDR": "#e07a5f"}
     fig, axs = plt.subplots(1, 3, figsize=(COL2, 3.1), gridspec_kw=dict(wspace=0.34))
     for ax, m, tag in [(axs[0], "DACCS", "(a) DACCS"), (axs[1], "BECCS", "(b) BECCS")]:
@@ -85,8 +85,8 @@ def si_cdr_sources():
 
 # ===================================================================== SoCDR realized + growth
 def si_socdr():
-    w = pd.read_csv("data/cdr/socdr_novel_by_method.csv"); w = w.rename(columns={w.columns[0]: "year"})
-    gr = pd.read_csv("data/cdr/socdr_growth_rates.csv").sort_values("CAGR_pct")
+    w = pd.read_csv("data/curated/cdr/socdr_novel_by_method.csv"); w = w.rename(columns={w.columns[0]: "year"})
+    gr = pd.read_csv("data/curated/cdr/socdr_growth_rates.csv").sort_values("CAGR_pct")
     meths = [c for c in w.columns if c != "year"]
     cm = {m: MCOL[i % len(MCOL)] for i, m in enumerate(meths)}
     fig, axs = plt.subplots(1, 2, figsize=(COL2, 3.2), gridspec_kw=dict(width_ratios=[1.2, 1], wspace=0.3))
@@ -127,7 +127,7 @@ def si_compare4_dist():
     axs[1, 0].set_xticks(range(4)); axs[1, 0].set_xticklabels([FAMLABEL[f] for f in FAMS], fontsize=6.2, rotation=18, ha="right")
     axs[1, 0].set_ylabel("median attained level (%)"); axs[1, 0].set_ylim(0, 105); _tag(axs[1, 0], "(c) maturity")
     # geometric-average-to-peak growth by family
-    R = pd.read_csv("runs/unsup/bifurcation_explore/growth_compare.csv")
+    R = pd.read_csv("results/unsup/bifurcation_explore/growth_compare.csv")
     dd = [R[R.group == f].geo_growth_pct.values for f in FAMS]
     bp = axs[1, 1].boxplot([x[np.isfinite(x)] for x in dd], positions=range(4), widths=0.6, showfliers=False, patch_artist=True)
     for patch, f in zip(bp["boxes"], FAMS): patch.set(facecolor=FAMCOL[f], alpha=0.30, edgecolor=FAMCOL[f])

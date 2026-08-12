@@ -14,8 +14,8 @@ Identical cleaning for every raw ANNUAL series: onset-trim (drop leading <2% of 
 valid across mixed metrics; the real LEVEL is reported separately, §80.) PCA fit on the genuine_v2
 reference (groups 1+2); BEV/CDR projected onto it.
 
-Outputs: runs/figures/{fig_compare4_scatter.png, fig_compare4_dist.png},
-         runs/unsup/bifurcation_explore/compare4_summary.csv
+Outputs: results/figures/{fig_compare4_scatter.png, fig_compare4_dist.png},
+         results/unsup/bifurcation_explore/compare4_summary.csv
 """
 import warnings, pickle
 warnings.filterwarnings("ignore")
@@ -27,8 +27,8 @@ from unsup_theory_features import extract_theory_features, FEATURE_NAMES
 from sklearn.preprocessing import StandardScaler
 from sklearn.decomposition import PCA
 NG = 100
-CARS = "all_carsales_monthly.csv"
-IEA = "IEA CCUS Projects Database 2026.xlsx"
+CARS = "data/raw/all_carsales_monthly.csv"
+IEA = "data/raw/IEA CCUS Projects Database 2026.xlsx"
 RENEW = {"Solar Photovoltaic", "Onshore Wind Energy", "Offshore Wind Energy", "Renewable Power",
          "Geothermal Energy", "Solar Thermal Energy", "Marine Energy"}
 EXCLUDE = {"EU + EFTA + UK", "EUROPEAN UNION", "EFTA", "California CNCDA",
@@ -65,9 +65,9 @@ class _U(pickle.Unpickler):
 
 
 def _scale_maps():
-    """Raw (tech,country) peak and per-tech leader peak from technologies.csv (for the §56
+    """Raw (tech,country) peak and per-tech leader peak from data/raw/technologies.csv (for the §56
     meaningful-scale gate that removes niche low-capacity 'saturated' stalls)."""
-    raw = pd.read_csv("technologies.csv"); yc = [c for c in raw.columns if c.isdigit()]
+    raw = pd.read_csv("data/raw/technologies.csv"); yc = [c for c in raw.columns if c.isdigit()]
     peak = raw[yc].max(axis=1)
     key = raw.assign(peak=peak).groupby(["Technology Name", "Country Name"])["peak"].max()
     leader = raw.assign(peak=peak).groupby("Technology Name")["peak"].max()
@@ -75,8 +75,8 @@ def _scale_maps():
 
 
 def load_gv2(scale_frac=0.01):
-    s = _U(open("data/combined_genuine_v2/real_world_samples.pkl", "rb")).load()
-    md = pd.read_csv("data/combined_genuine_v2/metadata.csv")
+    s = _U(open("data/curated/combined_genuine_v2/real_world_samples.pkl", "rb")).load()
+    md = pd.read_csv("data/curated/combined_genuine_v2/metadata.csv")
     key, leader = _scale_maps()
     rows = []; n_niche = 0
     for i, smp in enumerate(s):
@@ -171,7 +171,7 @@ def main():
                          PC3=round(float(PC[mk, 2].mean()), 2),
                          t_inflection=round(float(F[mk, fn["t_inflection"]].mean()), 2),
                          net_rise=round(float(F[mk, fn["net_rise_score"]].mean()), 2)))
-    S = pd.DataFrame(rows); S.to_csv("runs/unsup/bifurcation_explore/compare4_summary.csv", index=False)
+    S = pd.DataFrame(rows); S.to_csv("results/unsup/bifurcation_explore/compare4_summary.csv", index=False)
     print("=" * 90)
     print("  38-D FEATURE SPACE — 4-GROUP COMPARISON (identical cleaning; BEV yearly)")
     print("=" * 90)
@@ -204,7 +204,7 @@ def main():
     fig.suptitle("38-D feature space — Historical vs Renewables vs BEV vs CDR "
                  "(CDR shown as two labeled source pools: IEA ○, SoCDR ◇)",
                  fontweight="bold")
-    plt.tight_layout(); fig.savefig("runs/figures/fig_compare4_scatter.png", dpi=140, bbox_inches="tight")
+    plt.tight_layout(); fig.savefig("results/figures/fig_compare4_scatter.png", dpi=140, bbox_inches="tight")
 
     # ── fig 2: distributions + maturity + group-mean feature heatmap ──
     fig, ax = plt.subplots(2, 2, figsize=(16, 10))
@@ -236,8 +236,8 @@ def main():
     ax[1, 1].set_title("group-mean feature z-scores (top-16 discriminating)"); plt.colorbar(im, ax=ax[1, 1], fraction=.04)
     fig.suptitle("38-D feature space — group distributions, maturity, and discriminating features",
                  fontweight="bold")
-    plt.tight_layout(); fig.savefig("runs/figures/fig_compare4_dist.png", dpi=140, bbox_inches="tight")
-    print("\nSaved → runs/figures/fig_compare4_{scatter,dist}.png + .../compare4_summary.csv")
+    plt.tight_layout(); fig.savefig("results/figures/fig_compare4_dist.png", dpi=140, bbox_inches="tight")
+    print("\nSaved → results/figures/fig_compare4_{scatter,dist}.png + .../compare4_summary.csv")
 
 
 if __name__ == "__main__":

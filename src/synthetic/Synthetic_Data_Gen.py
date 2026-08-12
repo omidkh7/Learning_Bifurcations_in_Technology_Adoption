@@ -54,22 +54,22 @@ Each sample is PCHIP-interpolated to exactly TARGET_POINTS = 500 uniform
 grid points — identical to the real-world curation pipeline.
 
 Default dataset: 150,000 samples (50,000 per class).
-  → data/synthetic_150k_3class/X_full.npy   (150000, 500) float32
-  → data/synthetic_150k_3class/y.npy         labels (0/1/2)
-  → data/synthetic_150k_3class/metadata.json
-  → data/synthetic_150k_3class/synthetic_dataset.pkl
+  → data/curated/synthetic_150k_3class/X_full.npy   (150000, 500) float32
+  → data/curated/synthetic_150k_3class/y.npy         labels (0/1/2)
+  → data/curated/synthetic_150k_3class/metadata.json
+  → data/curated/synthetic_150k_3class/synthetic_dataset.pkl
 
 Stage-1 centroid init uses 2-class subset: filter y < 2  →  100K (SN+TC only).
 
 Usage:
     python Synthetic_Data_Gen.py                    # generates 150K to default path
     python Synthetic_Data_Gen.py --n 30000          # smaller run for testing
-    python Synthetic_Data_Gen.py --out data/custom/ # custom output path
+    python Synthetic_Data_Gen.py --out data/curated/custom/ # custom output path
 
     from Synthetic_Data_Gen import SyntheticBifurcationDataset
     dataset = SyntheticBifurcationDataset(n_samples=150_000)
     dataset.generate()
-    dataset.save("data/synthetic_150k_3class/")
+    dataset.save("data/curated/synthetic_150k_3class/")
 """
 
 import argparse
@@ -869,7 +869,7 @@ if __name__ == "__main__":
     )
     parser.add_argument("--n",   type=int, default=150_000,
                         help="Total samples (default: 150000)")
-    parser.add_argument("--out", type=str, default="data/synthetic_150k_3class",
+    parser.add_argument("--out", type=str, default="data/curated/synthetic_150k_3class",
                         help="Output directory")
     parser.add_argument("--seed", type=int, default=42,
                         help="Random seed")

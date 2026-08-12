@@ -14,13 +14,13 @@ import os, sys, time, warnings
 warnings.filterwarnings("ignore")
 import numpy as np
 
-ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 sys.path.insert(0, ROOT)
 from unsup_theory_features import extract_theory_features, FEATURE_NAMES, TCFP_NAMES
 from critical_scaling_features import extract_critical_features, CRIT_NAMES
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-DATA = os.path.join(HERE, "data")
+DATA = os.path.join(ROOT, "data", "curated", "deep")
 
 # mirror of paper_figures.py (the canonical definition) — keep in sync
 _GROUP_FULL = (["A:CSD"] * 8 + ["B:Inflect"] * 7 + ["C:Phase"] * 6 + ["D:Catch22"] * 7

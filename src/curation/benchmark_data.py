@@ -3,7 +3,7 @@
 benchmark_data.py
 =================
 Single source of truth for the synthetic 3-class benchmark (SN / TC / Null). SN and TC come from the
-canonical normal-form simulations (data/synthetic_optionc); the NULL class is selectable:
+canonical normal-form simulations (data/curated/synthetic_optionc); the NULL class is selectable:
 
   clean per-shape nulls (the canonical benchmark uses 'logistic', the hardest TC-mimicking clean null):
     'linear'       straight ramp 0->1
@@ -47,8 +47,8 @@ def make_null(kind, n, L, rng):
 _CACHE = {}
 def _load_optionc():
     if "X" not in _CACHE:
-        _CACHE["X"] = np.load("data/synthetic_optionc/X_full.npy")
-        _CACHE["y"] = np.load("data/synthetic_optionc/y.npy")
+        _CACHE["X"] = np.load("data/curated/synthetic_optionc/X_full.npy")
+        _CACHE["y"] = np.load("data/curated/synthetic_optionc/y.npy")
     return _CACHE["X"], _CACHE["y"]
 
 
