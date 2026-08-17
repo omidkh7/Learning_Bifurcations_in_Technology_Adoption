@@ -538,6 +538,24 @@ def load_four_group():
     return grp, F, X
 
 
+def four_group_names():
+    """Series names aligned 1:1 with the rows of load_four_group()/four_group_pca() (same filter),
+    so CDR's three series can be identified for per-series markers."""
+    names = []
+    for g, nm, yy, vv in collect():
+        c, _ = clean(np.asarray(vv, float), min_n=8 if g == "CDR" else 10)
+        if c is not None: names.append(nm)
+    return np.array(names)
+
+
+def cdr_marker(nm):
+    """(marker, size, color) for a CDR series name: pledge (promised IEA) = smaller red star matching
+    the Fig 4b,c pledge star; realized IEA = orange circle; realized SoCDR = orange triangle."""
+    if "promised" in nm: return "*", 100, "#d62828"
+    if "SoCDR" in nm:    return "^", 42, "#fb8500"
+    return "o", 40, "#fb8500"
+
+
 # Anchor each interpreted PC to a feature whose POSITIVE loading gives the manuscript's labelled
 # orientation (SI S4, Fig 3b-d): high PC1 = noisy/sharp, high PC2 = late/back-loaded, high PC3 =
 # step-like. Fixes the eigenvector-sign ambiguity so panels/text do not mirror across BLAS/LAPACK.
@@ -629,15 +647,24 @@ def fig4():
 
     # (a) PC3 by family
     ax = axs[0]
-    data = [P[grp == f, 2] for f in FAMS]
-    bp = ax.boxplot(data, positions=range(4), widths=0.6, showfliers=False, patch_artist=True)
-    for patch, f in zip(bp["boxes"], FAMS): patch.set(facecolor=FAMCOL[f], alpha=0.30, edgecolor=FAMCOL[f])
+    boxed = [f for f in FAMS if f != "CDR"]            # CDR (n=3) shown points-only, no IQR box
+    data = [P[grp == f, 2] for f in boxed]
+    bp = ax.boxplot(data, positions=range(len(boxed)), widths=0.6, showfliers=False, patch_artist=True)
+    for patch, f in zip(bp["boxes"], boxed): patch.set(facecolor=FAMCOL[f], alpha=0.30, edgecolor=FAMCOL[f])
     for med in bp["medians"]: med.set(color="#333333", lw=1.2)
     for wsk in bp["whiskers"] + bp["caps"]: wsk.set(color="#888888", lw=0.8)
+    names = four_group_names()                          # per-series names aligned with grp/P
     for i, f in enumerate(FAMS):
-        y = P[grp == f, 2]; ax.scatter(rng.normal(i, 0.06, len(y)), y, s=5, color=FAMCOL[f], alpha=0.5, lw=0)
+        y = P[grp == f, 2]
+        if f == "CDR":                                  # 3 series, distinct markers (explained in caption)
+            for yv, nm in zip(y, names[grp == f]):
+                mk, sz, col = cdr_marker(nm)
+                ax.scatter(i, yv, marker=mk, s=sz, color=col, edgecolor="k", lw=0.5, zorder=6)
+        else:
+            ax.scatter(rng.normal(i, 0.06, len(y)), y, s=5, color=FAMCOL[f], alpha=0.5, lw=0)
     ax.set_xticks(range(4)); ax.set_xticklabels([FAMLABEL[f] for f in FAMS], fontsize=6.2, rotation=18, ha="right")
     ax.set_ylabel(f"PC3 score ({PCDESC[2]})", fontsize=7)
+    print("  fig4a PC3 n per family: " + ", ".join(f"{FAMLABEL[f]}={(grp==f).sum()}" for f in FAMS))
     _tag(ax, f"(a) PC3 by family  ($\\eta^2$={eta3:.2f})")
 
     # (b, c) average pace to peak and peak sustained pace, each with the CDR pledge star

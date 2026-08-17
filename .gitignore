@@ -218,11 +218,16 @@ __marimo__/
 .streamlit/secrets.toml
 
 # ---- replication repo rules ----
-# curated binaries are regenerable from data/raw via the curation pipeline;
-# the audit trail (metadata.csv, filter_info.json, cdr/failed_tech CSVs) IS tracked
+# Most curated binaries are excluded; the audit trail (metadata.csv, filter_info.json,
+# cdr/failed_tech CSVs) IS tracked. The few curated inputs the non-torch pipeline needs
+# are shipped explicitly (whitelisted below) so `make all` runs from a fresh clone.
 data/curated/**/*.npy
 data/curated/**/*.pkl
 data/curated/deep/
+# --- shipped curated inputs required by the pipeline (do not remove) ---
+!data/curated/combined_genuine_v2/real_world_samples.pkl
+!data/curated/synthetic_optionc/X_full.npy
+!data/curated/synthetic_optionc/y.npy
 
 # local run noise (not part of the canonical record)
 results/logs/

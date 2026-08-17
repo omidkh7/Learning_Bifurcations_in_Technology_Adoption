@@ -19,7 +19,7 @@ from growth_compare import collect
 from paper_style import set_style, COL2
 from paper_figures import _tag, FAMCOL, FAMLABEL
 set_style()
-SCR = "runs"   # diagnostic/cache outputs (repo-relative)
+SCR = "results"   # diagnostic/cache outputs (repo-relative; created by `make dirs`)
 K_POOL = 1200
 
 
@@ -179,7 +179,7 @@ def make_figure():
     C = ax[1, 0]
     vals = [100 * np.mean(P[k] < 0.05) for k in ("SN", "TC", "add_null", "mult_null")]
     C.bar(range(4), vals, color=[CB, "#457b9d", CN, CM], alpha=0.85)
-    C.axhline(5, color="#333", lw=0.8, ls="--"); C.text(3.4, 9, "5% target", fontsize=5.2, ha="right")
+    C.axhline(5, color="#333", lw=0.8, ls="--"); C.text(3.4, 9, "nominal 5%", fontsize=5.2, ha="right")
     C.set_xticks(range(4)); C.set_xticklabels(["TPR\nSN", "TPR\nTC", "FPR\nstable-twin", "FPR\nmultip."], fontsize=5.3)
     C.set_ylim(0, 105); C.set_ylabel("% flagged at $p<0.05$", fontsize=6.6)
     _tag(C, "(c)")

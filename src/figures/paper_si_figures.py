@@ -14,7 +14,7 @@ import matplotlib.pyplot as plt
 
 from paper_style import set_style, COL2
 set_style()
-from paper_figures import FAMCOL, FAMLABEL, FAMS, GROUP, GCOLOR, four_group_pca, load_four_group, _tag, PCDESC
+from paper_figures import FAMCOL, FAMLABEL, FAMS, GROUP, GCOLOR, four_group_pca, four_group_names, cdr_marker, load_four_group, _tag, PCDESC
 from unsup_theory_features import FEATURE_NAMES
 from compare_4groups import clean
 from growth_compare import collect, geo_avg_to_peak, peak_growth
@@ -185,17 +185,24 @@ def si_pc12():
         x = P[:, i]; gm = x.mean()
         ssb = sum((grp == f).sum() * (x[grp == f].mean() - gm) ** 2 for f in FAMS)
         eta.append(ssb / (((x - gm) ** 2).sum() + 1e-12))
-    rng = np.random.default_rng(0)
+    rng = np.random.default_rng(0); names = four_group_names()   # names align with grp for CDR markers
     fig, axs = plt.subplots(1, 2, figsize=(COL2 * 0.72, 2.9), gridspec_kw=dict(wspace=0.36))
     for k, pci in enumerate((0, 1)):
         ax = axs[k]
-        data = [P[grp == f, pci] for f in FAMS]
-        bp = ax.boxplot(data, positions=range(4), widths=0.6, showfliers=False, patch_artist=True)
-        for patch, f in zip(bp["boxes"], FAMS): patch.set(facecolor=FAMCOL[f], alpha=0.30, edgecolor=FAMCOL[f])
+        boxed = [f for f in FAMS if f != "CDR"]        # CDR (n=3) shown as distinct markers, no IQR box
+        data = [P[grp == f, pci] for f in boxed]
+        bp = ax.boxplot(data, positions=range(len(boxed)), widths=0.6, showfliers=False, patch_artist=True)
+        for patch, f in zip(bp["boxes"], boxed): patch.set(facecolor=FAMCOL[f], alpha=0.30, edgecolor=FAMCOL[f])
         for med in bp["medians"]: med.set(color="#333333", lw=1.2)
         for wsk in bp["whiskers"] + bp["caps"]: wsk.set(color="#888888", lw=0.8)
         for i, f in enumerate(FAMS):
-            y = P[grp == f, pci]; ax.scatter(rng.normal(i, 0.06, len(y)), y, s=5, color=FAMCOL[f], alpha=0.5, lw=0)
+            y = P[grp == f, pci]
+            if f == "CDR":                             # 3 series, distinct markers (explained in caption)
+                for yv, nm in zip(y, names[grp == f]):
+                    mk, sz, col = cdr_marker(nm)
+                    ax.scatter(i, yv, marker=mk, s=sz, color=col, edgecolor="k", lw=0.5, zorder=6)
+            else:
+                ax.scatter(rng.normal(i, 0.06, len(y)), y, s=5, color=FAMCOL[f], alpha=0.5, lw=0)
         ax.set_xticks(range(4)); ax.set_xticklabels([FAMLABEL[f] for f in FAMS], fontsize=6.2, rotation=18, ha="right")
         ax.set_ylabel(f"PC{pci+1} score ({PCDESC[pci]})", fontsize=7)
         _tag(ax, f"({'ab'[k]}) PC{pci+1} by family  ($\\eta^2$={eta[pci]:.2f})")
@@ -311,7 +318,7 @@ def si_peak_growth(w=3):
 
 if __name__ == "__main__":
     import sys
-    todo = sys.argv[1:] or ["iea", "curves", "sources", "socdr", "dist", "era", "peak", "peakgrid"]
+    todo = sys.argv[1:] or ["iea", "curves", "sources", "socdr", "dist", "era", "peak", "peakgrid", "pc12"]
     if "iea" in todo: si_cdr_iea()
     if "curves" in todo: si_cdr_curves()
     if "sources" in todo: si_cdr_sources()
@@ -320,3 +327,4 @@ if __name__ == "__main__":
     if "era" in todo: si_era_split()
     if "peak" in todo: si_peak_growth()
     if "peakgrid" in todo: si_peak_grid()
+    if "pc12" in todo: si_pc12()
