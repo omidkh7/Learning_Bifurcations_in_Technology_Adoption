@@ -8,7 +8,7 @@ PY      := python3
 PYPATH  := src/curation:src/features:src/synthetic:src/benchmark:src/ews:src/analysis:src/figures
 RUN     := PYTHONPATH=$(PYPATH) $(PY)
 
-.PHONY: all dirs tables figures si si-slow audit deep clean-figures
+.PHONY: all dirs tables figures si si-slow audit deep deep-data clean-figures
 
 all: tables figures si si-slow audit
 
@@ -61,7 +61,12 @@ audit: tables
 	$(RUN) src/benchmark/audit_benchmark_rerun.py
 
 # ---- Deep-learning SI additions (requires torch) ----
-deep: dirs
+# deep-data regenerates data/curated/deep/ pools (SN/TC/Null, t50-matched + natural) from the
+# in-repo synthetic generators; no external download. `deep` trains on them and draws the figures.
+deep-data: dirs
+	$(RUN) src/benchmark/deep/data.py                    # builds data/curated/deep/{X,y,t50}_{matched,natural}.npy
+
+deep: deep-data
 	$(RUN) src/benchmark/deep/benchmark_dl.py            # figS_benchmark_dl (`proper` = 10k/10-seed run)
 	$(RUN) src/benchmark/deep/confidence_distribution.py # figS_dl_confidence
 
