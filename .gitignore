@@ -223,11 +223,11 @@ __marimo__/
 # are shipped explicitly (whitelisted below) so `make all` runs from a fresh clone.
 data/curated/**/*.npy
 data/curated/**/*.pkl
-data/curated/deep/
 # --- shipped curated inputs required by the pipeline (do not remove) ---
 !data/curated/combined_genuine_v2/real_world_samples.pkl
 !data/curated/synthetic_optionc/X_full.npy
 !data/curated/synthetic_optionc/y.npy
+!data/curated/deep/*.npy
 
 # local run noise (not part of the canonical record)
 results/logs/

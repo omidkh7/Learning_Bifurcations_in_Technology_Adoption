@@ -61,14 +61,16 @@ audit: tables
 	$(RUN) src/benchmark/audit_benchmark_rerun.py
 
 # ---- Deep-learning SI additions (requires torch) ----
-# deep-data regenerates data/curated/deep/ pools (SN/TC/Null, t50-matched + natural) from the
-# in-repo synthetic generators; no external download. `deep` trains on them and draws the figures.
+# The SN/TC/Null pools in data/curated/deep/ are shipped; `deep` trains on them and writes the
+# JSON + results/benchmark figures. `deep-data` (optional) regenerates the pools from scratch via
+# the in-repo synthetic generators. The DL SI figures (figS_benchmark_dl, figS_dl_confidence) are
+# the `proper` (10k/10-seed) outputs; see src/benchmark/deep/proper_dl_run.sh.
 deep-data: dirs
-	$(RUN) src/benchmark/deep/data.py                    # builds data/curated/deep/{X,y,t50}_{matched,natural}.npy
+	$(RUN) src/benchmark/deep/data.py                    # regenerate data/curated/deep/{X,y,t50}_{matched,natural}.npy
 
-deep: deep-data
-	$(RUN) src/benchmark/deep/benchmark_dl.py            # figS_benchmark_dl (`proper` = 10k/10-seed run)
-	$(RUN) src/benchmark/deep/confidence_distribution.py # figS_dl_confidence
+deep: dirs
+	$(RUN) src/benchmark/deep/benchmark_dl.py            # results/benchmark/benchmark_dl.json + fig
+	$(RUN) src/benchmark/deep/confidence_distribution.py # results/benchmark/checks/confidence_distribution.json + fig
 
 clean-figures:
 	rm -f figures/main/*.png figures/si/*.png

@@ -110,6 +110,7 @@ def train_model(model, name, kind, lam, tensors, idx_tr, idx_va):
             print(f"  early stop at epoch {ep} (best val acc {best_acc:.3f})")
             break
     model.load_state_dict(best_state)
+    os.makedirs(os.path.dirname(f"{RUNS}/{name}.pt"), exist_ok=True)   # name may contain a subdir
     torch.save(best_state, f"{RUNS}/{name}.pt")
     return model, hist, best_acc
 
