@@ -241,3 +241,4 @@ results/figures/*
 *.pt
 !data/curated/combined/real_world_samples.pkl
 !data/curated/combined_filter10/real_world_samples.pkl
+!data/curated/combined_genuine/real_world_samples.pkl

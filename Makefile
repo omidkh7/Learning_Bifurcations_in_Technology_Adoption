@@ -47,6 +47,7 @@ si: tables
 	$(RUN) src/analysis/pca_bimodality_prune.py      # S4 (needs diptest)
 	$(RUN) src/ews/decline_ews_si.py                 # S3 Fig S6
 	$(RUN) src/ews/bic_detection.py                  # S3 Fig S5 (`plot` restyles from cache)
+	$(RUN) src/analysis/si_continuum_tiers.py        # S9 Fig figS_continuum_tiers (needs diptest)
 
 # ---- SI slow jobs ----
 si-slow: tables
