@@ -30,12 +30,6 @@ Outputs:
 Each curated directory holds: X_full.npy (N,500) float32, lengths.npy, metadata.csv,
 real_world_samples.pkl (list of RealWorldSample), filter_info.json.
 
-NOTE on genuine_v1: the original create_genuine_dataset.py was unavailable when this file
-was assembled, so its exact tech-name removal list was recovered from the committed
-combined/combined_genuine metadata and embedded below as GENUINE_V1_REMOVE (108 names:
-vaccines, raw-material / industrial production, food/agriculture, mining/refining). Removing
-these names from `combined` reproduces combined_genuine (1,658) exactly.
-
 Usage:
     python data/raw/curate_from_raw.py
 """
